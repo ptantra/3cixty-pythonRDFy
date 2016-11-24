@@ -12,15 +12,3 @@ To be used with [Python version 2.70](https://www.python.org/downloads/release/p
 The following Python libraries are required:
 [PyProj](https://pypi.python.org/pypi/pyproj), [Crontab](https://pypi.python.org/pypi/crontab/0.21.3), CSV, [RDFlib](https://pypi.python.org/pypi/crontab/0.21.3), imp, os, sys, zipfile, [bs4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [pandas](http://pandas.pydata.org), uuid, unicodedata and re
 
-##Datasets
-
-####Bus TfL
-The ttl dataset for London bus stops was generated with data published by [Transport for London]: https://tfl.gov.uk (TfL). Unique [SHA-1](https://en.wikipedia.org/wiki/SHA-1) ID was generated for each bus stop which immediately linked the bus stop to its geometry and address.</br>
-</br>
-Each bus stop entity contains:
-</br>
-* Identifier
-* Label
-* Business type
-* Address and location
-* Bus stop geometry has both point coordinates and geoSPARQL literal value.
