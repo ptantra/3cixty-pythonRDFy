@@ -18,9 +18,9 @@ PyProj, Crontab, CSV, RDFlib, imp, os, sys, zipfile, bs4, pandas, uuid, unicoded
 The ttl dataset for London bus stops was generated with data published by [Transport for London]: https://tfl.gov.uk (TfL). Unique [SHA-1](https://en.wikipedia.org/wiki/SHA-1) ID was generated for each bus stop which immediately linked the bus stop to its geometry and address.</br>
 </br>
 Each bus stop entity contains:
-
-*Identifier
-*Label
-*Business type
-*Address and location
-*Bus stop geometry has both point coordinates and geoSPARQL literal value.
+</br>
+⋅⋅*Identifier
+⋅⋅*Label
+⋅⋅*Business type
+⋅⋅*Address and location
+⋅⋅*Bus stop geometry has both point coordinates and geoSPARQL literal value.
