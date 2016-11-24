@@ -10,7 +10,7 @@ To be used with [Python version 2.70](https://www.python.org/downloads/release/p
 
 ##Dependencies
 The following Python libraries are required:
-[PyProj](https://pypi.python.org/pypi/pyproj), [Crontab](https://pypi.python.org/pypi/crontab/0.21.3), CSV, [RDFlib](https://pypi.python.org/pypi/crontab/0.21.3), imp, os, sys, zipfile, bs4, pandas, uuid, unicodedata and re
+[PyProj](https://pypi.python.org/pypi/pyproj), [Crontab](https://pypi.python.org/pypi/crontab/0.21.3), CSV, [RDFlib](https://pypi.python.org/pypi/crontab/0.21.3), imp, os, sys, zipfile, [bs4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [pandas](http://pandas.pydata.org), uuid, unicodedata and re
 
 ##Datasets
 
