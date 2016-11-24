@@ -6,8 +6,8 @@ The 3cixty project aim to create city specific 'knowledge bases' comprising of t
 In this repository the I include the codes that are used on the London transport facilities, London environmental/ weather data and London hotel booking data.
 
 ##Requirements
-To be used with Python version 2.70
-Virtuoso version: Virtuoso-opensource-develop-7 **February 17, 2015, V7.2.0 - [Commit ID: 6a13f33 ](https://github.com/openlink/virtuoso-opensource/commit/6a13f331907f075db88624a6088633a5c5ee1369)**
+To be used with [Python version 2.70|:https://www.python.org/downloads/release/python-2712/
+Virtuoso version: Virtuoso-opensource-develop-7 **February 17, 2015, V7.2.0 - [Commit ID: 6a13f33 ]:(https://github.com/openlink/virtuoso-opensource/commit/6a13f331907f075db88624a6088633a5c5ee1369)**
 
 ##Dependencies
 The following Python libraries are required:
