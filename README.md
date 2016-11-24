@@ -1,12 +1,13 @@
 #About 3cixty-pythonRDFy
-These codes are part of the London component of the 3cixty project development. These codes are mostly written in Python, and they function to retrieve, manipulate and transform unstructured data into turtle RDF and to then validate it. 
-
-The 3cixty project aim to create city specific 'knowledge bases' comprising of the city's events, places, transport facilities, environmental/weather information and hotel booking data. 
+-These codes are part of the London component of the 3cixty project development. These codes are mostly written in Python, and they function to retrieve, manipulate and transform unstructured data into turtle RDF and to then validate it. 
+-
+-The 3cixty project aim to create city specific 'knowledge bases' comprising of the city's events, places, transport facilities, environmental/weather information and hotel booking data. 
 
 In this repository the I include the codes that are used on the London transport facilities, London environmental/ weather data and London hotel booking data.
 
 ##Requirements
-To be used with Python version 2.70
+- To be used with Python version 2.70
+- Virtuoso version: Virtuoso-opensource-develop-7 **February 17, 2015, V7.2.0 - [Commit ID: 6a13f33 ](https://github.com/openlink/virtuoso-opensource/commit/6a13f331907f075db88624a6088633a5c5ee1369)**
 
 ##Dependencies
 The following Python libraries are required:
