@@ -1,3 +1,9 @@
 # 3cixty-pythonRDFy
-These are cod
-Python codes for retrieving, manipulating, transforming raw dato into RDF turtle format.
+These codes are part of the development for the London 3cixty project. Mostly written in Python, these function to retrieve, manipulate and transform unstructured data into turtle RDF and to then validate it. 
+
+=Requirements=
+To be used with Python version 2.70
+
+=Dependencies=
+
+
