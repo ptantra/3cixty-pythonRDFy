@@ -1,0 +1,3 @@
+stationNaptan,stationName,stopType,lat,lon,line,wifi,zone,address
+940GZZLUBNK,Bank Underground Station,NaptanMetroStation,51.513424,-0.088948,waterloo-city,yes,1,"Bank/Monument Complex,London Underground Ltd.,Princes St,London,EC3V 3LA"
+940GZZLUWLO,Waterloo Underground Station,NaptanMetroStation,51.503303,-0.114776,waterloo-city,yes,1,"Waterloo Underground Station,London Underground Ltd.,York Rd,London,SE1 7ND"

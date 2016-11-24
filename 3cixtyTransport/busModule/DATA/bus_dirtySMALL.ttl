@@ -1,0 +1,398 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dul: <http://ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geom: <http://geovocab.org/geometry#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix locationOnt: <http://data.linkedevents.org/def/location#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix naptan: <http://transport.data.gov.uk/def/naptan/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix transit: <http://vocab.org/transit/terms/> .
+@prefix unknown: <http://data.linkedevents.org/def/unknown#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.linkedevents.org/transit/london/stop/47747> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "ST JOSEPH'S CHURCH" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/b217a003-43b5-56d8-a834-c7c05ef793d4/geometry> ;
+    dc:identifier "47747" ;
+    schema:geo <http://data.linkedevents.org/location/b217a003-43b5-56d8-a834-c7c05ef793d4/geometry> ;
+    schema:location <http://data.linkedevents.org/location/b217a003-43b5-56d8-a834-c7c05ef793d4/address> ;
+    locn:address <http://data.linkedevents.org/location/b217a003-43b5-56d8-a834-c7c05ef793d4/address> .
+
+<http://data.linkedevents.org/transit/london/stop/48037> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "ST MARY MAGDALENE CHURCH" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/abf9ecc8-c33b-56a6-a366-5904f2cc5395/geometry> ;
+    dc:identifier "48037" ;
+    schema:geo <http://data.linkedevents.org/location/abf9ecc8-c33b-56a6-a366-5904f2cc5395/geometry> ;
+    schema:location <http://data.linkedevents.org/location/abf9ecc8-c33b-56a6-a366-5904f2cc5395/address> ;
+    locn:address <http://data.linkedevents.org/location/abf9ecc8-c33b-56a6-a366-5904f2cc5395/address> .
+
+<http://data.linkedevents.org/transit/london/stop/48458> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "HOLLOWAY ROAD STATION" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/cc2dc421-1398-56e3-90a4-19cc4da92968/geometry> ;
+    dc:identifier "48458" ;
+    schema:geo <http://data.linkedevents.org/location/cc2dc421-1398-56e3-90a4-19cc4da92968/geometry> ;
+    schema:location <http://data.linkedevents.org/location/cc2dc421-1398-56e3-90a4-19cc4da92968/address> ;
+    locn:address <http://data.linkedevents.org/location/cc2dc421-1398-56e3-90a4-19cc4da92968/address> .
+
+<http://data.linkedevents.org/transit/london/stop/48461> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "HIGHBURY CORNER" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/f47d2dd3-c0e5-5bc0-bba9-ca3d4758cca5/geometry> ;
+    dc:identifier "48461" ;
+    schema:geo <http://data.linkedevents.org/location/f47d2dd3-c0e5-5bc0-bba9-ca3d4758cca5/geometry> ;
+    schema:location <http://data.linkedevents.org/location/f47d2dd3-c0e5-5bc0-bba9-ca3d4758cca5/address> ;
+    locn:address <http://data.linkedevents.org/location/f47d2dd3-c0e5-5bc0-bba9-ca3d4758cca5/address> .
+
+<http://data.linkedevents.org/transit/london/stop/48984> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "CALIFORNIA ROAD" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/18c845f9-4b3f-5490-9777-4fe0addddf41/geometry> ;
+    dc:identifier "48984" ;
+    schema:geo <http://data.linkedevents.org/location/18c845f9-4b3f-5490-9777-4fe0addddf41/geometry> ;
+    schema:location <http://data.linkedevents.org/location/18c845f9-4b3f-5490-9777-4fe0addddf41/address> ;
+    locn:address <http://data.linkedevents.org/location/18c845f9-4b3f-5490-9777-4fe0addddf41/address> .
+
+<http://data.linkedevents.org/transit/london/stop/53343> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "WOOLWICH ROAD - BEDONWELL ROAD" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/a16f1135-3aa7-5499-bb18-48d4ac3720bc/geometry> ;
+    dc:identifier "53343" ;
+    schema:geo <http://data.linkedevents.org/location/a16f1135-3aa7-5499-bb18-48d4ac3720bc/geometry> ;
+    schema:location <http://data.linkedevents.org/location/a16f1135-3aa7-5499-bb18-48d4ac3720bc/address> ;
+    locn:address <http://data.linkedevents.org/location/a16f1135-3aa7-5499-bb18-48d4ac3720bc/address> .
+
+<http://data.linkedevents.org/transit/london/stop/54086> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "ARCHDALE PLACE" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/401d4a8d-3078-50a1-84f1-ff7233e565f4/geometry> ;
+    dc:identifier "54086" ;
+    schema:geo <http://data.linkedevents.org/location/401d4a8d-3078-50a1-84f1-ff7233e565f4/geometry> ;
+    schema:location <http://data.linkedevents.org/location/401d4a8d-3078-50a1-84f1-ff7233e565f4/address> ;
+    locn:address <http://data.linkedevents.org/location/401d4a8d-3078-50a1-84f1-ff7233e565f4/address> .
+
+<http://data.linkedevents.org/transit/london/stop/54595> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "LYNWOOD ROAD" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/882ab880-d851-501c-8727-ff3447d645b5/geometry> ;
+    dc:identifier "54595" ;
+    schema:geo <http://data.linkedevents.org/location/882ab880-d851-501c-8727-ff3447d645b5/geometry> ;
+    schema:location <http://data.linkedevents.org/location/882ab880-d851-501c-8727-ff3447d645b5/address> ;
+    locn:address <http://data.linkedevents.org/location/882ab880-d851-501c-8727-ff3447d645b5/address> .
+
+<http://data.linkedevents.org/transit/london/stop/54775> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "ELM ROAD - NEW MALDEN BAPTIST CHURCH" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/ec932ab9-bf3d-5f04-b0c1-34b7b4ae858a/geometry> ;
+    dc:identifier "54775" ;
+    schema:geo <http://data.linkedevents.org/location/ec932ab9-bf3d-5f04-b0c1-34b7b4ae858a/geometry> ;
+    schema:location <http://data.linkedevents.org/location/ec932ab9-bf3d-5f04-b0c1-34b7b4ae858a/address> ;
+    locn:address <http://data.linkedevents.org/location/ec932ab9-bf3d-5f04-b0c1-34b7b4ae858a/address> .
+
+<http://data.linkedevents.org/transit/london/stop/54840> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "QUEENS ROAD" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/c8cd8063-e284-5b2e-9565-5f767c9f6d42/geometry> ;
+    dc:identifier "54840" ;
+    schema:geo <http://data.linkedevents.org/location/c8cd8063-e284-5b2e-9565-5f767c9f6d42/geometry> ;
+    schema:location <http://data.linkedevents.org/location/c8cd8063-e284-5b2e-9565-5f767c9f6d42/address> ;
+    locn:address <http://data.linkedevents.org/location/c8cd8063-e284-5b2e-9565-5f767c9f6d42/address> .
+
+<http://data.linkedevents.org/transit/london/stop/55215> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "WATERS ROAD" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/36d52ad1-5ab3-543f-8b05-79a813efe309/geometry> ;
+    dc:identifier "55215" ;
+    schema:geo <http://data.linkedevents.org/location/36d52ad1-5ab3-543f-8b05-79a813efe309/geometry> ;
+    schema:location <http://data.linkedevents.org/location/36d52ad1-5ab3-543f-8b05-79a813efe309/address> ;
+    locn:address <http://data.linkedevents.org/location/36d52ad1-5ab3-543f-8b05-79a813efe309/address> .
+
+<http://data.linkedevents.org/transit/london/stop/55564> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "ST JOSEPH'S CHURCH" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/4f1ff0ff-c1b5-52ee-b724-2dc36cee14d9/geometry> ;
+    dc:identifier "55564" ;
+    schema:geo <http://data.linkedevents.org/location/4f1ff0ff-c1b5-52ee-b724-2dc36cee14d9/geometry> ;
+    schema:location <http://data.linkedevents.org/location/4f1ff0ff-c1b5-52ee-b724-2dc36cee14d9/address> ;
+    locn:address <http://data.linkedevents.org/location/4f1ff0ff-c1b5-52ee-b724-2dc36cee14d9/address> .
+
+<http://data.linkedevents.org/transit/london/stop/57538> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "ST MARY MAGDALENE CHURCH" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/b1772cea-65ba-5f5f-b531-651ffa9b7d6b/geometry> ;
+    dc:identifier "57538" ;
+    schema:geo <http://data.linkedevents.org/location/b1772cea-65ba-5f5f-b531-651ffa9b7d6b/geometry> ;
+    schema:location <http://data.linkedevents.org/location/b1772cea-65ba-5f5f-b531-651ffa9b7d6b/address> ;
+    locn:address <http://data.linkedevents.org/location/b1772cea-65ba-5f5f-b531-651ffa9b7d6b/address> .
+
+<http://data.linkedevents.org/transit/london/stop/58713> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "HOLLOWAY ROAD STATION" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/2b3fa6b4-1cf5-5733-bded-3d1a5dad83f6/geometry> ;
+    dc:identifier "58713" ;
+    schema:geo <http://data.linkedevents.org/location/2b3fa6b4-1cf5-5733-bded-3d1a5dad83f6/geometry> ;
+    schema:location <http://data.linkedevents.org/location/2b3fa6b4-1cf5-5733-bded-3d1a5dad83f6/address> ;
+    locn:address <http://data.linkedevents.org/location/2b3fa6b4-1cf5-5733-bded-3d1a5dad83f6/address> .
+
+<http://data.linkedevents.org/transit/london/stop/71358> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "WOOLWICH ROAD - BEDONWELL ROAD" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/583763da-dc8b-5fcf-aafc-28630b0dc77a/geometry> ;
+    dc:identifier "71358" ;
+    schema:geo <http://data.linkedevents.org/location/583763da-dc8b-5fcf-aafc-28630b0dc77a/geometry> ;
+    schema:location <http://data.linkedevents.org/location/583763da-dc8b-5fcf-aafc-28630b0dc77a/address> ;
+    locn:address <http://data.linkedevents.org/location/583763da-dc8b-5fcf-aafc-28630b0dc77a/address> .
+
+<http://data.linkedevents.org/transit/london/stop/71829> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "LYNWOOD ROAD" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/c7e66ed1-4324-520b-b9e8-746645718337/geometry> ;
+    dc:identifier "71829" ;
+    schema:geo <http://data.linkedevents.org/location/c7e66ed1-4324-520b-b9e8-746645718337/geometry> ;
+    schema:location <http://data.linkedevents.org/location/c7e66ed1-4324-520b-b9e8-746645718337/address> ;
+    locn:address <http://data.linkedevents.org/location/c7e66ed1-4324-520b-b9e8-746645718337/address> .
+
+<http://data.linkedevents.org/transit/london/stop/72689> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "TREVOR CLOSE" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/b5b0f03e-1a28-51a9-92a2-977a6e59a1f1/geometry> ;
+    dc:identifier "72689" ;
+    schema:geo <http://data.linkedevents.org/location/b5b0f03e-1a28-51a9-92a2-977a6e59a1f1/geometry> ;
+    schema:location <http://data.linkedevents.org/location/b5b0f03e-1a28-51a9-92a2-977a6e59a1f1/address> ;
+    locn:address <http://data.linkedevents.org/location/b5b0f03e-1a28-51a9-92a2-977a6e59a1f1/address> .
+
+<http://data.linkedevents.org/transit/london/stop/77150> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "HIGHBURY & ISLINGTON STATION" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/b3c425d5-e985-5a02-93ce-495065d8a0a8/geometry> ;
+    dc:identifier "77150" ;
+    schema:geo <http://data.linkedevents.org/location/b3c425d5-e985-5a02-93ce-495065d8a0a8/geometry> ;
+    schema:location <http://data.linkedevents.org/location/b3c425d5-e985-5a02-93ce-495065d8a0a8/address> ;
+    locn:address <http://data.linkedevents.org/location/b3c425d5-e985-5a02-93ce-495065d8a0a8/address> .
+
+<http://data.linkedevents.org/transit/london/stop/91532> a dul:Place,
+        naptan:BusStop,
+        transit:Stop ;
+    rdfs:label "WESTMINSTER STN  - PARLIAMENT SQUARE" ;
+    locationOnt:businesstype <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/20f6947a-1110-52cf-a46f-1105cd8dfb3d/geometry> ;
+    dc:identifier "91532" ;
+    schema:geo <http://data.linkedevents.org/location/20f6947a-1110-52cf-a46f-1105cd8dfb3d/geometry> ;
+    schema:location <http://data.linkedevents.org/location/20f6947a-1110-52cf-a46f-1105cd8dfb3d/address> ;
+    locn:address <http://data.linkedevents.org/location/20f6947a-1110-52cf-a46f-1105cd8dfb3d/address> .
+
+<http://data.linkedevents.org/location/18c845f9-4b3f-5490-9777-4fe0addddf41/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "CALIFORNIA ROAD" .
+
+<http://data.linkedevents.org/location/18c845f9-4b3f-5490-9777-4fe0addddf41/geometry> a geo:Point ;
+    geo:lat "54.522946356"^^xsd:placeholder ;
+    geo:long "-5.57750774678"^^xsd:placeholder ;
+    locn:geometry "POINT (54.522946356 -5.57750774678)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/20f6947a-1110-52cf-a46f-1105cd8dfb3d/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "WESTMINSTER STN  - PARLIAMENT SQUARE" .
+
+<http://data.linkedevents.org/location/20f6947a-1110-52cf-a46f-1105cd8dfb3d/geometry> a geo:Point ;
+    geo:lat "54.6184966243"^^xsd:placeholder ;
+    geo:long "-5.4130785639"^^xsd:placeholder ;
+    locn:geometry "POINT (54.6184966243 -5.4130785639)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/2b3fa6b4-1cf5-5733-bded-3d1a5dad83f6/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "HOLLOWAY ROAD STATION" .
+
+<http://data.linkedevents.org/location/2b3fa6b4-1cf5-5733-bded-3d1a5dad83f6/geometry> a geo:Point ;
+    geo:lat "54.6278528178"^^xsd:placeholder ;
+    geo:long "-5.32510555946"^^xsd:placeholder ;
+    locn:geometry "POINT (54.6278528178 -5.32510555946)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/36d52ad1-5ab3-543f-8b05-79a813efe309/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "WATERS ROAD" .
+
+<http://data.linkedevents.org/location/36d52ad1-5ab3-543f-8b05-79a813efe309/geometry> a geo:Point ;
+    geo:lat "54.5182144081"^^xsd:placeholder ;
+    geo:long "-5.57118884443"^^xsd:placeholder ;
+    locn:geometry "POINT (54.5182144081 -5.57118884443)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/401d4a8d-3078-50a1-84f1-ff7233e565f4/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "ARCHDALE PLACE" .
+
+<http://data.linkedevents.org/location/401d4a8d-3078-50a1-84f1-ff7233e565f4/geometry> a geo:Point ;
+    geo:lat "54.5216762595"^^xsd:placeholder ;
+    geo:long "-5.57575794146"^^xsd:placeholder ;
+    locn:geometry "POINT (54.5216762595 -5.57575794146)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/4f1ff0ff-c1b5-52ee-b724-2dc36cee14d9/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "ST JOSEPH'S CHURCH" .
+
+<http://data.linkedevents.org/location/4f1ff0ff-c1b5-52ee-b724-2dc36cee14d9/geometry> a geo:Point ;
+    geo:lat "54.5311702866"^^xsd:placeholder ;
+    geo:long "-5.58462924238"^^xsd:placeholder ;
+    locn:geometry "POINT (54.5311702866 -5.58462924238)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/583763da-dc8b-5fcf-aafc-28630b0dc77a/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "WOOLWICH ROAD - BEDONWELL ROAD" .
+
+<http://data.linkedevents.org/location/583763da-dc8b-5fcf-aafc-28630b0dc77a/geometry> a geo:Point ;
+    geo:lat "54.7792804047"^^xsd:placeholder ;
+    geo:long "-5.45371798313"^^xsd:placeholder ;
+    locn:geometry "POINT (54.7792804047 -5.45371798313)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/882ab880-d851-501c-8727-ff3447d645b5/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "LYNWOOD ROAD" .
+
+<http://data.linkedevents.org/location/882ab880-d851-501c-8727-ff3447d645b5/geometry> a geo:Point ;
+    geo:lat "54.5097576307"^^xsd:placeholder ;
+    geo:long "-5.35816275097"^^xsd:placeholder ;
+    locn:geometry "POINT (54.5097576307 -5.35816275097)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/a16f1135-3aa7-5499-bb18-48d4ac3720bc/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "WOOLWICH ROAD - BEDONWELL ROAD" .
+
+<http://data.linkedevents.org/location/a16f1135-3aa7-5499-bb18-48d4ac3720bc/geometry> a geo:Point ;
+    geo:lat "54.7779891457"^^xsd:placeholder ;
+    geo:long "-5.45359228213"^^xsd:placeholder ;
+    locn:geometry "POINT (54.7779891457 -5.45359228213)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/abf9ecc8-c33b-56a6-a366-5904f2cc5395/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "ST MARY MAGDALENE CHURCH" .
+
+<http://data.linkedevents.org/location/abf9ecc8-c33b-56a6-a366-5904f2cc5395/geometry> a geo:Point ;
+    geo:lat "54.6314708449"^^xsd:placeholder ;
+    geo:long "-5.33282515774"^^xsd:placeholder ;
+    locn:geometry "POINT (54.6314708449 -5.33282515774)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/b1772cea-65ba-5f5f-b531-651ffa9b7d6b/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "ST MARY MAGDALENE CHURCH" .
+
+<http://data.linkedevents.org/location/b1772cea-65ba-5f5f-b531-651ffa9b7d6b/geometry> a geo:Point ;
+    geo:lat "54.6311486986"^^xsd:placeholder ;
+    geo:long "-5.33244230759"^^xsd:placeholder ;
+    locn:geometry "POINT (54.6311486986 -5.33244230759)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/b217a003-43b5-56d8-a834-c7c05ef793d4/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "ST JOSEPH'S CHURCH" .
+
+<http://data.linkedevents.org/location/b217a003-43b5-56d8-a834-c7c05ef793d4/geometry> a geo:Point ;
+    geo:lat "54.5317765345"^^xsd:placeholder ;
+    geo:long "-5.58480613349"^^xsd:placeholder ;
+    locn:geometry "POINT (54.5317765345 -5.58480613349)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/b3c425d5-e985-5a02-93ce-495065d8a0a8/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "HIGHBURY & ISLINGTON STATION" .
+
+<http://data.linkedevents.org/location/b3c425d5-e985-5a02-93ce-495065d8a0a8/geometry> a geo:Point ;
+    geo:lat "54.6330615343"^^xsd:placeholder ;
+    geo:long "-5.33579184922"^^xsd:placeholder ;
+    locn:geometry "POINT (54.6330615343 -5.33579184922)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/b5b0f03e-1a28-51a9-92a2-977a6e59a1f1/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "TREVOR CLOSE" .
+
+<http://data.linkedevents.org/location/b5b0f03e-1a28-51a9-92a2-977a6e59a1f1/geometry> a geo:Point ;
+    geo:lat "54.4872297331"^^xsd:placeholder ;
+    geo:long "-5.47865350992"^^xsd:placeholder ;
+    locn:geometry "POINT (54.4872297331 -5.47865350992)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/c7e66ed1-4324-520b-b9e8-746645718337/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "LYNWOOD ROAD" .
+
+<http://data.linkedevents.org/location/c7e66ed1-4324-520b-b9e8-746645718337/geometry> a geo:Point ;
+    geo:lat "54.5101541185"^^xsd:placeholder ;
+    geo:long "-5.3578089761"^^xsd:placeholder ;
+    locn:geometry "POINT (54.5101541185 -5.3578089761)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/c8cd8063-e284-5b2e-9565-5f767c9f6d42/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "QUEENS ROAD" .
+
+<http://data.linkedevents.org/location/c8cd8063-e284-5b2e-9565-5f767c9f6d42/geometry> a geo:Point ;
+    geo:lat "54.5384591626"^^xsd:placeholder ;
+    geo:long "-5.58598026919"^^xsd:placeholder ;
+    locn:geometry "POINT (54.5384591626 -5.58598026919)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/cc2dc421-1398-56e3-90a4-19cc4da92968/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "HOLLOWAY ROAD STATION" .
+
+<http://data.linkedevents.org/location/cc2dc421-1398-56e3-90a4-19cc4da92968/geometry> a geo:Point ;
+    geo:lat "54.6286860708"^^xsd:placeholder ;
+    geo:long "-5.32652194131"^^xsd:placeholder ;
+    locn:geometry "POINT (54.6286860708 -5.32652194131)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/ec932ab9-bf3d-5f04-b0c1-34b7b4ae858a/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "ELM ROAD - NEW MALDEN BAPTIST CHURCH" .
+
+<http://data.linkedevents.org/location/ec932ab9-bf3d-5f04-b0c1-34b7b4ae858a/geometry> a geo:Point ;
+    geo:lat "54.5284058138"^^xsd:placeholder ;
+    geo:long "-5.58233035774"^^xsd:placeholder ;
+    locn:geometry "POINT (54.5284058138 -5.58233035774)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/f47d2dd3-c0e5-5bc0-bba9-ca3d4758cca5/address> a dct:Location,
+        schema:PostalAddress ;
+    locn:address "HIGHBURY CORNER" .
+
+<http://data.linkedevents.org/location/f47d2dd3-c0e5-5bc0-bba9-ca3d4758cca5/geometry> a geo:Point ;
+    geo:lat "54.6335414049"^^xsd:placeholder ;
+    geo:long "-5.33893117656"^^xsd:placeholder ;
+    locn:geometry "POINT (54.6335414049 -5.33893117656)"^^geosparql:wktLiteral .
+

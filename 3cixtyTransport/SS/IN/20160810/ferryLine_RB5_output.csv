@@ -1,0 +1,6 @@
+stationNaptan,stationName,stopType,lat,lon,line
+9300MIL1,North Greenwich Pier,NaptanFerryBerth,51.502225,0.00917,RB5
+9300MIL2,North Greenwich Pier,NaptanRailAccessArea,51.502212,0.009176,RB5
+9300WAS1,Woolwich Pier,NaptanFerryBerth,51.495764,0.070866,RB5
+930GMIL,North Greenwich Pier,NaptanFerryPort,51.502097,0.008776,RB5
+930GWAS,Woolwich Arsenal Pier,NaptanFerryPort,51.495167,0.07058,RB5

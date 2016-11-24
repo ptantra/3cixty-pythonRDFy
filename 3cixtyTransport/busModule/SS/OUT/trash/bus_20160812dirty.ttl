@@ -1,0 +1,2727 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dul: <http://ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geom: <http://geovocab.org/geometry#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix locationOnt: <http://data.linkedevents.org/def/location#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix naptan: <http://transport.data.gov.uk/def/naptan/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix transit: <http://vocab.org/transit/terms/> .
+@prefix travel: <http://3cixty.com/ontology#> .
+@prefix unknown: <http://data.linkedevents.org/def/unknown#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.linkedevents.org/transit/London/stop/47221> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/e50a5f23-5805-56b3-b6e4-6e3d78723fb4/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/e50a5f23-5805-56b3-b6e4-6e3d78723fb4/address> .
+
+<http://data.linkedevents.org/transit/London/stop/47253> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/71bb9ce6-fab6-5fb0-b0fe-c8d1ad0aeb7f/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/71bb9ce6-fab6-5fb0-b0fe-c8d1ad0aeb7f/address> .
+
+<http://data.linkedevents.org/transit/London/stop/47321> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/84c701c1-15ad-599b-8e18-68a91d276b11/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/84c701c1-15ad-599b-8e18-68a91d276b11/address> .
+
+<http://data.linkedevents.org/transit/London/stop/47410> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/40fbd167-1288-5c27-ae24-9ad7cad1c135/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/40fbd167-1288-5c27-ae24-9ad7cad1c135/address> .
+
+<http://data.linkedevents.org/transit/London/stop/47555> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/1f6a6bdf-ecd2-5339-a316-c94f19262567/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/1f6a6bdf-ecd2-5339-a316-c94f19262567/address> .
+
+<http://data.linkedevents.org/transit/London/stop/47653> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/d7917cc2-8266-5f34-be92-24c13e8b2927/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/d7917cc2-8266-5f34-be92-24c13e8b2927/address> .
+
+<http://data.linkedevents.org/transit/London/stop/47712> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/5b269e53-ba4b-5511-ba64-b26584ee6704/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/5b269e53-ba4b-5511-ba64-b26584ee6704/address> .
+
+<http://data.linkedevents.org/transit/London/stop/47747> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/2f2beabf-365b-548e-8f2d-06e618f664d2/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/2f2beabf-365b-548e-8f2d-06e618f664d2/address> .
+
+<http://data.linkedevents.org/transit/London/stop/47838> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/5406552c-8e20-5f3f-9098-4270a78c871d/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/5406552c-8e20-5f3f-9098-4270a78c871d/address> .
+
+<http://data.linkedevents.org/transit/London/stop/47857> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/a30231a6-edbb-5204-b902-c7f1eef21493/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/a30231a6-edbb-5204-b902-c7f1eef21493/address> .
+
+<http://data.linkedevents.org/transit/London/stop/47899> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/a0d7ef66-34bc-5c29-9e0c-f32a3f3c52f0/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/a0d7ef66-34bc-5c29-9e0c-f32a3f3c52f0/address> .
+
+<http://data.linkedevents.org/transit/London/stop/47901> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/cc0bfc8a-59b6-5493-83c9-91e3e98f28b7/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/cc0bfc8a-59b6-5493-83c9-91e3e98f28b7/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48037> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/4a9691ef-df38-5b5b-848a-c76e11c1dc20/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/4a9691ef-df38-5b5b-848a-c76e11c1dc20/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48108> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/c9af3697-366b-52e8-9797-e2a98e78b667/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/c9af3697-366b-52e8-9797-e2a98e78b667/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48143> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/6d92d200-4dbd-51a2-946d-5407ba23076c/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/6d92d200-4dbd-51a2-946d-5407ba23076c/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48147> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/fa513d2d-49d3-5fd6-b82b-45ea20372b12/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/fa513d2d-49d3-5fd6-b82b-45ea20372b12/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48178> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/3d74baf7-fbb1-5040-b9ad-ae7589b11196/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/3d74baf7-fbb1-5040-b9ad-ae7589b11196/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48192> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/4e70019d-b8a6-518d-909f-85c5c0f87818/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/4e70019d-b8a6-518d-909f-85c5c0f87818/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48232> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/edc44314-54b5-5e16-8020-45e2136f11e2/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/edc44314-54b5-5e16-8020-45e2136f11e2/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48321> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/702facc2-4f73-5fe9-b382-dab8208f97bf/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/702facc2-4f73-5fe9-b382-dab8208f97bf/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48450> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/f0f35bdf-e040-5b0d-9685-f10355e9d7e9/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/f0f35bdf-e040-5b0d-9685-f10355e9d7e9/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48458> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/390fb75d-a2a1-565d-87b8-333a6a709802/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/390fb75d-a2a1-565d-87b8-333a6a709802/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48461> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/53301768-8cf5-51fb-b233-6713987e73ab/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/53301768-8cf5-51fb-b233-6713987e73ab/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48464> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/199a8816-bd60-5949-a0b1-937283356fd5/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/199a8816-bd60-5949-a0b1-937283356fd5/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48516> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/1b6e4527-ff75-54aa-bceb-95705928abbb/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/1b6e4527-ff75-54aa-bceb-95705928abbb/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48609> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/c789f0e3-ec45-569c-ba31-5f5edd1bbb0c/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/c789f0e3-ec45-569c-ba31-5f5edd1bbb0c/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48643> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/d24c23c1-0b59-58b4-8a7a-e959cd81e9ff/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/d24c23c1-0b59-58b4-8a7a-e959cd81e9ff/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48796> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/b950673f-c314-57dd-a33a-471e90e36e59/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/b950673f-c314-57dd-a33a-471e90e36e59/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48872> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/1331dd84-476e-5cae-9a6e-896dce4ed916/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/1331dd84-476e-5cae-9a6e-896dce4ed916/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48951> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/dca40a64-1c4a-5793-83a7-c4f2a1296068/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/dca40a64-1c4a-5793-83a7-c4f2a1296068/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48960> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/d05d7ab9-a10c-5b2e-b3f4-fbb591b72171/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/d05d7ab9-a10c-5b2e-b3f4-fbb591b72171/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48984> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/912f2003-4496-5b96-ab5b-a78dbf6042b6/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/912f2003-4496-5b96-ab5b-a78dbf6042b6/address> .
+
+<http://data.linkedevents.org/transit/London/stop/49076> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/4af8a9ed-f2c6-5b3e-8bf0-2ecb6400edec/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/4af8a9ed-f2c6-5b3e-8bf0-2ecb6400edec/address> .
+
+<http://data.linkedevents.org/transit/London/stop/49132> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/cbbde570-0507-51f8-a8a9-fdab58af91c6/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/cbbde570-0507-51f8-a8a9-fdab58af91c6/address> .
+
+<http://data.linkedevents.org/transit/London/stop/49187> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/fd8c5198-af52-5f5d-abc3-e282b06d4b23/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/fd8c5198-af52-5f5d-abc3-e282b06d4b23/address> .
+
+<http://data.linkedevents.org/transit/London/stop/49218> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/7cda41f0-6f1c-58b2-a403-9ea3335ce1d8/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/7cda41f0-6f1c-58b2-a403-9ea3335ce1d8/address> .
+
+<http://data.linkedevents.org/transit/London/stop/49244> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/14442c08-7006-519c-a394-2c252326fcc3/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/14442c08-7006-519c-a394-2c252326fcc3/address> .
+
+<http://data.linkedevents.org/transit/London/stop/49354> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/e8dc7e06-cbf0-5c46-a60c-33d02a328ec3/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/e8dc7e06-cbf0-5c46-a60c-33d02a328ec3/address> .
+
+<http://data.linkedevents.org/transit/London/stop/49357> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/3bc48ca4-308d-5684-875e-76ac45a762ca/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/3bc48ca4-308d-5684-875e-76ac45a762ca/address> .
+
+<http://data.linkedevents.org/transit/London/stop/49402> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/ba879135-8a6a-5bfc-bb8d-caba2aede01e/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/ba879135-8a6a-5bfc-bb8d-caba2aede01e/address> .
+
+<http://data.linkedevents.org/transit/London/stop/49495> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/3c5d94d0-6a2b-54fa-a7c3-5b2a8b578b41/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/3c5d94d0-6a2b-54fa-a7c3-5b2a8b578b41/address> .
+
+<http://data.linkedevents.org/transit/London/stop/49574> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/8dcf0456-2eec-53ab-97c8-098ffbbb546c/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/8dcf0456-2eec-53ab-97c8-098ffbbb546c/address> .
+
+<http://data.linkedevents.org/transit/London/stop/49603> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/2d4d100f-c187-5d0f-8d48-c51ae92cfb84/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/2d4d100f-c187-5d0f-8d48-c51ae92cfb84/address> .
+
+<http://data.linkedevents.org/transit/London/stop/49767> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/47e853a3-8ee6-5c6a-b767-4da0e487d696/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/47e853a3-8ee6-5c6a-b767-4da0e487d696/address> .
+
+<http://data.linkedevents.org/transit/London/stop/49819> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/06f2e42c-d7ac-571a-ab75-3721f20a2c56/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/06f2e42c-d7ac-571a-ab75-3721f20a2c56/address> .
+
+<http://data.linkedevents.org/transit/London/stop/49881> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/7a625e62-c571-5d4e-b19d-0baf8b9743a5/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/7a625e62-c571-5d4e-b19d-0baf8b9743a5/address> .
+
+<http://data.linkedevents.org/transit/London/stop/49908> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/8705f867-bd1e-55bf-baf2-ec990b084a01/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/8705f867-bd1e-55bf-baf2-ec990b084a01/address> .
+
+<http://data.linkedevents.org/transit/London/stop/49943> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/864568c2-488f-5822-a64e-db8dc26d4379/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/864568c2-488f-5822-a64e-db8dc26d4379/address> .
+
+<http://data.linkedevents.org/transit/London/stop/49984> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/27a04f97-b4a7-5610-9fae-4eae81ba0d77/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/27a04f97-b4a7-5610-9fae-4eae81ba0d77/address> .
+
+<http://data.linkedevents.org/transit/London/stop/50012> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/901f59e2-c0f6-5290-bc59-7c61b8e5748a/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/901f59e2-c0f6-5290-bc59-7c61b8e5748a/address> .
+
+<http://data.linkedevents.org/transit/London/stop/50268> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/0d5dde22-2381-5ca0-ba05-bcc8485abb6e/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/0d5dde22-2381-5ca0-ba05-bcc8485abb6e/address> .
+
+<http://data.linkedevents.org/transit/London/stop/50432> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/cb5807a9-56a1-5724-892b-eb79c026a98f/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/cb5807a9-56a1-5724-892b-eb79c026a98f/address> .
+
+<http://data.linkedevents.org/transit/London/stop/50694> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/72b60b7e-18a4-54e3-8d63-055d6b1f8a56/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/72b60b7e-18a4-54e3-8d63-055d6b1f8a56/address> .
+
+<http://data.linkedevents.org/transit/London/stop/50920> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/34f48073-f409-5b78-91ea-e575caf8290a/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/34f48073-f409-5b78-91ea-e575caf8290a/address> .
+
+<http://data.linkedevents.org/transit/London/stop/50921> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/42436f54-c1ac-5482-a5b1-064fc3481f31/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/42436f54-c1ac-5482-a5b1-064fc3481f31/address> .
+
+<http://data.linkedevents.org/transit/London/stop/51009> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/00faf05b-21c4-58dc-b620-6183a037d642/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/00faf05b-21c4-58dc-b620-6183a037d642/address> .
+
+<http://data.linkedevents.org/transit/London/stop/51040> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/105c438f-b920-550e-826e-260acb985824/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/105c438f-b920-550e-826e-260acb985824/address> .
+
+<http://data.linkedevents.org/transit/London/stop/51168> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/b8072035-f5e4-5def-8cd0-f97c8d515d21/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/b8072035-f5e4-5def-8cd0-f97c8d515d21/address> .
+
+<http://data.linkedevents.org/transit/London/stop/51198> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/826e3433-eae8-576d-834e-f9da5819ad40/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/826e3433-eae8-576d-834e-f9da5819ad40/address> .
+
+<http://data.linkedevents.org/transit/London/stop/51237> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/adf82b7b-b207-5215-a669-fcf7a1934488/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/adf82b7b-b207-5215-a669-fcf7a1934488/address> .
+
+<http://data.linkedevents.org/transit/London/stop/51493> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/a04ce972-b6f1-5429-833c-17eb77db47e4/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/a04ce972-b6f1-5429-833c-17eb77db47e4/address> .
+
+<http://data.linkedevents.org/transit/London/stop/52173> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/2313bed7-404e-5c13-942a-aba5e9705bb8/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/2313bed7-404e-5c13-942a-aba5e9705bb8/address> .
+
+<http://data.linkedevents.org/transit/London/stop/52470> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/070fd2e9-75d0-5458-b0b1-8d0e4924a87a/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/070fd2e9-75d0-5458-b0b1-8d0e4924a87a/address> .
+
+<http://data.linkedevents.org/transit/London/stop/52472> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/b50b8bf1-dda5-5845-93f3-ffbc416130fc/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/b50b8bf1-dda5-5845-93f3-ffbc416130fc/address> .
+
+<http://data.linkedevents.org/transit/London/stop/52503> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/d52b3882-7344-53c0-bd8b-fa14f5f62a18/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/d52b3882-7344-53c0-bd8b-fa14f5f62a18/address> .
+
+<http://data.linkedevents.org/transit/London/stop/52589> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/df1e0fab-e211-5d72-a006-ebe06f49160d/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/df1e0fab-e211-5d72-a006-ebe06f49160d/address> .
+
+<http://data.linkedevents.org/transit/London/stop/52614> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/210e2994-f988-5d79-aaba-f5acef243b04/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/210e2994-f988-5d79-aaba-f5acef243b04/address> .
+
+<http://data.linkedevents.org/transit/London/stop/52652> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/d3818e2f-a0f3-5be8-a71d-68cf2203a68c/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/d3818e2f-a0f3-5be8-a71d-68cf2203a68c/address> .
+
+<http://data.linkedevents.org/transit/London/stop/52726> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/6cab20f7-be04-5b93-b778-2dd46d827058/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/6cab20f7-be04-5b93-b778-2dd46d827058/address> .
+
+<http://data.linkedevents.org/transit/London/stop/52812> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/a9a8c373-bc98-515f-b1d8-ae6088a260d8/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/a9a8c373-bc98-515f-b1d8-ae6088a260d8/address> .
+
+<http://data.linkedevents.org/transit/London/stop/52834> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/c295845e-a794-553e-825c-7065bd16e98e/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/c295845e-a794-553e-825c-7065bd16e98e/address> .
+
+<http://data.linkedevents.org/transit/London/stop/52849> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/64968ab9-3157-5e95-9ab2-a8d8130dbca0/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/64968ab9-3157-5e95-9ab2-a8d8130dbca0/address> .
+
+<http://data.linkedevents.org/transit/London/stop/52990> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/289db10f-a387-592d-9421-288978cba04a/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/289db10f-a387-592d-9421-288978cba04a/address> .
+
+<http://data.linkedevents.org/transit/London/stop/53062> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/0b203d30-7ee1-519b-85ab-432010a8a9d9/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/0b203d30-7ee1-519b-85ab-432010a8a9d9/address> .
+
+<http://data.linkedevents.org/transit/London/stop/53256> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/7b49ad09-7b7e-5b2b-94c2-775abafa4a70/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/7b49ad09-7b7e-5b2b-94c2-775abafa4a70/address> .
+
+<http://data.linkedevents.org/transit/London/stop/53342> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/33630af1-22b3-5925-a19a-1db7f92e6c28/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/33630af1-22b3-5925-a19a-1db7f92e6c28/address> .
+
+<http://data.linkedevents.org/transit/London/stop/53343> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/5fa497a7-357c-570a-9afc-fb18901fba6a/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/5fa497a7-357c-570a-9afc-fb18901fba6a/address> .
+
+<http://data.linkedevents.org/transit/London/stop/53488> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/77adfca0-d230-56c3-ab2e-b0596dd0de68/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/77adfca0-d230-56c3-ab2e-b0596dd0de68/address> .
+
+<http://data.linkedevents.org/transit/London/stop/53531> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/d1355687-e6cd-588a-ac4e-b0e4494a3b4f/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/d1355687-e6cd-588a-ac4e-b0e4494a3b4f/address> .
+
+<http://data.linkedevents.org/transit/London/stop/53573> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/16b2dbbb-c02b-599a-859c-c85f3f037843/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/16b2dbbb-c02b-599a-859c-c85f3f037843/address> .
+
+<http://data.linkedevents.org/transit/London/stop/53729> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/528af861-785d-546c-9d0f-f517542dc6c7/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/528af861-785d-546c-9d0f-f517542dc6c7/address> .
+
+<http://data.linkedevents.org/transit/London/stop/53754> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/32fd6bb5-769f-5b05-8378-241bd1a3a4fa/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/32fd6bb5-769f-5b05-8378-241bd1a3a4fa/address> .
+
+<http://data.linkedevents.org/transit/London/stop/53798> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/29a14854-7531-5e7f-8162-97a8fcfee7a2/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/29a14854-7531-5e7f-8162-97a8fcfee7a2/address> .
+
+<http://data.linkedevents.org/transit/London/stop/54086> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/bb721c80-d0ad-5a99-9eac-87ad8d2cdf15/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/bb721c80-d0ad-5a99-9eac-87ad8d2cdf15/address> .
+
+<http://data.linkedevents.org/transit/London/stop/54143> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/5db4a8a6-eb30-5e0c-b64b-2dd83ed9efdc/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/5db4a8a6-eb30-5e0c-b64b-2dd83ed9efdc/address> .
+
+<http://data.linkedevents.org/transit/London/stop/54273> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/27651f2a-117b-5092-ad57-621da383fe2d/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/27651f2a-117b-5092-ad57-621da383fe2d/address> .
+
+<http://data.linkedevents.org/transit/London/stop/54305> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/d62e425f-9372-560a-8192-d72664c14ef9/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/d62e425f-9372-560a-8192-d72664c14ef9/address> .
+
+<http://data.linkedevents.org/transit/London/stop/54383> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/1de333af-fb47-56a0-96d6-7e3e35d7539c/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/1de333af-fb47-56a0-96d6-7e3e35d7539c/address> .
+
+<http://data.linkedevents.org/transit/London/stop/54424> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/95234c67-d196-50f9-a974-2c9c24bd26f0/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/95234c67-d196-50f9-a974-2c9c24bd26f0/address> .
+
+<http://data.linkedevents.org/transit/London/stop/54519> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/3d7590ac-9868-57c7-9c19-2aac9a11beef/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/3d7590ac-9868-57c7-9c19-2aac9a11beef/address> .
+
+<http://data.linkedevents.org/transit/London/stop/54532> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/16b07bb1-a679-5952-90e8-1fa2ba975c8f/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/16b07bb1-a679-5952-90e8-1fa2ba975c8f/address> .
+
+<http://data.linkedevents.org/transit/London/stop/54595> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/c7848871-1256-54f8-b871-7d3da7fcbf97/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/c7848871-1256-54f8-b871-7d3da7fcbf97/address> .
+
+<http://data.linkedevents.org/transit/London/stop/54653> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/95e9742d-d800-51c7-bd21-1d7034b5eb29/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/95e9742d-d800-51c7-bd21-1d7034b5eb29/address> .
+
+<http://data.linkedevents.org/transit/London/stop/54763> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/d89fc344-1393-5d0f-ab5b-3d590be79b41/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/d89fc344-1393-5d0f-ab5b-3d590be79b41/address> .
+
+<http://data.linkedevents.org/transit/London/stop/54775> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/76d04e5e-fffc-59e5-832b-33d704ab6a12/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/76d04e5e-fffc-59e5-832b-33d704ab6a12/address> .
+
+<http://data.linkedevents.org/transit/London/stop/54829> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/84edc2ba-40dc-598a-8a39-3e9ba7566764/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/84edc2ba-40dc-598a-8a39-3e9ba7566764/address> .
+
+<http://data.linkedevents.org/transit/London/stop/54840> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/cfe5e82c-d8af-56c5-bac9-801a69c86b70/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/cfe5e82c-d8af-56c5-bac9-801a69c86b70/address> .
+
+<http://data.linkedevents.org/transit/London/stop/54906> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/56bf8108-c660-5f05-8869-5e91ee37d596/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/56bf8108-c660-5f05-8869-5e91ee37d596/address> .
+
+<http://data.linkedevents.org/transit/London/stop/54965> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/bf329512-e9c1-5033-8f17-869be9eddb89/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/bf329512-e9c1-5033-8f17-869be9eddb89/address> .
+
+<http://data.linkedevents.org/transit/London/stop/55063> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/a7eabf90-d855-52f4-a4a8-ca3008c21211/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/a7eabf90-d855-52f4-a4a8-ca3008c21211/address> .
+
+<http://data.linkedevents.org/transit/London/stop/55159> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/80c85919-16c8-5457-8ad1-4750079abb92/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/80c85919-16c8-5457-8ad1-4750079abb92/address> .
+
+<http://data.linkedevents.org/transit/London/stop/55185> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/588076cb-b9ee-54da-b2a5-1284da97fb2f/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/588076cb-b9ee-54da-b2a5-1284da97fb2f/address> .
+
+<http://data.linkedevents.org/transit/London/stop/55186> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/8fa4dba7-b055-5689-83b7-152766fe6750/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/8fa4dba7-b055-5689-83b7-152766fe6750/address> .
+
+<http://data.linkedevents.org/transit/London/stop/55215> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/d966d363-e99f-545a-93bf-5bb461ea88ca/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/d966d363-e99f-545a-93bf-5bb461ea88ca/address> .
+
+<http://data.linkedevents.org/transit/London/stop/55430> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/37c68999-95a7-5ab6-a20c-76b004e1a8f5/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/37c68999-95a7-5ab6-a20c-76b004e1a8f5/address> .
+
+<http://data.linkedevents.org/transit/London/stop/55434> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/a21d8dd0-f16b-57e6-831a-81414e467497/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/a21d8dd0-f16b-57e6-831a-81414e467497/address> .
+
+<http://data.linkedevents.org/transit/London/stop/55452> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/6072725a-07b5-57a7-9d86-0ade1d1e18da/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/6072725a-07b5-57a7-9d86-0ade1d1e18da/address> .
+
+<http://data.linkedevents.org/transit/London/stop/55458> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/16769f9e-1419-5373-8459-41272bb8e82d/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/16769f9e-1419-5373-8459-41272bb8e82d/address> .
+
+<http://data.linkedevents.org/transit/London/stop/55466> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/24ef78df-3e53-5ccc-8eae-4d38bc5c7564/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/24ef78df-3e53-5ccc-8eae-4d38bc5c7564/address> .
+
+<http://data.linkedevents.org/transit/London/stop/55537> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/1f197e62-c636-5a4f-8830-312e59a92cca/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/1f197e62-c636-5a4f-8830-312e59a92cca/address> .
+
+<http://data.linkedevents.org/transit/London/stop/55564> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/2ca8d23d-459e-5022-a0a8-2017c01f39aa/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/2ca8d23d-459e-5022-a0a8-2017c01f39aa/address> .
+
+<http://data.linkedevents.org/transit/London/stop/55814> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/7b6be9dd-d4ec-5c2d-a3d5-1938db8e6e5b/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/7b6be9dd-d4ec-5c2d-a3d5-1938db8e6e5b/address> .
+
+<http://data.linkedevents.org/transit/London/stop/55837> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/156d7190-7b3a-5c82-b60f-da2cc4d53609/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/156d7190-7b3a-5c82-b60f-da2cc4d53609/address> .
+
+<http://data.linkedevents.org/transit/London/stop/55897> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/723ee01b-4bc7-58ee-8171-b83a2f5a9e73/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/723ee01b-4bc7-58ee-8171-b83a2f5a9e73/address> .
+
+<http://data.linkedevents.org/transit/London/stop/55929> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/632e4389-e48c-5edd-9828-5790832df7ca/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/632e4389-e48c-5edd-9828-5790832df7ca/address> .
+
+<http://data.linkedevents.org/transit/London/stop/55951> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/388c4a4a-2b41-56bc-a720-6e5823087085/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/388c4a4a-2b41-56bc-a720-6e5823087085/address> .
+
+<http://data.linkedevents.org/transit/London/stop/56047> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/87a333a2-a628-5133-87a8-5e21c71d8b51/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/87a333a2-a628-5133-87a8-5e21c71d8b51/address> .
+
+<http://data.linkedevents.org/transit/London/stop/56071> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/26e1d9bf-6551-52fe-ba7d-395588fbd150/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/26e1d9bf-6551-52fe-ba7d-395588fbd150/address> .
+
+<http://data.linkedevents.org/transit/London/stop/56118> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/b2e6ed63-ad0d-5180-983e-6cb5adbb9c3a/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/b2e6ed63-ad0d-5180-983e-6cb5adbb9c3a/address> .
+
+<http://data.linkedevents.org/transit/London/stop/56127> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/b975d493-cc2c-57b3-b09b-c196d9168dd0/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/b975d493-cc2c-57b3-b09b-c196d9168dd0/address> .
+
+<http://data.linkedevents.org/transit/London/stop/56141> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/8f4e76fc-f9b3-5af9-9ee9-1751dcad0b46/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/8f4e76fc-f9b3-5af9-9ee9-1751dcad0b46/address> .
+
+<http://data.linkedevents.org/transit/London/stop/56317> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/e7e6aead-a525-5f41-b048-fa09cb86ec54/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/e7e6aead-a525-5f41-b048-fa09cb86ec54/address> .
+
+<http://data.linkedevents.org/transit/London/stop/56388> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/ff927039-cf7a-50c9-b3c0-ca1d213ee0aa/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/ff927039-cf7a-50c9-b3c0-ca1d213ee0aa/address> .
+
+<http://data.linkedevents.org/transit/London/stop/56406> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/7b949975-57f9-5db3-a488-c170b623658d/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/7b949975-57f9-5db3-a488-c170b623658d/address> .
+
+<http://data.linkedevents.org/transit/London/stop/56465> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/d1255698-a905-5eee-83ac-2956dc7b0966/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/d1255698-a905-5eee-83ac-2956dc7b0966/address> .
+
+<http://data.linkedevents.org/transit/London/stop/56616> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/b34db048-ecea-5179-96bb-5cc051fab33c/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/b34db048-ecea-5179-96bb-5cc051fab33c/address> .
+
+<http://data.linkedevents.org/transit/London/stop/56718> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/77c0cd06-3adf-5eea-9775-1a3bb415b3e3/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/77c0cd06-3adf-5eea-9775-1a3bb415b3e3/address> .
+
+<http://data.linkedevents.org/transit/London/stop/56739> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/e9985c23-cfb1-594d-846f-c5b663656bd8/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/e9985c23-cfb1-594d-846f-c5b663656bd8/address> .
+
+<http://data.linkedevents.org/transit/London/stop/56776> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/bc8e2121-d9af-504f-bf49-403586b7d7ce/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/bc8e2121-d9af-504f-bf49-403586b7d7ce/address> .
+
+<http://data.linkedevents.org/transit/London/stop/56851> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/5cb2723b-3f18-5df5-8730-89141bc78e76/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/5cb2723b-3f18-5df5-8730-89141bc78e76/address> .
+
+<http://data.linkedevents.org/transit/London/stop/56904> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/a71d6d7d-31ed-5213-a58b-f489970f84d9/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/a71d6d7d-31ed-5213-a58b-f489970f84d9/address> .
+
+<http://data.linkedevents.org/transit/London/stop/57148> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/efd9dc6f-51b3-53c0-80f8-ba7fc992b43e/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/efd9dc6f-51b3-53c0-80f8-ba7fc992b43e/address> .
+
+<http://data.linkedevents.org/transit/London/stop/57226> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/4b27bbf7-057b-5f10-b2f7-6ce8cd5b801a/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/4b27bbf7-057b-5f10-b2f7-6ce8cd5b801a/address> .
+
+<http://data.linkedevents.org/transit/London/stop/57424> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/2142c715-8870-5589-90e9-0b294faa894e/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/2142c715-8870-5589-90e9-0b294faa894e/address> .
+
+<http://data.linkedevents.org/transit/London/stop/57427> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/18793788-8420-5c2a-8477-6f8b3a8a306d/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/18793788-8420-5c2a-8477-6f8b3a8a306d/address> .
+
+<http://data.linkedevents.org/transit/London/stop/57437> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/d43921c2-3790-5775-8f9b-730bfc0f4d27/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/d43921c2-3790-5775-8f9b-730bfc0f4d27/address> .
+
+<http://data.linkedevents.org/transit/London/stop/57538> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/6fe538f3-86d7-5ba1-b7c5-8362b307fd99/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/6fe538f3-86d7-5ba1-b7c5-8362b307fd99/address> .
+
+<http://data.linkedevents.org/transit/London/stop/57612> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/252d1549-9db0-5a76-8e57-f9010c7423e9/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/252d1549-9db0-5a76-8e57-f9010c7423e9/address> .
+
+<http://data.linkedevents.org/transit/London/stop/57879> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/fc3e02f4-b345-543b-b90d-85cda8353a95/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/fc3e02f4-b345-543b-b90d-85cda8353a95/address> .
+
+<http://data.linkedevents.org/transit/London/stop/57907> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/c7874c23-8263-5132-a278-dac27dd4540f/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/c7874c23-8263-5132-a278-dac27dd4540f/address> .
+
+<http://data.linkedevents.org/transit/London/stop/58127> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/d8cf6d6f-394b-5382-904d-d66fd44efa5a/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/d8cf6d6f-394b-5382-904d-d66fd44efa5a/address> .
+
+<http://data.linkedevents.org/transit/London/stop/58305> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/6b4e0f69-575d-5c8f-b4ca-ad64f66eceb0/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/6b4e0f69-575d-5c8f-b4ca-ad64f66eceb0/address> .
+
+<http://data.linkedevents.org/transit/London/stop/58337> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/ebb9a235-075e-5023-995c-fbd9e5626a37/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/ebb9a235-075e-5023-995c-fbd9e5626a37/address> .
+
+<http://data.linkedevents.org/transit/London/stop/58527> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/38dd4727-ace6-5b42-84b8-044bec49515e/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/38dd4727-ace6-5b42-84b8-044bec49515e/address> .
+
+<http://data.linkedevents.org/transit/London/stop/58587> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/b5092e38-557a-5966-8f6f-8af8f17e200c/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/b5092e38-557a-5966-8f6f-8af8f17e200c/address> .
+
+<http://data.linkedevents.org/transit/London/stop/58611> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/551735c0-5d71-5549-9129-acd34dcebe1b/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/551735c0-5d71-5549-9129-acd34dcebe1b/address> .
+
+<http://data.linkedevents.org/transit/London/stop/58626> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/c62c7a82-cfcd-5785-84ec-f9680887323c/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/c62c7a82-cfcd-5785-84ec-f9680887323c/address> .
+
+<http://data.linkedevents.org/transit/London/stop/58644> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/a2df2fce-5512-555d-8668-6fd18ad7d368/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/a2df2fce-5512-555d-8668-6fd18ad7d368/address> .
+
+<http://data.linkedevents.org/transit/London/stop/58665> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/79076bcf-d99b-5d61-8900-8f8cf991458e/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/79076bcf-d99b-5d61-8900-8f8cf991458e/address> .
+
+<http://data.linkedevents.org/transit/London/stop/58713> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/33afdd41-9aca-5070-baf2-ab31ac191cd3/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/33afdd41-9aca-5070-baf2-ab31ac191cd3/address> .
+
+<http://data.linkedevents.org/transit/London/stop/59162> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/8740300c-46a1-5206-9458-d0bba343beac/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/8740300c-46a1-5206-9458-d0bba343beac/address> .
+
+<http://data.linkedevents.org/transit/London/stop/59406> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/27387fea-191b-5d4e-b804-e9c4ed044d98/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/27387fea-191b-5d4e-b804-e9c4ed044d98/address> .
+
+<http://data.linkedevents.org/transit/London/stop/59436> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/899c31e4-714c-525b-9549-03c8e75ace8e/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/899c31e4-714c-525b-9549-03c8e75ace8e/address> .
+
+<http://data.linkedevents.org/transit/London/stop/59457> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/4d867e34-3b24-5b10-ab15-33a1c11227aa/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/4d867e34-3b24-5b10-ab15-33a1c11227aa/address> .
+
+<http://data.linkedevents.org/transit/London/stop/59483> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/0ce196b1-3fbc-59c9-9ae2-92c18f5e049c/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/0ce196b1-3fbc-59c9-9ae2-92c18f5e049c/address> .
+
+<http://data.linkedevents.org/transit/London/stop/71039> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/19a5e0b8-e5f7-55bf-a7db-ca71996b809b/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/19a5e0b8-e5f7-55bf-a7db-ca71996b809b/address> .
+
+<http://data.linkedevents.org/transit/London/stop/71108> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/e5ba5ce9-acb8-5ff5-afee-136d9a65b541/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/e5ba5ce9-acb8-5ff5-afee-136d9a65b541/address> .
+
+<http://data.linkedevents.org/transit/London/stop/71168> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/7e0d4050-37c6-5365-8764-c3f2aeaee391/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/7e0d4050-37c6-5365-8764-c3f2aeaee391/address> .
+
+<http://data.linkedevents.org/transit/London/stop/71195> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/d3b8ed2c-69c2-5ac1-8b18-39a08fed87f8/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/d3b8ed2c-69c2-5ac1-8b18-39a08fed87f8/address> .
+
+<http://data.linkedevents.org/transit/London/stop/71271> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/f7cf2723-3024-5753-a9c6-a1bb3e1f48c4/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/f7cf2723-3024-5753-a9c6-a1bb3e1f48c4/address> .
+
+<http://data.linkedevents.org/transit/London/stop/71309> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/d8315c91-9a2b-5b16-b09e-ead776a9c692/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/d8315c91-9a2b-5b16-b09e-ead776a9c692/address> .
+
+<http://data.linkedevents.org/transit/London/stop/71327> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/641c597b-1941-5ead-8b53-11724d620bc8/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/641c597b-1941-5ead-8b53-11724d620bc8/address> .
+
+<http://data.linkedevents.org/transit/London/stop/71358> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/1b879fbf-dff3-5751-94f3-6be0c4e886a5/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/1b879fbf-dff3-5751-94f3-6be0c4e886a5/address> .
+
+<http://data.linkedevents.org/transit/London/stop/71366> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/e40d6f8f-9419-5b75-8ed3-d0380396f392/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/e40d6f8f-9419-5b75-8ed3-d0380396f392/address> .
+
+<http://data.linkedevents.org/transit/London/stop/71425> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/64ebfed1-cc2b-5fd8-a4e0-5b2159d104b2/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/64ebfed1-cc2b-5fd8-a4e0-5b2159d104b2/address> .
+
+<http://data.linkedevents.org/transit/London/stop/71434> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/dde4552a-fd9d-5890-8cd0-8fc6cef92ce9/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/dde4552a-fd9d-5890-8cd0-8fc6cef92ce9/address> .
+
+<http://data.linkedevents.org/transit/London/stop/71466> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/47a5f56a-f266-5527-8a15-449b668dbb3b/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/47a5f56a-f266-5527-8a15-449b668dbb3b/address> .
+
+<http://data.linkedevents.org/transit/London/stop/71522> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/e108313f-534e-5fa0-961c-e72b3fe01c79/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/e108313f-534e-5fa0-961c-e72b3fe01c79/address> .
+
+<http://data.linkedevents.org/transit/London/stop/71601> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/29c931f0-51b9-5f5f-b582-a96e0e8ffdc8/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/29c931f0-51b9-5f5f-b582-a96e0e8ffdc8/address> .
+
+<http://data.linkedevents.org/transit/London/stop/71688> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/abb538e9-8fa9-5ce4-9f53-7aba2ec3e2ab/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/abb538e9-8fa9-5ce4-9f53-7aba2ec3e2ab/address> .
+
+<http://data.linkedevents.org/transit/London/stop/71829> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/3b879617-0ed7-5474-bfb9-7732fce6d1f2/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/3b879617-0ed7-5474-bfb9-7732fce6d1f2/address> .
+
+<http://data.linkedevents.org/transit/London/stop/72076> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/25909d64-2437-5311-9a7a-51bd41d41f78/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/25909d64-2437-5311-9a7a-51bd41d41f78/address> .
+
+<http://data.linkedevents.org/transit/London/stop/72081> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/ebfd5849-f031-552a-8de9-d788cd0f9351/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/ebfd5849-f031-552a-8de9-d788cd0f9351/address> .
+
+<http://data.linkedevents.org/transit/London/stop/72161> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/b281f278-fe2c-5e9b-ad98-d3401f5c0660/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/b281f278-fe2c-5e9b-ad98-d3401f5c0660/address> .
+
+<http://data.linkedevents.org/transit/London/stop/72199> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/63d9e2a0-43e2-5834-b9c7-385233ed2b36/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/63d9e2a0-43e2-5834-b9c7-385233ed2b36/address> .
+
+<http://data.linkedevents.org/transit/London/stop/72201> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/eb85e85d-2018-5a57-90be-a3a81fe012e8/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/eb85e85d-2018-5a57-90be-a3a81fe012e8/address> .
+
+<http://data.linkedevents.org/transit/London/stop/72299> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/89166f04-9eb3-59cb-97df-672817a655b7/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/89166f04-9eb3-59cb-97df-672817a655b7/address> .
+
+<http://data.linkedevents.org/transit/London/stop/72310> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/32f94965-7989-5c7c-8224-b14bac7221c6/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/32f94965-7989-5c7c-8224-b14bac7221c6/address> .
+
+<http://data.linkedevents.org/transit/London/stop/72331> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/0170ac39-2371-597a-834f-886f2b7642ec/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/0170ac39-2371-597a-834f-886f2b7642ec/address> .
+
+<http://data.linkedevents.org/transit/London/stop/72571> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/e807a2de-86cb-5e1d-bb8a-0e997fca3480/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/e807a2de-86cb-5e1d-bb8a-0e997fca3480/address> .
+
+<http://data.linkedevents.org/transit/London/stop/72689> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/e5e90eb3-1730-5d92-b624-e3baa3279bff/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/e5e90eb3-1730-5d92-b624-e3baa3279bff/address> .
+
+<http://data.linkedevents.org/transit/London/stop/72760> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/f1d40a1a-bfa8-5838-ac06-e4f42511901e/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/f1d40a1a-bfa8-5838-ac06-e4f42511901e/address> .
+
+<http://data.linkedevents.org/transit/London/stop/72923> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/43319bfc-b796-537c-a6b7-935da025c4a1/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/43319bfc-b796-537c-a6b7-935da025c4a1/address> .
+
+<http://data.linkedevents.org/transit/London/stop/73028> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/d05a4f09-8d1e-5448-aa78-40e40e064096/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/d05a4f09-8d1e-5448-aa78-40e40e064096/address> .
+
+<http://data.linkedevents.org/transit/London/stop/73092> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/2388c83c-6990-5199-b064-805508f0dcd5/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/2388c83c-6990-5199-b064-805508f0dcd5/address> .
+
+<http://data.linkedevents.org/transit/London/stop/73188> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/39c1f738-f4e4-5bd9-a842-50de83abee19/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/39c1f738-f4e4-5bd9-a842-50de83abee19/address> .
+
+<http://data.linkedevents.org/transit/London/stop/73261> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/7c815d5e-a6a4-5414-b53d-689e0a899510/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/7c815d5e-a6a4-5414-b53d-689e0a899510/address> .
+
+<http://data.linkedevents.org/transit/London/stop/73276> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/ad05a4fa-fdd7-5eb1-8f98-f6f50c23bf3d/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/ad05a4fa-fdd7-5eb1-8f98-f6f50c23bf3d/address> .
+
+<http://data.linkedevents.org/transit/London/stop/73325> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/5e0ac610-4d0f-5b56-b9d9-755c620d8635/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/5e0ac610-4d0f-5b56-b9d9-755c620d8635/address> .
+
+<http://data.linkedevents.org/transit/London/stop/73356> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/21fb7bd6-e5ca-55c8-a9af-b286c006d9cc/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/21fb7bd6-e5ca-55c8-a9af-b286c006d9cc/address> .
+
+<http://data.linkedevents.org/transit/London/stop/73411> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/fd6a02f6-f8c0-54cc-8c32-6bd8eb6b49ed/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/fd6a02f6-f8c0-54cc-8c32-6bd8eb6b49ed/address> .
+
+<http://data.linkedevents.org/transit/London/stop/73705> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/1a720045-7133-5302-bbd3-97d66f07eb3b/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/1a720045-7133-5302-bbd3-97d66f07eb3b/address> .
+
+<http://data.linkedevents.org/transit/London/stop/73736> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/c00b640a-32d0-576e-b994-2b3a46588c10/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/c00b640a-32d0-576e-b994-2b3a46588c10/address> .
+
+<http://data.linkedevents.org/transit/London/stop/73838> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/ed281846-9149-5a82-a325-5bd62aa5fee1/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/ed281846-9149-5a82-a325-5bd62aa5fee1/address> .
+
+<http://data.linkedevents.org/transit/London/stop/73979> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/08719c0a-1ca6-5b21-8415-ca6e31787552/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/08719c0a-1ca6-5b21-8415-ca6e31787552/address> .
+
+<http://data.linkedevents.org/transit/London/stop/74282> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/6a22784b-21ab-58d5-89e4-3c4a758e8b3b/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/6a22784b-21ab-58d5-89e4-3c4a758e8b3b/address> .
+
+<http://data.linkedevents.org/transit/London/stop/74398> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/a7efceef-2d38-5ab6-838b-bffc1a1b7f53/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/a7efceef-2d38-5ab6-838b-bffc1a1b7f53/address> .
+
+<http://data.linkedevents.org/transit/London/stop/74493> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/c9c16374-2cee-5b40-809d-fad5748a3f1f/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/c9c16374-2cee-5b40-809d-fad5748a3f1f/address> .
+
+<http://data.linkedevents.org/transit/London/stop/74646> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/87e22244-64c3-5912-8896-dd771f6bb7d7/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/87e22244-64c3-5912-8896-dd771f6bb7d7/address> .
+
+<http://data.linkedevents.org/transit/London/stop/74835> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/f7fe3dbb-cbee-52e8-a9ae-f9e6dde75f1f/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/f7fe3dbb-cbee-52e8-a9ae-f9e6dde75f1f/address> .
+
+<http://data.linkedevents.org/transit/London/stop/74860> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/71064743-7a06-58fb-a02a-65baa0e84a5a/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/71064743-7a06-58fb-a02a-65baa0e84a5a/address> .
+
+<http://data.linkedevents.org/transit/London/stop/74874> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/92d8ac57-960e-5eff-95e9-56989c60439d/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/92d8ac57-960e-5eff-95e9-56989c60439d/address> .
+
+<http://data.linkedevents.org/transit/London/stop/74899> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/bb200819-e992-5983-89a6-a856f9042657/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/bb200819-e992-5983-89a6-a856f9042657/address> .
+
+<http://data.linkedevents.org/transit/London/stop/74928> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/25cf75f7-9ce0-5f8d-8e98-a9e26bc0e461/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/25cf75f7-9ce0-5f8d-8e98-a9e26bc0e461/address> .
+
+<http://data.linkedevents.org/transit/London/stop/74955> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/87bdf3f8-7457-55cc-abba-44b8b6550e1d/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/87bdf3f8-7457-55cc-abba-44b8b6550e1d/address> .
+
+<http://data.linkedevents.org/transit/London/stop/74998> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/c721eec1-29f9-5d80-b754-48729a486991/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/c721eec1-29f9-5d80-b754-48729a486991/address> .
+
+<http://data.linkedevents.org/transit/London/stop/75082> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/a8f2eddd-c352-52cb-a157-f89274b793bf/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/a8f2eddd-c352-52cb-a157-f89274b793bf/address> .
+
+<http://data.linkedevents.org/transit/London/stop/75172> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/86ca0119-d355-5cff-8914-e588c44c031e/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/86ca0119-d355-5cff-8914-e588c44c031e/address> .
+
+<http://data.linkedevents.org/transit/London/stop/75325> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/a1fcf1b9-8f85-5bbd-999e-1f2e3867bd81/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/a1fcf1b9-8f85-5bbd-999e-1f2e3867bd81/address> .
+
+<http://data.linkedevents.org/transit/London/stop/75429> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/bcb6c2e9-6e98-5e89-abeb-d545c3ea5f7e/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/bcb6c2e9-6e98-5e89-abeb-d545c3ea5f7e/address> .
+
+<http://data.linkedevents.org/transit/London/stop/75430> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/05774193-8f60-5ef4-8110-5bfe6d71f277/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/05774193-8f60-5ef4-8110-5bfe6d71f277/address> .
+
+<http://data.linkedevents.org/transit/London/stop/75436> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/295fa867-c8e3-5506-9436-8d30003687f2/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/295fa867-c8e3-5506-9436-8d30003687f2/address> .
+
+<http://data.linkedevents.org/transit/London/stop/75441> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/4e7a9a10-085b-53c1-8293-81371d7ce804/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/4e7a9a10-085b-53c1-8293-81371d7ce804/address> .
+
+<http://data.linkedevents.org/transit/London/stop/75479> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/ccd17212-f4cb-513e-9b44-9840e1dceb1d/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/ccd17212-f4cb-513e-9b44-9840e1dceb1d/address> .
+
+<http://data.linkedevents.org/transit/London/stop/75645> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/f9811037-f7fd-5aa0-84c9-b08e707f7b98/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/f9811037-f7fd-5aa0-84c9-b08e707f7b98/address> .
+
+<http://data.linkedevents.org/transit/London/stop/75702> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/f0efca02-a379-5be2-b4b8-b064ec53732a/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/f0efca02-a379-5be2-b4b8-b064ec53732a/address> .
+
+<http://data.linkedevents.org/transit/London/stop/75778> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/3c343147-47c5-5715-a040-01232b65cc73/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/3c343147-47c5-5715-a040-01232b65cc73/address> .
+
+<http://data.linkedevents.org/transit/London/stop/76006> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/69d479c9-fc12-56ce-bfad-ba768eb37a91/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/69d479c9-fc12-56ce-bfad-ba768eb37a91/address> .
+
+<http://data.linkedevents.org/transit/London/stop/76029> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/5fa31362-2c17-537f-aa1e-87b1bfa6ea30/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/5fa31362-2c17-537f-aa1e-87b1bfa6ea30/address> .
+
+<http://data.linkedevents.org/transit/London/stop/76125> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/909f7bb2-7d8b-5109-a76f-abe56081fc95/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/909f7bb2-7d8b-5109-a76f-abe56081fc95/address> .
+
+<http://data.linkedevents.org/transit/London/stop/76183> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/b576c83e-3332-5209-ba46-fc1f34104077/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/b576c83e-3332-5209-ba46-fc1f34104077/address> .
+
+<http://data.linkedevents.org/transit/London/stop/76270> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/1d1f4221-9a6c-5521-aa4e-1316f53b6512/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/1d1f4221-9a6c-5521-aa4e-1316f53b6512/address> .
+
+<http://data.linkedevents.org/transit/London/stop/76593> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/11a879cd-a8f8-53e4-9b35-00ccae8439c2/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/11a879cd-a8f8-53e4-9b35-00ccae8439c2/address> .
+
+<http://data.linkedevents.org/transit/London/stop/76752> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/c5f3f6bb-2b62-559f-91ed-fe64e0025031/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/c5f3f6bb-2b62-559f-91ed-fe64e0025031/address> .
+
+<http://data.linkedevents.org/transit/London/stop/76767> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/58eae459-02de-5e52-ba6f-29feaa9c0001/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/58eae459-02de-5e52-ba6f-29feaa9c0001/address> .
+
+<http://data.linkedevents.org/transit/London/stop/76770> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/ff728163-70fc-5912-9eb8-05de5114f120/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/ff728163-70fc-5912-9eb8-05de5114f120/address> .
+
+<http://data.linkedevents.org/transit/London/stop/76775> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/c66b1436-cd32-550d-ade3-824d699689d9/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/c66b1436-cd32-550d-ade3-824d699689d9/address> .
+
+<http://data.linkedevents.org/transit/London/stop/76955> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/ca009c5b-e362-5bdc-ac7c-63bd6ff124be/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/ca009c5b-e362-5bdc-ac7c-63bd6ff124be/address> .
+
+<http://data.linkedevents.org/transit/London/stop/77062> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/710db439-3437-50cf-ab8a-67a4c74da0ba/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/710db439-3437-50cf-ab8a-67a4c74da0ba/address> .
+
+<http://data.linkedevents.org/transit/London/stop/77093> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/15cfcdda-5aed-5efc-b963-ec12be14c05e/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/15cfcdda-5aed-5efc-b963-ec12be14c05e/address> .
+
+<http://data.linkedevents.org/transit/London/stop/77107> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/40ba50c9-e3a7-5e7a-bf29-8c2035cd6e8c/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/40ba50c9-e3a7-5e7a-bf29-8c2035cd6e8c/address> .
+
+<http://data.linkedevents.org/transit/London/stop/77150> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/787b23e3-0a2a-54ac-8c42-b195ead7e0de/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/787b23e3-0a2a-54ac-8c42-b195ead7e0de/address> .
+
+<http://data.linkedevents.org/transit/London/stop/77336> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/a6db649a-6a5e-5480-904c-4d1013c36cc1/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/a6db649a-6a5e-5480-904c-4d1013c36cc1/address> .
+
+<http://data.linkedevents.org/transit/London/stop/77451> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/41ccf953-2d5c-5089-ba5d-132d2abfcffa/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/41ccf953-2d5c-5089-ba5d-132d2abfcffa/address> .
+
+<http://data.linkedevents.org/transit/London/stop/77513> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/17c177fe-58d8-5ceb-9ace-e971c6ba664f/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/17c177fe-58d8-5ceb-9ace-e971c6ba664f/address> .
+
+<http://data.linkedevents.org/transit/London/stop/77534> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/66ca7213-6e81-5058-978a-b7c02bfb8c5c/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/66ca7213-6e81-5058-978a-b7c02bfb8c5c/address> .
+
+<http://data.linkedevents.org/transit/London/stop/77637> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/a7f0c69b-d7e6-5d31-9a5c-53b5964e204e/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/a7f0c69b-d7e6-5d31-9a5c-53b5964e204e/address> .
+
+<http://data.linkedevents.org/transit/London/stop/77744> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/503070b7-879a-5a07-b063-095ffae446f6/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/503070b7-879a-5a07-b063-095ffae446f6/address> .
+
+<http://data.linkedevents.org/transit/London/stop/77759> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/f2e47ec8-63ba-5da2-981d-a446faadfb6d/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/f2e47ec8-63ba-5da2-981d-a446faadfb6d/address> .
+
+<http://data.linkedevents.org/transit/London/stop/77760> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/0a0e28a8-1fc1-5a9c-bf1a-86f059b54496/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/0a0e28a8-1fc1-5a9c-bf1a-86f059b54496/address> .
+
+<http://data.linkedevents.org/transit/London/stop/77778> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/8555353b-d02c-5967-8054-0df1aef91273/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/8555353b-d02c-5967-8054-0df1aef91273/address> .
+
+<http://data.linkedevents.org/transit/London/stop/77826> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/e5e0b4c1-3957-55c8-a752-2f780cb1e8b6/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/e5e0b4c1-3957-55c8-a752-2f780cb1e8b6/address> .
+
+<http://data.linkedevents.org/transit/London/stop/77849> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/f745aea6-d553-5dad-98af-60e35237e542/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/f745aea6-d553-5dad-98af-60e35237e542/address> .
+
+<http://data.linkedevents.org/transit/London/stop/77905> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/ce19ca7c-6561-5971-abe7-aad5460b981a/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/ce19ca7c-6561-5971-abe7-aad5460b981a/address> .
+
+<http://data.linkedevents.org/transit/London/stop/91532> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/aed82878-c67a-58c3-8b43-0302f21a21f8/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/aed82878-c67a-58c3-8b43-0302f21a21f8/address> .
+
+<http://data.linkedevents.org/transit/London/stop/Bus_Stop_Code> a transit:Stop ;
+    geosparql:hasGeometry <http://data.linkedevents.org/location/406237a9-e26b-5f99-8f98-6c468b507957/geometry> ;
+    vcard:hasAddress <http://data.linkedevents.org/location/406237a9-e26b-5f99-8f98-6c468b507957/address> .
+
+<http://data.linkedevents.org/location/00faf05b-21c4-58dc-b620-6183a037d642/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/00faf05b-21c4-58dc-b620-6183a037d642/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/0170ac39-2371-597a-834f-886f2b7642ec/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/0170ac39-2371-597a-834f-886f2b7642ec/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/05774193-8f60-5ef4-8110-5bfe6d71f277/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/05774193-8f60-5ef4-8110-5bfe6d71f277/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/06f2e42c-d7ac-571a-ab75-3721f20a2c56/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/06f2e42c-d7ac-571a-ab75-3721f20a2c56/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/070fd2e9-75d0-5458-b0b1-8d0e4924a87a/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/070fd2e9-75d0-5458-b0b1-8d0e4924a87a/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/08719c0a-1ca6-5b21-8415-ca6e31787552/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/08719c0a-1ca6-5b21-8415-ca6e31787552/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/0a0e28a8-1fc1-5a9c-bf1a-86f059b54496/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/0a0e28a8-1fc1-5a9c-bf1a-86f059b54496/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/0b203d30-7ee1-519b-85ab-432010a8a9d9/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/0b203d30-7ee1-519b-85ab-432010a8a9d9/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/0ce196b1-3fbc-59c9-9ae2-92c18f5e049c/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/0ce196b1-3fbc-59c9-9ae2-92c18f5e049c/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/0d5dde22-2381-5ca0-ba05-bcc8485abb6e/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/0d5dde22-2381-5ca0-ba05-bcc8485abb6e/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/105c438f-b920-550e-826e-260acb985824/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/105c438f-b920-550e-826e-260acb985824/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/11a879cd-a8f8-53e4-9b35-00ccae8439c2/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/11a879cd-a8f8-53e4-9b35-00ccae8439c2/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/1331dd84-476e-5cae-9a6e-896dce4ed916/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/1331dd84-476e-5cae-9a6e-896dce4ed916/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/14442c08-7006-519c-a394-2c252326fcc3/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/14442c08-7006-519c-a394-2c252326fcc3/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/156d7190-7b3a-5c82-b60f-da2cc4d53609/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/156d7190-7b3a-5c82-b60f-da2cc4d53609/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/15cfcdda-5aed-5efc-b963-ec12be14c05e/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/15cfcdda-5aed-5efc-b963-ec12be14c05e/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/16769f9e-1419-5373-8459-41272bb8e82d/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/16769f9e-1419-5373-8459-41272bb8e82d/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/16b07bb1-a679-5952-90e8-1fa2ba975c8f/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/16b07bb1-a679-5952-90e8-1fa2ba975c8f/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/16b2dbbb-c02b-599a-859c-c85f3f037843/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/16b2dbbb-c02b-599a-859c-c85f3f037843/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/17c177fe-58d8-5ceb-9ace-e971c6ba664f/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/17c177fe-58d8-5ceb-9ace-e971c6ba664f/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/18793788-8420-5c2a-8477-6f8b3a8a306d/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/18793788-8420-5c2a-8477-6f8b3a8a306d/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/199a8816-bd60-5949-a0b1-937283356fd5/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/199a8816-bd60-5949-a0b1-937283356fd5/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/19a5e0b8-e5f7-55bf-a7db-ca71996b809b/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/19a5e0b8-e5f7-55bf-a7db-ca71996b809b/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/1a720045-7133-5302-bbd3-97d66f07eb3b/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/1a720045-7133-5302-bbd3-97d66f07eb3b/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/1b6e4527-ff75-54aa-bceb-95705928abbb/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/1b6e4527-ff75-54aa-bceb-95705928abbb/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/1b879fbf-dff3-5751-94f3-6be0c4e886a5/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/1b879fbf-dff3-5751-94f3-6be0c4e886a5/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/1d1f4221-9a6c-5521-aa4e-1316f53b6512/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/1d1f4221-9a6c-5521-aa4e-1316f53b6512/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/1de333af-fb47-56a0-96d6-7e3e35d7539c/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/1de333af-fb47-56a0-96d6-7e3e35d7539c/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/1f197e62-c636-5a4f-8830-312e59a92cca/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/1f197e62-c636-5a4f-8830-312e59a92cca/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/1f6a6bdf-ecd2-5339-a316-c94f19262567/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/1f6a6bdf-ecd2-5339-a316-c94f19262567/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/210e2994-f988-5d79-aaba-f5acef243b04/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/210e2994-f988-5d79-aaba-f5acef243b04/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/2142c715-8870-5589-90e9-0b294faa894e/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/2142c715-8870-5589-90e9-0b294faa894e/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/21fb7bd6-e5ca-55c8-a9af-b286c006d9cc/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/21fb7bd6-e5ca-55c8-a9af-b286c006d9cc/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/2313bed7-404e-5c13-942a-aba5e9705bb8/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/2313bed7-404e-5c13-942a-aba5e9705bb8/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/2388c83c-6990-5199-b064-805508f0dcd5/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/2388c83c-6990-5199-b064-805508f0dcd5/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/24ef78df-3e53-5ccc-8eae-4d38bc5c7564/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/24ef78df-3e53-5ccc-8eae-4d38bc5c7564/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/252d1549-9db0-5a76-8e57-f9010c7423e9/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/252d1549-9db0-5a76-8e57-f9010c7423e9/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/25909d64-2437-5311-9a7a-51bd41d41f78/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/25909d64-2437-5311-9a7a-51bd41d41f78/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/25cf75f7-9ce0-5f8d-8e98-a9e26bc0e461/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/25cf75f7-9ce0-5f8d-8e98-a9e26bc0e461/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/26e1d9bf-6551-52fe-ba7d-395588fbd150/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/26e1d9bf-6551-52fe-ba7d-395588fbd150/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/27387fea-191b-5d4e-b804-e9c4ed044d98/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/27387fea-191b-5d4e-b804-e9c4ed044d98/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/27651f2a-117b-5092-ad57-621da383fe2d/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/27651f2a-117b-5092-ad57-621da383fe2d/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/27a04f97-b4a7-5610-9fae-4eae81ba0d77/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/27a04f97-b4a7-5610-9fae-4eae81ba0d77/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/289db10f-a387-592d-9421-288978cba04a/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/289db10f-a387-592d-9421-288978cba04a/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/295fa867-c8e3-5506-9436-8d30003687f2/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/295fa867-c8e3-5506-9436-8d30003687f2/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/29a14854-7531-5e7f-8162-97a8fcfee7a2/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/29a14854-7531-5e7f-8162-97a8fcfee7a2/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/29c931f0-51b9-5f5f-b582-a96e0e8ffdc8/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/29c931f0-51b9-5f5f-b582-a96e0e8ffdc8/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/2ca8d23d-459e-5022-a0a8-2017c01f39aa/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/2ca8d23d-459e-5022-a0a8-2017c01f39aa/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/2d4d100f-c187-5d0f-8d48-c51ae92cfb84/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/2d4d100f-c187-5d0f-8d48-c51ae92cfb84/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/2f2beabf-365b-548e-8f2d-06e618f664d2/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/2f2beabf-365b-548e-8f2d-06e618f664d2/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/32f94965-7989-5c7c-8224-b14bac7221c6/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/32f94965-7989-5c7c-8224-b14bac7221c6/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/32fd6bb5-769f-5b05-8378-241bd1a3a4fa/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/32fd6bb5-769f-5b05-8378-241bd1a3a4fa/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/33630af1-22b3-5925-a19a-1db7f92e6c28/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/33630af1-22b3-5925-a19a-1db7f92e6c28/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/33afdd41-9aca-5070-baf2-ab31ac191cd3/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/33afdd41-9aca-5070-baf2-ab31ac191cd3/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/34f48073-f409-5b78-91ea-e575caf8290a/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/34f48073-f409-5b78-91ea-e575caf8290a/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/37c68999-95a7-5ab6-a20c-76b004e1a8f5/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/37c68999-95a7-5ab6-a20c-76b004e1a8f5/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/388c4a4a-2b41-56bc-a720-6e5823087085/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/388c4a4a-2b41-56bc-a720-6e5823087085/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/38dd4727-ace6-5b42-84b8-044bec49515e/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/38dd4727-ace6-5b42-84b8-044bec49515e/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/390fb75d-a2a1-565d-87b8-333a6a709802/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/390fb75d-a2a1-565d-87b8-333a6a709802/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/39c1f738-f4e4-5bd9-a842-50de83abee19/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/39c1f738-f4e4-5bd9-a842-50de83abee19/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/3b879617-0ed7-5474-bfb9-7732fce6d1f2/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/3b879617-0ed7-5474-bfb9-7732fce6d1f2/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/3bc48ca4-308d-5684-875e-76ac45a762ca/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/3bc48ca4-308d-5684-875e-76ac45a762ca/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/3c343147-47c5-5715-a040-01232b65cc73/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/3c343147-47c5-5715-a040-01232b65cc73/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/3c5d94d0-6a2b-54fa-a7c3-5b2a8b578b41/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/3c5d94d0-6a2b-54fa-a7c3-5b2a8b578b41/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/3d74baf7-fbb1-5040-b9ad-ae7589b11196/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/3d74baf7-fbb1-5040-b9ad-ae7589b11196/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/3d7590ac-9868-57c7-9c19-2aac9a11beef/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/3d7590ac-9868-57c7-9c19-2aac9a11beef/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/406237a9-e26b-5f99-8f98-6c468b507957/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/406237a9-e26b-5f99-8f98-6c468b507957/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/40ba50c9-e3a7-5e7a-bf29-8c2035cd6e8c/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/40ba50c9-e3a7-5e7a-bf29-8c2035cd6e8c/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/40fbd167-1288-5c27-ae24-9ad7cad1c135/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/40fbd167-1288-5c27-ae24-9ad7cad1c135/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/41ccf953-2d5c-5089-ba5d-132d2abfcffa/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/41ccf953-2d5c-5089-ba5d-132d2abfcffa/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/42436f54-c1ac-5482-a5b1-064fc3481f31/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/42436f54-c1ac-5482-a5b1-064fc3481f31/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/43319bfc-b796-537c-a6b7-935da025c4a1/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/43319bfc-b796-537c-a6b7-935da025c4a1/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/47a5f56a-f266-5527-8a15-449b668dbb3b/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/47a5f56a-f266-5527-8a15-449b668dbb3b/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/47e853a3-8ee6-5c6a-b767-4da0e487d696/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/47e853a3-8ee6-5c6a-b767-4da0e487d696/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/4a9691ef-df38-5b5b-848a-c76e11c1dc20/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/4a9691ef-df38-5b5b-848a-c76e11c1dc20/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/4af8a9ed-f2c6-5b3e-8bf0-2ecb6400edec/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/4af8a9ed-f2c6-5b3e-8bf0-2ecb6400edec/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/4b27bbf7-057b-5f10-b2f7-6ce8cd5b801a/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/4b27bbf7-057b-5f10-b2f7-6ce8cd5b801a/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/4d867e34-3b24-5b10-ab15-33a1c11227aa/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/4d867e34-3b24-5b10-ab15-33a1c11227aa/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/4e70019d-b8a6-518d-909f-85c5c0f87818/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/4e70019d-b8a6-518d-909f-85c5c0f87818/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/4e7a9a10-085b-53c1-8293-81371d7ce804/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/4e7a9a10-085b-53c1-8293-81371d7ce804/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/503070b7-879a-5a07-b063-095ffae446f6/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/503070b7-879a-5a07-b063-095ffae446f6/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/528af861-785d-546c-9d0f-f517542dc6c7/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/528af861-785d-546c-9d0f-f517542dc6c7/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/53301768-8cf5-51fb-b233-6713987e73ab/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/53301768-8cf5-51fb-b233-6713987e73ab/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/5406552c-8e20-5f3f-9098-4270a78c871d/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/5406552c-8e20-5f3f-9098-4270a78c871d/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/551735c0-5d71-5549-9129-acd34dcebe1b/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/551735c0-5d71-5549-9129-acd34dcebe1b/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/56bf8108-c660-5f05-8869-5e91ee37d596/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/56bf8108-c660-5f05-8869-5e91ee37d596/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/588076cb-b9ee-54da-b2a5-1284da97fb2f/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/588076cb-b9ee-54da-b2a5-1284da97fb2f/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/58eae459-02de-5e52-ba6f-29feaa9c0001/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/58eae459-02de-5e52-ba6f-29feaa9c0001/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/5b269e53-ba4b-5511-ba64-b26584ee6704/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/5b269e53-ba4b-5511-ba64-b26584ee6704/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/5cb2723b-3f18-5df5-8730-89141bc78e76/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/5cb2723b-3f18-5df5-8730-89141bc78e76/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/5db4a8a6-eb30-5e0c-b64b-2dd83ed9efdc/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/5db4a8a6-eb30-5e0c-b64b-2dd83ed9efdc/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/5e0ac610-4d0f-5b56-b9d9-755c620d8635/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/5e0ac610-4d0f-5b56-b9d9-755c620d8635/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/5fa31362-2c17-537f-aa1e-87b1bfa6ea30/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/5fa31362-2c17-537f-aa1e-87b1bfa6ea30/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/5fa497a7-357c-570a-9afc-fb18901fba6a/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/5fa497a7-357c-570a-9afc-fb18901fba6a/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/6072725a-07b5-57a7-9d86-0ade1d1e18da/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/6072725a-07b5-57a7-9d86-0ade1d1e18da/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/632e4389-e48c-5edd-9828-5790832df7ca/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/632e4389-e48c-5edd-9828-5790832df7ca/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/63d9e2a0-43e2-5834-b9c7-385233ed2b36/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/63d9e2a0-43e2-5834-b9c7-385233ed2b36/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/641c597b-1941-5ead-8b53-11724d620bc8/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/641c597b-1941-5ead-8b53-11724d620bc8/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/64968ab9-3157-5e95-9ab2-a8d8130dbca0/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/64968ab9-3157-5e95-9ab2-a8d8130dbca0/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/64ebfed1-cc2b-5fd8-a4e0-5b2159d104b2/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/64ebfed1-cc2b-5fd8-a4e0-5b2159d104b2/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/66ca7213-6e81-5058-978a-b7c02bfb8c5c/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/66ca7213-6e81-5058-978a-b7c02bfb8c5c/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/69d479c9-fc12-56ce-bfad-ba768eb37a91/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/69d479c9-fc12-56ce-bfad-ba768eb37a91/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/6a22784b-21ab-58d5-89e4-3c4a758e8b3b/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/6a22784b-21ab-58d5-89e4-3c4a758e8b3b/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/6b4e0f69-575d-5c8f-b4ca-ad64f66eceb0/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/6b4e0f69-575d-5c8f-b4ca-ad64f66eceb0/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/6cab20f7-be04-5b93-b778-2dd46d827058/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/6cab20f7-be04-5b93-b778-2dd46d827058/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/6d92d200-4dbd-51a2-946d-5407ba23076c/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/6d92d200-4dbd-51a2-946d-5407ba23076c/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/6fe538f3-86d7-5ba1-b7c5-8362b307fd99/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/6fe538f3-86d7-5ba1-b7c5-8362b307fd99/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/702facc2-4f73-5fe9-b382-dab8208f97bf/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/702facc2-4f73-5fe9-b382-dab8208f97bf/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/71064743-7a06-58fb-a02a-65baa0e84a5a/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/71064743-7a06-58fb-a02a-65baa0e84a5a/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/710db439-3437-50cf-ab8a-67a4c74da0ba/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/710db439-3437-50cf-ab8a-67a4c74da0ba/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/71bb9ce6-fab6-5fb0-b0fe-c8d1ad0aeb7f/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/71bb9ce6-fab6-5fb0-b0fe-c8d1ad0aeb7f/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/723ee01b-4bc7-58ee-8171-b83a2f5a9e73/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/723ee01b-4bc7-58ee-8171-b83a2f5a9e73/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/72b60b7e-18a4-54e3-8d63-055d6b1f8a56/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/72b60b7e-18a4-54e3-8d63-055d6b1f8a56/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/76d04e5e-fffc-59e5-832b-33d704ab6a12/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/76d04e5e-fffc-59e5-832b-33d704ab6a12/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/77adfca0-d230-56c3-ab2e-b0596dd0de68/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/77adfca0-d230-56c3-ab2e-b0596dd0de68/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/77c0cd06-3adf-5eea-9775-1a3bb415b3e3/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/77c0cd06-3adf-5eea-9775-1a3bb415b3e3/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/787b23e3-0a2a-54ac-8c42-b195ead7e0de/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/787b23e3-0a2a-54ac-8c42-b195ead7e0de/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/79076bcf-d99b-5d61-8900-8f8cf991458e/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/79076bcf-d99b-5d61-8900-8f8cf991458e/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/7a625e62-c571-5d4e-b19d-0baf8b9743a5/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/7a625e62-c571-5d4e-b19d-0baf8b9743a5/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/7b49ad09-7b7e-5b2b-94c2-775abafa4a70/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/7b49ad09-7b7e-5b2b-94c2-775abafa4a70/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/7b6be9dd-d4ec-5c2d-a3d5-1938db8e6e5b/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/7b6be9dd-d4ec-5c2d-a3d5-1938db8e6e5b/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/7b949975-57f9-5db3-a488-c170b623658d/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/7b949975-57f9-5db3-a488-c170b623658d/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/7c815d5e-a6a4-5414-b53d-689e0a899510/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/7c815d5e-a6a4-5414-b53d-689e0a899510/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/7cda41f0-6f1c-58b2-a403-9ea3335ce1d8/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/7cda41f0-6f1c-58b2-a403-9ea3335ce1d8/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/7e0d4050-37c6-5365-8764-c3f2aeaee391/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/7e0d4050-37c6-5365-8764-c3f2aeaee391/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/80c85919-16c8-5457-8ad1-4750079abb92/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/80c85919-16c8-5457-8ad1-4750079abb92/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/826e3433-eae8-576d-834e-f9da5819ad40/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/826e3433-eae8-576d-834e-f9da5819ad40/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/84c701c1-15ad-599b-8e18-68a91d276b11/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/84c701c1-15ad-599b-8e18-68a91d276b11/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/84edc2ba-40dc-598a-8a39-3e9ba7566764/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/84edc2ba-40dc-598a-8a39-3e9ba7566764/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/8555353b-d02c-5967-8054-0df1aef91273/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/8555353b-d02c-5967-8054-0df1aef91273/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/864568c2-488f-5822-a64e-db8dc26d4379/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/864568c2-488f-5822-a64e-db8dc26d4379/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/86ca0119-d355-5cff-8914-e588c44c031e/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/86ca0119-d355-5cff-8914-e588c44c031e/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/8705f867-bd1e-55bf-baf2-ec990b084a01/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/8705f867-bd1e-55bf-baf2-ec990b084a01/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/8740300c-46a1-5206-9458-d0bba343beac/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/8740300c-46a1-5206-9458-d0bba343beac/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/87a333a2-a628-5133-87a8-5e21c71d8b51/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/87a333a2-a628-5133-87a8-5e21c71d8b51/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/87bdf3f8-7457-55cc-abba-44b8b6550e1d/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/87bdf3f8-7457-55cc-abba-44b8b6550e1d/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/87e22244-64c3-5912-8896-dd771f6bb7d7/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/87e22244-64c3-5912-8896-dd771f6bb7d7/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/89166f04-9eb3-59cb-97df-672817a655b7/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/89166f04-9eb3-59cb-97df-672817a655b7/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/899c31e4-714c-525b-9549-03c8e75ace8e/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/899c31e4-714c-525b-9549-03c8e75ace8e/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/8dcf0456-2eec-53ab-97c8-098ffbbb546c/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/8dcf0456-2eec-53ab-97c8-098ffbbb546c/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/8f4e76fc-f9b3-5af9-9ee9-1751dcad0b46/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/8f4e76fc-f9b3-5af9-9ee9-1751dcad0b46/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/8fa4dba7-b055-5689-83b7-152766fe6750/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/8fa4dba7-b055-5689-83b7-152766fe6750/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/901f59e2-c0f6-5290-bc59-7c61b8e5748a/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/901f59e2-c0f6-5290-bc59-7c61b8e5748a/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/909f7bb2-7d8b-5109-a76f-abe56081fc95/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/909f7bb2-7d8b-5109-a76f-abe56081fc95/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/912f2003-4496-5b96-ab5b-a78dbf6042b6/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/912f2003-4496-5b96-ab5b-a78dbf6042b6/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/92d8ac57-960e-5eff-95e9-56989c60439d/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/92d8ac57-960e-5eff-95e9-56989c60439d/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/95234c67-d196-50f9-a974-2c9c24bd26f0/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/95234c67-d196-50f9-a974-2c9c24bd26f0/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/95e9742d-d800-51c7-bd21-1d7034b5eb29/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/95e9742d-d800-51c7-bd21-1d7034b5eb29/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/a04ce972-b6f1-5429-833c-17eb77db47e4/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/a04ce972-b6f1-5429-833c-17eb77db47e4/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/a0d7ef66-34bc-5c29-9e0c-f32a3f3c52f0/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/a0d7ef66-34bc-5c29-9e0c-f32a3f3c52f0/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/a1fcf1b9-8f85-5bbd-999e-1f2e3867bd81/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/a1fcf1b9-8f85-5bbd-999e-1f2e3867bd81/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/a21d8dd0-f16b-57e6-831a-81414e467497/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/a21d8dd0-f16b-57e6-831a-81414e467497/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/a2df2fce-5512-555d-8668-6fd18ad7d368/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/a2df2fce-5512-555d-8668-6fd18ad7d368/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/a30231a6-edbb-5204-b902-c7f1eef21493/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/a30231a6-edbb-5204-b902-c7f1eef21493/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/a6db649a-6a5e-5480-904c-4d1013c36cc1/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/a6db649a-6a5e-5480-904c-4d1013c36cc1/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/a71d6d7d-31ed-5213-a58b-f489970f84d9/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/a71d6d7d-31ed-5213-a58b-f489970f84d9/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/a7eabf90-d855-52f4-a4a8-ca3008c21211/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/a7eabf90-d855-52f4-a4a8-ca3008c21211/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/a7efceef-2d38-5ab6-838b-bffc1a1b7f53/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/a7efceef-2d38-5ab6-838b-bffc1a1b7f53/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/a7f0c69b-d7e6-5d31-9a5c-53b5964e204e/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/a7f0c69b-d7e6-5d31-9a5c-53b5964e204e/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/a8f2eddd-c352-52cb-a157-f89274b793bf/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/a8f2eddd-c352-52cb-a157-f89274b793bf/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/a9a8c373-bc98-515f-b1d8-ae6088a260d8/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/a9a8c373-bc98-515f-b1d8-ae6088a260d8/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/abb538e9-8fa9-5ce4-9f53-7aba2ec3e2ab/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/abb538e9-8fa9-5ce4-9f53-7aba2ec3e2ab/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/ad05a4fa-fdd7-5eb1-8f98-f6f50c23bf3d/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/ad05a4fa-fdd7-5eb1-8f98-f6f50c23bf3d/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/adf82b7b-b207-5215-a669-fcf7a1934488/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/adf82b7b-b207-5215-a669-fcf7a1934488/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/aed82878-c67a-58c3-8b43-0302f21a21f8/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/aed82878-c67a-58c3-8b43-0302f21a21f8/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/b281f278-fe2c-5e9b-ad98-d3401f5c0660/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/b281f278-fe2c-5e9b-ad98-d3401f5c0660/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/b2e6ed63-ad0d-5180-983e-6cb5adbb9c3a/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/b2e6ed63-ad0d-5180-983e-6cb5adbb9c3a/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/b34db048-ecea-5179-96bb-5cc051fab33c/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/b34db048-ecea-5179-96bb-5cc051fab33c/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/b5092e38-557a-5966-8f6f-8af8f17e200c/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/b5092e38-557a-5966-8f6f-8af8f17e200c/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/b50b8bf1-dda5-5845-93f3-ffbc416130fc/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/b50b8bf1-dda5-5845-93f3-ffbc416130fc/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/b576c83e-3332-5209-ba46-fc1f34104077/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/b576c83e-3332-5209-ba46-fc1f34104077/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/b8072035-f5e4-5def-8cd0-f97c8d515d21/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/b8072035-f5e4-5def-8cd0-f97c8d515d21/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/b950673f-c314-57dd-a33a-471e90e36e59/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/b950673f-c314-57dd-a33a-471e90e36e59/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/b975d493-cc2c-57b3-b09b-c196d9168dd0/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/b975d493-cc2c-57b3-b09b-c196d9168dd0/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/ba879135-8a6a-5bfc-bb8d-caba2aede01e/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/ba879135-8a6a-5bfc-bb8d-caba2aede01e/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/bb200819-e992-5983-89a6-a856f9042657/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/bb200819-e992-5983-89a6-a856f9042657/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/bb721c80-d0ad-5a99-9eac-87ad8d2cdf15/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/bb721c80-d0ad-5a99-9eac-87ad8d2cdf15/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/bc8e2121-d9af-504f-bf49-403586b7d7ce/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/bc8e2121-d9af-504f-bf49-403586b7d7ce/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/bcb6c2e9-6e98-5e89-abeb-d545c3ea5f7e/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/bcb6c2e9-6e98-5e89-abeb-d545c3ea5f7e/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/bf329512-e9c1-5033-8f17-869be9eddb89/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/bf329512-e9c1-5033-8f17-869be9eddb89/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/c00b640a-32d0-576e-b994-2b3a46588c10/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/c00b640a-32d0-576e-b994-2b3a46588c10/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/c295845e-a794-553e-825c-7065bd16e98e/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/c295845e-a794-553e-825c-7065bd16e98e/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/c5f3f6bb-2b62-559f-91ed-fe64e0025031/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/c5f3f6bb-2b62-559f-91ed-fe64e0025031/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/c62c7a82-cfcd-5785-84ec-f9680887323c/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/c62c7a82-cfcd-5785-84ec-f9680887323c/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/c66b1436-cd32-550d-ade3-824d699689d9/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/c66b1436-cd32-550d-ade3-824d699689d9/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/c721eec1-29f9-5d80-b754-48729a486991/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/c721eec1-29f9-5d80-b754-48729a486991/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/c7848871-1256-54f8-b871-7d3da7fcbf97/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/c7848871-1256-54f8-b871-7d3da7fcbf97/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/c7874c23-8263-5132-a278-dac27dd4540f/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/c7874c23-8263-5132-a278-dac27dd4540f/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/c789f0e3-ec45-569c-ba31-5f5edd1bbb0c/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/c789f0e3-ec45-569c-ba31-5f5edd1bbb0c/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/c9af3697-366b-52e8-9797-e2a98e78b667/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/c9af3697-366b-52e8-9797-e2a98e78b667/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/c9c16374-2cee-5b40-809d-fad5748a3f1f/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/c9c16374-2cee-5b40-809d-fad5748a3f1f/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/ca009c5b-e362-5bdc-ac7c-63bd6ff124be/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/ca009c5b-e362-5bdc-ac7c-63bd6ff124be/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/cb5807a9-56a1-5724-892b-eb79c026a98f/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/cb5807a9-56a1-5724-892b-eb79c026a98f/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/cbbde570-0507-51f8-a8a9-fdab58af91c6/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/cbbde570-0507-51f8-a8a9-fdab58af91c6/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/cc0bfc8a-59b6-5493-83c9-91e3e98f28b7/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/cc0bfc8a-59b6-5493-83c9-91e3e98f28b7/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/ccd17212-f4cb-513e-9b44-9840e1dceb1d/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/ccd17212-f4cb-513e-9b44-9840e1dceb1d/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/ce19ca7c-6561-5971-abe7-aad5460b981a/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/ce19ca7c-6561-5971-abe7-aad5460b981a/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/cfe5e82c-d8af-56c5-bac9-801a69c86b70/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/cfe5e82c-d8af-56c5-bac9-801a69c86b70/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/d05a4f09-8d1e-5448-aa78-40e40e064096/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/d05a4f09-8d1e-5448-aa78-40e40e064096/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/d05d7ab9-a10c-5b2e-b3f4-fbb591b72171/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/d05d7ab9-a10c-5b2e-b3f4-fbb591b72171/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/d1255698-a905-5eee-83ac-2956dc7b0966/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/d1255698-a905-5eee-83ac-2956dc7b0966/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/d1355687-e6cd-588a-ac4e-b0e4494a3b4f/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/d1355687-e6cd-588a-ac4e-b0e4494a3b4f/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/d24c23c1-0b59-58b4-8a7a-e959cd81e9ff/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/d24c23c1-0b59-58b4-8a7a-e959cd81e9ff/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/d3818e2f-a0f3-5be8-a71d-68cf2203a68c/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/d3818e2f-a0f3-5be8-a71d-68cf2203a68c/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/d3b8ed2c-69c2-5ac1-8b18-39a08fed87f8/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/d3b8ed2c-69c2-5ac1-8b18-39a08fed87f8/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/d43921c2-3790-5775-8f9b-730bfc0f4d27/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/d43921c2-3790-5775-8f9b-730bfc0f4d27/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/d52b3882-7344-53c0-bd8b-fa14f5f62a18/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/d52b3882-7344-53c0-bd8b-fa14f5f62a18/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/d62e425f-9372-560a-8192-d72664c14ef9/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/d62e425f-9372-560a-8192-d72664c14ef9/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/d7917cc2-8266-5f34-be92-24c13e8b2927/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/d7917cc2-8266-5f34-be92-24c13e8b2927/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/d8315c91-9a2b-5b16-b09e-ead776a9c692/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/d8315c91-9a2b-5b16-b09e-ead776a9c692/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/d89fc344-1393-5d0f-ab5b-3d590be79b41/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/d89fc344-1393-5d0f-ab5b-3d590be79b41/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/d8cf6d6f-394b-5382-904d-d66fd44efa5a/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/d8cf6d6f-394b-5382-904d-d66fd44efa5a/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/d966d363-e99f-545a-93bf-5bb461ea88ca/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/d966d363-e99f-545a-93bf-5bb461ea88ca/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/dca40a64-1c4a-5793-83a7-c4f2a1296068/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/dca40a64-1c4a-5793-83a7-c4f2a1296068/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/dde4552a-fd9d-5890-8cd0-8fc6cef92ce9/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/dde4552a-fd9d-5890-8cd0-8fc6cef92ce9/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/df1e0fab-e211-5d72-a006-ebe06f49160d/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/df1e0fab-e211-5d72-a006-ebe06f49160d/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/e108313f-534e-5fa0-961c-e72b3fe01c79/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/e108313f-534e-5fa0-961c-e72b3fe01c79/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/e40d6f8f-9419-5b75-8ed3-d0380396f392/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/e40d6f8f-9419-5b75-8ed3-d0380396f392/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/e50a5f23-5805-56b3-b6e4-6e3d78723fb4/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/e50a5f23-5805-56b3-b6e4-6e3d78723fb4/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/e5ba5ce9-acb8-5ff5-afee-136d9a65b541/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/e5ba5ce9-acb8-5ff5-afee-136d9a65b541/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/e5e0b4c1-3957-55c8-a752-2f780cb1e8b6/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/e5e0b4c1-3957-55c8-a752-2f780cb1e8b6/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/e5e90eb3-1730-5d92-b624-e3baa3279bff/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/e5e90eb3-1730-5d92-b624-e3baa3279bff/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/e7e6aead-a525-5f41-b048-fa09cb86ec54/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/e7e6aead-a525-5f41-b048-fa09cb86ec54/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/e807a2de-86cb-5e1d-bb8a-0e997fca3480/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/e807a2de-86cb-5e1d-bb8a-0e997fca3480/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/e8dc7e06-cbf0-5c46-a60c-33d02a328ec3/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/e8dc7e06-cbf0-5c46-a60c-33d02a328ec3/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/e9985c23-cfb1-594d-846f-c5b663656bd8/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/e9985c23-cfb1-594d-846f-c5b663656bd8/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/eb85e85d-2018-5a57-90be-a3a81fe012e8/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/eb85e85d-2018-5a57-90be-a3a81fe012e8/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/ebb9a235-075e-5023-995c-fbd9e5626a37/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/ebb9a235-075e-5023-995c-fbd9e5626a37/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/ebfd5849-f031-552a-8de9-d788cd0f9351/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/ebfd5849-f031-552a-8de9-d788cd0f9351/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/ed281846-9149-5a82-a325-5bd62aa5fee1/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/ed281846-9149-5a82-a325-5bd62aa5fee1/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/edc44314-54b5-5e16-8020-45e2136f11e2/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/edc44314-54b5-5e16-8020-45e2136f11e2/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/efd9dc6f-51b3-53c0-80f8-ba7fc992b43e/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/efd9dc6f-51b3-53c0-80f8-ba7fc992b43e/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/f0efca02-a379-5be2-b4b8-b064ec53732a/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/f0efca02-a379-5be2-b4b8-b064ec53732a/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/f0f35bdf-e040-5b0d-9685-f10355e9d7e9/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/f0f35bdf-e040-5b0d-9685-f10355e9d7e9/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/f1d40a1a-bfa8-5838-ac06-e4f42511901e/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/f1d40a1a-bfa8-5838-ac06-e4f42511901e/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/f2e47ec8-63ba-5da2-981d-a446faadfb6d/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/f2e47ec8-63ba-5da2-981d-a446faadfb6d/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/f745aea6-d553-5dad-98af-60e35237e542/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/f745aea6-d553-5dad-98af-60e35237e542/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/f7cf2723-3024-5753-a9c6-a1bb3e1f48c4/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/f7cf2723-3024-5753-a9c6-a1bb3e1f48c4/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/f7fe3dbb-cbee-52e8-a9ae-f9e6dde75f1f/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/f7fe3dbb-cbee-52e8-a9ae-f9e6dde75f1f/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/f9811037-f7fd-5aa0-84c9-b08e707f7b98/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/f9811037-f7fd-5aa0-84c9-b08e707f7b98/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/fa513d2d-49d3-5fd6-b82b-45ea20372b12/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/fa513d2d-49d3-5fd6-b82b-45ea20372b12/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/fc3e02f4-b345-543b-b90d-85cda8353a95/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/fc3e02f4-b345-543b-b90d-85cda8353a95/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/fd6a02f6-f8c0-54cc-8c32-6bd8eb6b49ed/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/fd6a02f6-f8c0-54cc-8c32-6bd8eb6b49ed/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/fd8c5198-af52-5f5d-abc3-e282b06d4b23/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/fd8c5198-af52-5f5d-abc3-e282b06d4b23/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/ff728163-70fc-5912-9eb8-05de5114f120/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/ff728163-70fc-5912-9eb8-05de5114f120/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+
+<http://data.linkedevents.org/location/ff927039-cf7a-50c9-b3c0-ca1d213ee0aa/address> a dcterms:Location,
+        schema:PostalAddress .
+
+<http://data.linkedevents.org/location/ff927039-cf7a-50c9-b3c0-ca1d213ee0aa/geometry> a geosparql:Geometry,
+        geo:Geometry,
+        locn:Geometry .
+

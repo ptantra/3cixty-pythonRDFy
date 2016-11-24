@@ -1,0 +1,140 @@
+@prefix acco: <http://purl.org/acco/ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dul: <http://ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geom: <http://geovocab.org/geometry#> .
+@prefix gr: <http://purl.org/goodrelations/v1#> .
+@prefix gsp: <http://www.opengis.net/ont/geosparql#> .
+@prefix locationOnt: <http://data.linkedevents.org/def/location#> .
+@prefix locationRes: <http://data.linkedevents.org/location/> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix threecixtyKOS: <http://data.linkedevents.org/kos/3cixty/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.linkedevents.org/location/080bc22d-ff84-56ab-81bd-86d455d21cc9> a dul:place ;
+    locationOnt:businessType threecixtyKOS:residence ;
+    dc:identifier "35667" ;
+    dc:publisher <https://www.airbnb.co.uk> ;
+    owl:sameAs <http://www.airbnb.co.uk/rooms/35667> ;
+    geo:location <http://data.linkedevents.org/location/080bc22d-ff84-56ab-81bd-86d455d21cc9/geometry> .
+
+<http://data.linkedevents.org/location/18714257-1d17-5c8e-be11-fec2a2de2c52> a dul:place ;
+    locationOnt:businessType threecixtyKOS:residence ;
+    dc:identifier "24135" ;
+    dc:publisher <https://www.airbnb.co.uk> ;
+    owl:sameAs <http://www.airbnb.co.uk/rooms/24135> ;
+    geo:location <http://data.linkedevents.org/location/18714257-1d17-5c8e-be11-fec2a2de2c52/geometry> .
+
+<http://data.linkedevents.org/location/1f209bed-b678-5d02-974f-35dcb3896078> a dul:place ;
+    locationOnt:businessType threecixtyKOS:residence ;
+    dc:identifier "60777" ;
+    dc:publisher <https://www.airbnb.co.uk> ;
+    owl:sameAs <http://www.airbnb.co.uk/rooms/60777> ;
+    geo:location <http://data.linkedevents.org/location/1f209bed-b678-5d02-974f-35dcb3896078/geometry> .
+
+<http://data.linkedevents.org/location/4159f178-f317-5567-8e0b-05e00d3199b3> a dul:place ;
+    locationOnt:businessType threecixtyKOS:residence ;
+    dc:identifier "45926" ;
+    dc:publisher <https://www.airbnb.co.uk> ;
+    owl:sameAs <http://www.airbnb.co.uk/rooms/45926> ;
+    geo:location <http://data.linkedevents.org/location/4159f178-f317-5567-8e0b-05e00d3199b3/geometry> .
+
+<http://data.linkedevents.org/location/5f8efdef-b003-5024-bb62-c20d1b60382e> a dul:place ;
+    locationOnt:businessType threecixtyKOS:residence ;
+    dc:identifier "51430" ;
+    dc:publisher <https://www.airbnb.co.uk> ;
+    owl:sameAs <http://www.airbnb.co.uk/rooms/51430> ;
+    geo:location <http://data.linkedevents.org/location/5f8efdef-b003-5024-bb62-c20d1b60382e/geometry> .
+
+<http://data.linkedevents.org/location/61e70649-bc53-5fc2-83f2-30c1a0308249> a dul:place ;
+    locationOnt:businessType threecixtyKOS:residence ;
+    dc:identifier "19814" ;
+    dc:publisher <https://www.airbnb.co.uk> ;
+    owl:sameAs <http://www.airbnb.co.uk/rooms/19814> ;
+    geo:location <http://data.linkedevents.org/location/61e70649-bc53-5fc2-83f2-30c1a0308249/geometry> .
+
+<http://data.linkedevents.org/location/7a932657-8fa2-5ccd-b22b-84aacfaebd87> a dul:place ;
+    locationOnt:businessType threecixtyKOS:residence ;
+    dc:identifier "29740" ;
+    dc:publisher <https://www.airbnb.co.uk> ;
+    owl:sameAs <http://www.airbnb.co.uk/rooms/29740> ;
+    geo:location <http://data.linkedevents.org/location/7a932657-8fa2-5ccd-b22b-84aacfaebd87/geometry> .
+
+locationRes:a4aa70ca-8b82-5308-b298-3d91984db19e a dul:place ;
+    locationOnt:businessType threecixtyKOS:residence ;
+    dc:identifier "8020" ;
+    dc:publisher <https://www.airbnb.co.uk> ;
+    owl:sameAs <http://www.airbnb.co.uk/rooms/8020> ;
+    geo:location <http://data.linkedevents.org/location/a4aa70ca-8b82-5308-b298-3d91984db19e/geometry> .
+
+locationRes:e4530709-dad3-5a46-bce3-dd019ea18bc3 a dul:place ;
+    locationOnt:businessType threecixtyKOS:residence ;
+    dc:identifier "36544" ;
+    dc:publisher <https://www.airbnb.co.uk> ;
+    owl:sameAs <http://www.airbnb.co.uk/rooms/36544> ;
+    geo:location <http://data.linkedevents.org/location/e4530709-dad3-5a46-bce3-dd019ea18bc3/geometry> .
+
+locationRes:f69d7915-c52b-5847-9609-91c2567c6075 a dul:place ;
+    locationOnt:businessType threecixtyKOS:residence ;
+    dc:identifier "26659" ;
+    dc:publisher <https://www.airbnb.co.uk> ;
+    owl:sameAs <http://www.airbnb.co.uk/rooms/26659> ;
+    geo:location <http://data.linkedevents.org/location/f69d7915-c52b-5847-9609-91c2567c6075/geometry> .
+
+<http://data.linkedevents.org/location/080bc22d-ff84-56ab-81bd-86d455d21cc9/geometry> a geo:Point ;
+    geo:lat "43.699217"^^xsd:double ;
+    geo:long "7.258885"^^xsd:double ;
+    locn:geometry "POINT (43.699217 7.258885)"^^gsp:wktLiteral .
+
+<http://data.linkedevents.org/location/18714257-1d17-5c8e-be11-fec2a2de2c52/geometry> a geo:Point ;
+    geo:lat "43.696281"^^xsd:double ;
+    geo:long "7.25759"^^xsd:double ;
+    locn:geometry "POINT (43.696281 7.25759)"^^gsp:wktLiteral .
+
+<http://data.linkedevents.org/location/1f209bed-b678-5d02-974f-35dcb3896078/geometry> a geo:Point ;
+    geo:lat "43.7052"^^xsd:double ;
+    geo:long "7.265049"^^xsd:double ;
+    locn:geometry "POINT (43.7052 7.265049)"^^gsp:wktLiteral .
+
+<http://data.linkedevents.org/location/4159f178-f317-5567-8e0b-05e00d3199b3/geometry> a geo:Point ;
+    geo:lat "43.696703"^^xsd:double ;
+    geo:long "7.274039"^^xsd:double ;
+    locn:geometry "POINT (43.696703 7.274039)"^^gsp:wktLiteral .
+
+<http://data.linkedevents.org/location/5f8efdef-b003-5024-bb62-c20d1b60382e/geometry> a geo:Point ;
+    geo:lat "43.69624"^^xsd:double ;
+    geo:long "7.259614"^^xsd:double ;
+    locn:geometry "POINT (43.69624 7.259614)"^^gsp:wktLiteral .
+
+<http://data.linkedevents.org/location/61e70649-bc53-5fc2-83f2-30c1a0308249/geometry> a geo:Point ;
+    geo:lat "43.697195"^^xsd:double ;
+    geo:long "7.240985"^^xsd:double ;
+    locn:geometry "POINT (43.697195 7.240985)"^^gsp:wktLiteral .
+
+<http://data.linkedevents.org/location/7a932657-8fa2-5ccd-b22b-84aacfaebd87/geometry> a geo:Point ;
+    geo:lat "43.697625"^^xsd:double ;
+    geo:long "7.268337"^^xsd:double ;
+    locn:geometry "POINT (43.697625 7.268337)"^^gsp:wktLiteral .
+
+<http://data.linkedevents.org/location/a4aa70ca-8b82-5308-b298-3d91984db19e/geometry> a geo:Point ;
+    geo:lat "43.693987"^^xsd:double ;
+    geo:long "7.25586"^^xsd:double ;
+    locn:geometry "POINT (43.693987 7.25586)"^^gsp:wktLiteral .
+
+<http://data.linkedevents.org/location/e4530709-dad3-5a46-bce3-dd019ea18bc3/geometry> a geo:Point ;
+    geo:lat "43.749221"^^xsd:double ;
+    geo:long "7.244954"^^xsd:double ;
+    locn:geometry "POINT (43.749221 7.244954)"^^gsp:wktLiteral .
+
+<http://data.linkedevents.org/location/f69d7915-c52b-5847-9609-91c2567c6075/geometry> a geo:Point ;
+    geo:lat "43.672822"^^xsd:double ;
+    geo:long "7.221738"^^xsd:double ;
+    locn:geometry "POINT (43.672822 7.221738)"^^gsp:wktLiteral .
+

@@ -1,0 +1,112 @@
+stationNaptan,stationName,stopType,lat,lon,line
+910GACTNCTL,Acton Central Rail Station,NaptanRailStation,51.508716,-0.262971,london-overground
+910GANERLEY,Anerley Rail Station,NaptanRailStation,51.412153,-0.065886,london-overground
+910GBARKING,Barking Rail Station,NaptanRailStation,51.539495,0.080903,london-overground
+910GBHILLPK,Bush Hill Park Rail Station,NaptanRailStation,51.641519,-0.069221,london-overground
+910GBLCHSRD,Blackhorse Road Rail Station,NaptanRailStation,51.586605,-0.041236,london-overground
+910GBRBY,Brondesbury Rail Station,NaptanRailStation,51.545166,-0.202309,london-overground
+910GBRBYPK,Brondesbury Park Rail Station,NaptanRailStation,51.540929,-0.209902,london-overground
+910GBROCKLY,Brockley Rail Station,NaptanRailStation,51.464649,-0.037537,london-overground
+910GBRUCGRV,Bruce Grove Rail Station,NaptanRailStation,51.593959,-0.069867,london-overground
+910GBTHNLGR,Bethnal Green Rail Station,NaptanRailStation,51.523917,-0.059568,london-overground
+910GBUSHYDC,Bushey Rail Station,NaptanRailStation,51.645693,-0.384355,london-overground
+910GCAMHTH,Cambridge Heath (London) Rail Station,NaptanRailStation,51.531973,-0.057279,london-overground
+910GCHESHNT,Cheshunt Rail Station,NaptanRailStation,51.702876,-0.02396,london-overground
+910GCHINGFD,Chingford Rail Station,NaptanRailStation,51.633087,0.009897,london-overground
+910GCLAPTON,Clapton Rail Station,NaptanRailStation,51.561644,-0.057025,london-overground
+910GCLDNNRB,Caledonian Road & Barnsbury Rail Station,NaptanRailStation,51.543041,-0.116729,london-overground
+910GCLPHHS,Clapham High Street Rail Station,NaptanRailStation,51.465481,-0.132522,london-overground
+910GCLPHMJ1,Clapham Junction Rail Station,NaptanRailStation,51.464187,-0.170221,london-overground
+910GCMDNRD,Camden Road Rail Station,NaptanRailStation,51.541791,-0.138701,london-overground
+910GCNDAW,Canada Water Rail Station,NaptanRailStation,51.49799,-0.04972,london-overground
+910GCNNB,Canonbury Rail Station,NaptanRailStation,51.548732,-0.092191,london-overground
+910GCROUCHH,Crouch Hill Rail Station,NaptanRailStation,51.571302,-0.117149,london-overground
+910GCRPNDPK,Carpenders Park Rail Station,NaptanRailStation,51.628351,-0.385939,london-overground
+910GCRYSTLP,Crystal Palace Rail Station,NaptanRailStation,51.418109,-0.07261,london-overground
+910GCSEAH,Imperial Wharf Rail Station,NaptanRailStation,51.474949,-0.182823,london-overground
+910GDALS,Dalston Junction Rail Station,NaptanRailStation,51.546116,-0.075137,london-overground
+910GDALSKLD,Dalston Kingsland Rail Station,NaptanRailStation,51.548148,-0.075701,london-overground
+910GDENMRKH,Denmark Hill Rail Station,NaptanRailStation,51.468203,-0.089361,london-overground
+910GEDMNGRN,Edmonton Green Rail Station,NaptanRailStation,51.624929,-0.061112,london-overground
+910GEMRSPKH,Emerson Park Rail Station,NaptanRailStation,51.568642,0.220113,london-overground
+910GENFLDTN,Enfield Town Rail Station,NaptanRailStation,51.652026,-0.079328,london-overground
+910GEUSTON,London Euston Rail Station,NaptanRailStation,51.528136,-0.133924,london-overground
+910GFNCHLYR,Finchley Road & Frognal Rail Station,NaptanRailStation,51.550266,-0.183141,london-overground
+910GFORESTH,Forest Hill Rail Station,NaptanRailStation,51.43928,-0.053157,london-overground
+910GGNRSBRY,Gunnersbury Rail Station,NaptanRailStation,51.491678,-0.275286,london-overground
+910GGOSPLOK,Gospel Oak Rail Station,NaptanRailStation,51.555335,-0.15077,london-overground
+910GHACKNYC,Hackney Central Rail Station,NaptanRailStation,51.547105,-0.056058,london-overground
+910GHACKNYW,Hackney Wick Rail Station,NaptanRailStation,51.54341,-0.02492,london-overground
+910GHAGGERS,Haggerston Rail Station,NaptanRailStation,51.538705,-0.075666,london-overground
+910GHAKNYNM,Hackney Downs Rail Station,NaptanRailStation,51.548757,-0.060819,london-overground
+910GHARLSDN,Harlesden Rail Station,NaptanRailStation,51.536289,-0.257667,london-overground
+910GHEDSTNL,Headstone Lane Rail Station,NaptanRailStation,51.602649,-0.35722,london-overground
+910GHGHI,Highbury & Islington Rail Station,NaptanRailStation,51.546177,-0.103764,london-overground
+910GHGHMSPK,Highams Park Rail Station,NaptanRailStation,51.60835,-0.000222,london-overground
+910GHMPSTDH,Hampstead Heath Rail Station,NaptanRailStation,51.55521,-0.165705,london-overground
+910GHOMRTON,Homerton Rail Station,NaptanRailStation,51.547012,-0.04236,london-overground
+910GHONROPK,Honor Oak Park Rail Station,NaptanRailStation,51.449989,-0.045505,london-overground
+910GHOXTON,Hoxton Rail Station,NaptanRailStation,51.531512,-0.075681,london-overground
+910GHRGYGL,Harringay Green Lanes Rail Station,NaptanRailStation,51.577182,-0.098144,london-overground
+910GHROW,Harrow & Wealdstone Rail Station,NaptanRailStation,51.592169,-0.334571,london-overground
+910GHTCHEND,Hatch End Rail Station,NaptanRailStation,51.609417,-0.368601,london-overground
+910GKENOLYM,Kensington (Olympia) Rail Station,NaptanRailStation,51.497899,-0.210364,london-overground
+910GKENR,Kensal Rise Rail Station,NaptanRailStation,51.534554,-0.219957,london-overground
+910GKENSLG,Kensal Green Rail Station,NaptanRailStation,51.53054,-0.225088,london-overground
+910GKEWGRDN,Kew Gardens Rail Station,NaptanRailStation,51.477073,-0.285054,london-overground
+910GKLBRNHR,Kilburn High Road Rail Station,NaptanRailStation,51.537277,-0.192237,london-overground
+910GKNTSHTW,Kentish Town West Rail Station,NaptanRailStation,51.546548,-0.146655,london-overground
+910GKTON,Kenton Rail Station,NaptanRailStation,51.581802,-0.316981,london-overground
+910GLEYTNMR,Leyton Midland Road Rail Station,NaptanRailStation,51.569725,-0.008051,london-overground
+910GLIVST,London Liverpool Street Rail Station,NaptanRailStation,51.517991,-0.081426,london-overground
+910GLONFLDS,London Fields Rail Station,NaptanRailStation,51.541153,-0.057753,london-overground
+910GLYTNSHR,Leytonstone High Road Rail Station,NaptanRailStation,51.563554,0.008416,london-overground
+910GNEWXGTE,New Cross Gate Rail Station,NaptanRailStation,51.475128,-0.040399,london-overground
+910GNORWDJ,Norwood Junction Rail Station,NaptanRailStation,51.397019,-0.075221,london-overground
+910GNWCRELL,New Cross ELL Rail Station,NaptanRailStation,51.476344,-0.032441,london-overground
+910GNWEMBLY,North Wembley Rail Station,NaptanRailStation,51.562596,-0.303984,london-overground
+910GPCKHMQD,Queens Road Peckham Rail Station,NaptanRailStation,51.473566,-0.057313,london-overground
+910GPCKHMRY,Peckham Rye Rail Station,NaptanRailStation,51.470034,-0.069414,london-overground
+910GPENEW,Penge West Rail Station,NaptanRailStation,51.417555,-0.06084,london-overground
+910GQPRK,Queens Park (London) Rail Station,NaptanRailStation,51.533966,-0.204985,london-overground
+910GRCTRYRD,Rectory Road Rail Station,NaptanRailStation,51.558502,-0.068267,london-overground
+910GRICHMND,Richmond (London) Rail Station,NaptanRailStation,51.463061,-0.301558,london-overground
+910GROMFORD,Romford Rail Station,NaptanRailStation,51.574829,0.183237,london-overground
+910GRTHERHI,Rotherhithe Rail Station,NaptanRailStation,51.500817,-0.052048,london-overground
+910GSACTON,South Acton Rail Station,NaptanRailStation,51.499695,-0.270157,london-overground
+910GSBURY,Southbury Rail Station,NaptanRailStation,51.648705,-0.052437,london-overground
+910GSEVNSIS,Seven Sisters Rail Station,NaptanRailStation,51.582268,-0.07527,london-overground
+910GSHADWEL,Shadwell Rail Station,NaptanRailStation,51.511284,-0.056934,london-overground
+910GSHMPSTD,South Hampstead Rail Station,NaptanRailStation,51.541432,-0.178878,london-overground
+910GSHPDSB,Shepherds Bush Rail Station,NaptanRailStation,51.505285,-0.217654,london-overground
+910GSHRDHST,Shoreditch High Street Rail Station,NaptanRailStation,51.523375,-0.075246,london-overground
+910GSIVRST,Silver Street Rail Station,NaptanRailStation,51.614688,-0.06724,london-overground
+910GSKENTON,South Kenton Rail Station,NaptanRailStation,51.570214,-0.308462,london-overground
+910GSTFD,Stratford (London) Rail Station,NaptanRailStation,51.541895,-0.003397,london-overground
+910GSTJMSST,St James Street (London) Rail Station,NaptanRailStation,51.580981,-0.032918,london-overground
+910GSTKNWNG,Stoke Newington Rail Station,NaptanRailStation,51.565233,-0.072887,london-overground
+910GSTMFDHL,Stamford Hill Rail Station,NaptanRailStation,51.574467,-0.076682,london-overground
+910GSTNBGPK,Stonebridge Park Rail Station,NaptanRailStation,51.544111,-0.275828,london-overground
+910GSTOTNHM,South Tottenham Rail Station,NaptanRailStation,51.580372,-0.072103,london-overground
+910GSURREYQ,Surrey Quays Rail Station,NaptanRailStation,51.493196,-0.047519,london-overground
+910GSYDENHM,Sydenham Rail Station,NaptanRailStation,51.427248,-0.054244,london-overground
+910GTHBLDSG,Theobalds Grove Rail Station,NaptanRailStation,51.692457,-0.034831,london-overground
+910GTURKYST,Turkey Street Rail Station,NaptanRailStation,51.672628,-0.047217,london-overground
+910GUPMNSTR,Upminster Rail Station,NaptanRailStation,51.559018,0.25088,london-overground
+910GUPRHLWY,Upper Holloway Rail Station,NaptanRailStation,51.563631,-0.129513,london-overground
+910GWAPPING,Wapping Rail Station,NaptanRailStation,51.504388,-0.055931,london-overground
+910GWATFDHS,Watford High Street Rail Station,NaptanRailStation,51.652655,-0.391711,london-overground
+910GWATFDJ,Watford Junction Rail Station,NaptanRailStation,51.663908,-0.395925,london-overground
+910GWBRMPTN,West Brompton Rail Station,NaptanRailStation,51.487061,-0.195593,london-overground
+910GWCHAPEL,Whitechapel Rail Station,NaptanRailStation,51.519469,-0.059757,london-overground
+910GWCROYDN,West Croydon Rail Station,NaptanRailStation,51.378428,-0.102585,london-overground
+910GWDGRNPK,Woodgrange Park Rail Station,NaptanRailStation,51.549264,0.044423,london-overground
+910GWDST,Wood Street Rail Station,NaptanRailStation,51.58658,-0.002405,london-overground
+910GWHHRTLA,White Hart Lane Rail Station,NaptanRailStation,51.605037,-0.070914,london-overground
+910GWHMDSTD,West Hampstead Rail Station,NaptanRailStation,51.547468,-0.191185,london-overground
+910GWLSDJHL,Willesden Junction Rail Station,NaptanRailStation,51.532497,-0.244548,london-overground
+910GWLTHQRD,Walthamstow Queens Road Rail Station,NaptanRailStation,51.581503,-0.023846,london-overground
+910GWLTWCEN,Walthamstow Central Rail Station,NaptanRailStation,51.582919,-0.019815,london-overground
+910GWMBY,Wembley Central Rail Station,NaptanRailStation,51.552325,-0.296433,london-overground
+910GWNDSWRD,Wandsworth Road Rail Station,NaptanRailStation,51.470216,-0.13852,london-overground
+910GWNSTDPK,Wanstead Park Rail Station,NaptanRailStation,51.551693,0.026213,london-overground

@@ -1,0 +1,54 @@
+stationNaptan,stationName,stopType,lat,lon,line
+940GZZLUACT,Acton Town Underground Station,NaptanMetroStation,51.503057,-0.280462,piccadilly
+940GZZLUALP,Alperton Underground Station,NaptanMetroStation,51.540627,-0.29961,piccadilly
+940GZZLUASG,Arnos Grove Underground Station,NaptanMetroStation,51.616446,-0.133062,piccadilly
+940GZZLUASL,Arsenal Underground Station,NaptanMetroStation,51.558655,-0.107457,piccadilly
+940GZZLUBDS,Bounds Green Underground Station,NaptanMetroStation,51.607034,-0.124235,piccadilly
+940GZZLUBOS,Boston Manor Underground Station,NaptanMetroStation,51.495635,-0.324939,piccadilly
+940GZZLUBSC,Barons Court Underground Station,NaptanMetroStation,51.490311,-0.213427,piccadilly
+940GZZLUCAR,Caledonian Road Underground Station,NaptanMetroStation,51.548519,-0.118493,piccadilly
+940GZZLUCGN,Covent Garden Underground Station,NaptanMetroStation,51.513093,-0.124436,piccadilly
+940GZZLUCKS,Cockfosters Underground Station,NaptanMetroStation,51.65152,-0.149171,piccadilly
+940GZZLUEAE,Eastcote Underground Station,NaptanMetroStation,51.576506,-0.397373,piccadilly
+940GZZLUECM,Ealing Common Underground Station,NaptanMetroStation,51.51014,-0.288265,piccadilly
+940GZZLUECT,Earl's Court Underground Station,NaptanMetroStation,51.492063,-0.193378,piccadilly
+940GZZLUFPK,Finsbury Park Underground Station,NaptanMetroStation,51.564158,-0.106825,piccadilly
+940GZZLUGPK,Green Park Underground Station,NaptanMetroStation,51.506947,-0.142787,piccadilly
+940GZZLUGTR,Gloucester Road Underground Station,NaptanMetroStation,51.494316,-0.182658,piccadilly
+940GZZLUHBN,Holborn Underground Station,NaptanMetroStation,51.51758,-0.120475,piccadilly
+940GZZLUHGD,Hillingdon Underground Station,NaptanMetroStation,51.553715,-0.449828,piccadilly
+940GZZLUHNX,Hatton Cross Underground Station,NaptanMetroStation,51.466747,-0.423191,piccadilly
+940GZZLUHPC,Hyde Park Corner Underground Station,NaptanMetroStation,51.503035,-0.152441,piccadilly
+940GZZLUHR4,Heathrow Terminal 4 Underground Station,NaptanMetroStation,51.458524,-0.445771,piccadilly
+940GZZLUHR5,Heathrow Terminal 5 Underground Station,NaptanMetroStation,51.470052,-0.49056,piccadilly
+940GZZLUHRC,Heathrow Terminals 1-2-3 Underground Station ,NaptanMetroStation,51.471235,-0.452265,piccadilly
+940GZZLUHSD,Hammersmith (Dist&Picc Line) Underground Station,NaptanMetroStation,51.4923,-0.22362,piccadilly
+940GZZLUHWC,Hounslow Central Underground Station,NaptanMetroStation,51.471295,-0.366578,piccadilly
+940GZZLUHWE,Hounslow East Underground Station,NaptanMetroStation,51.473213,-0.356474,piccadilly
+940GZZLUHWT,Hounslow West Underground Station,NaptanMetroStation,51.473469,-0.386544,piccadilly
+940GZZLUHWY,Holloway Road Underground Station,NaptanMetroStation,51.552697,-0.113244,piccadilly
+940GZZLUICK,Ickenham Underground Station,NaptanMetroStation,51.561716,-0.442256,piccadilly
+940GZZLUKNB,Knightsbridge Underground Station,NaptanMetroStation,51.501669,-0.160508,piccadilly
+940GZZLUKSX,King's Cross St. Pancras Underground Station,NaptanMetroStation,51.530663,-0.123194,piccadilly
+940GZZLULSQ,Leicester Square Underground Station,NaptanMetroStation,51.511386,-0.128426,piccadilly
+940GZZLUMRH,Manor House Underground Station,NaptanMetroStation,51.570738,-0.096118,piccadilly
+940GZZLUNEN,North Ealing Underground Station,NaptanMetroStation,51.517505,-0.288868,piccadilly
+940GZZLUNFD,Northfields Underground Station,NaptanMetroStation,51.499319,-0.314719,piccadilly
+940GZZLUOAK,Oakwood Underground Station,NaptanMetroStation,51.647726,-0.132182,piccadilly
+940GZZLUOSY,Osterley Underground Station,NaptanMetroStation,51.481274,-0.352224,piccadilly
+940GZZLUPCC,Piccadilly Circus Underground Station,NaptanMetroStation,51.51005,-0.133798,piccadilly
+940GZZLUPKR,Park Royal Underground Station,NaptanMetroStation,51.527123,-0.284341,piccadilly
+940GZZLURSM,Ruislip Manor Underground Station,NaptanMetroStation,51.573202,-0.412973,piccadilly
+940GZZLURSP,Ruislip Underground Station,NaptanMetroStation,51.571354,-0.421898,piccadilly
+940GZZLURSQ,Russell Square Underground Station,NaptanMetroStation,51.523073,-0.124285,piccadilly
+940GZZLURYL,Rayners Lane Underground Station,NaptanMetroStation,51.575147,-0.371127,piccadilly
+940GZZLUSEA,South Ealing Underground Station,NaptanMetroStation,51.501003,-0.307424,piccadilly
+940GZZLUSGT,Southgate Underground Station,NaptanMetroStation,51.632315,-0.127816,piccadilly
+940GZZLUSHH,South Harrow Underground Station,NaptanMetroStation,51.564888,-0.352492,piccadilly
+940GZZLUSKS,South Kensington Underground Station,NaptanMetroStation,51.494094,-0.174138,piccadilly
+940GZZLUSUH,Sudbury Hill Underground Station,NaptanMetroStation,51.556946,-0.336435,piccadilly
+940GZZLUSUT,Sudbury Town Underground Station,NaptanMetroStation,51.550815,-0.315745,piccadilly
+940GZZLUTNG,Turnham Green Underground Station,NaptanMetroStation,51.495148,-0.254555,piccadilly
+940GZZLUTPN,Turnpike Lane Underground Station,NaptanMetroStation,51.590272,-0.102953,piccadilly
+940GZZLUUXB,Uxbridge Underground Station,NaptanMetroStation,51.546565,-0.477949,piccadilly
+940GZZLUWOG,Wood Green Underground Station,NaptanMetroStation,51.597479,-0.109886,piccadilly

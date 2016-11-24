@@ -1,0 +1,51 @@
+stationNaptan,stationName,stopType,lat,lon,line
+940GZZLUACY,Archway Underground Station,NaptanMetroStation,51.565478,-0.134819,northern
+940GZZLUAGL,Angel Underground Station,NaptanMetroStation,51.532624,-0.105898,northern
+940GZZLUBLM,Balham Underground Station,NaptanMetroStation,51.443288,-0.152997,northern
+940GZZLUBNK,Bank Underground Station,NaptanMetroStation,51.513356,-0.088899,northern
+940GZZLUBOR,Borough Underground Station,NaptanMetroStation,51.501199,-0.09337,northern
+940GZZLUBTK,Burnt Oak Underground Station,NaptanMetroStation,51.602774,-0.264048,northern
+940GZZLUBTX,Brent Cross Underground Station,NaptanMetroStation,51.57665,-0.213622,northern
+940GZZLUBZP,Belsize Park Underground Station,NaptanMetroStation,51.550311,-0.164648,northern
+940GZZLUCFM,Chalk Farm Underground Station,NaptanMetroStation,51.544118,-0.153388,northern
+940GZZLUCHX,Charing Cross Underground Station,NaptanMetroStation,51.50741,-0.127277,northern
+940GZZLUCND,Colindale Underground Station,NaptanMetroStation,51.595424,-0.249919,northern
+940GZZLUCPC,Clapham Common Underground Station,NaptanMetroStation,51.461742,-0.138317,northern
+940GZZLUCPN,Clapham North Underground Station,NaptanMetroStation,51.465135,-0.130016,northern
+940GZZLUCPS,Clapham South Underground Station,NaptanMetroStation,51.452654,-0.147582,northern
+940GZZLUCSD,Colliers Wood Underground Station,NaptanMetroStation,51.41816,-0.178086,northern
+940GZZLUCTN,Camden Town Underground Station,NaptanMetroStation,51.539292,-0.14274,northern
+940GZZLUEAC,Elephant & Castle Underground Station,NaptanMetroStation,51.494536,-0.100606,northern
+940GZZLUEFY,East Finchley Underground Station,NaptanMetroStation,51.587131,-0.165012,northern
+940GZZLUEGW,Edgware Underground Station,NaptanMetroStation,51.613653,-0.274928,northern
+940GZZLUEMB,Embankment Underground Station,NaptanMetroStation,51.507058,-0.122666,northern
+940GZZLUEUS,Euston Underground Station,NaptanMetroStation,51.528186,-0.134239,northern
+940GZZLUFYC,Finchley Central Underground Station,NaptanMetroStation,51.600921,-0.192527,northern
+940GZZLUGDG,Goodge Street Underground Station,NaptanMetroStation,51.520599,-0.134361,northern
+940GZZLUGGN,Golders Green Underground Station,NaptanMetroStation,51.572259,-0.194039,northern
+940GZZLUHBT,High Barnet Underground Station,NaptanMetroStation,51.650541,-0.194298,northern
+940GZZLUHCL,Hendon Central Underground Station,NaptanMetroStation,51.583301,-0.226424,northern
+940GZZLUHGT,Highgate Underground Station,NaptanMetroStation,51.577532,-0.145857,northern
+940GZZLUHTD,Hampstead Underground Station,NaptanMetroStation,51.556632,-0.178487,northern
+940GZZLUKNG,Kennington Underground Station,NaptanMetroStation,51.488337,-0.105963,northern
+940GZZLUKSH,Kentish Town Underground Station,NaptanMetroStation,51.550312,-0.140733,northern
+940GZZLUKSX,King's Cross St. Pancras Underground Station,NaptanMetroStation,51.530663,-0.123194,northern
+940GZZLULNB,London Bridge Underground Station,NaptanMetroStation,51.505721,-0.088873,northern
+940GZZLULSQ,Leicester Square Underground Station,NaptanMetroStation,51.511386,-0.128426,northern
+940GZZLUMDN,Morden Underground Station,NaptanMetroStation,51.402142,-0.194839,northern
+940GZZLUMGT,Moorgate Underground Station,NaptanMetroStation,51.518176,-0.088322,northern
+940GZZLUMHL,Mill Hill East Underground Station,NaptanMetroStation,51.608229,-0.209986,northern
+940GZZLUMTC,Mornington Crescent Underground Station,NaptanMetroStation,51.534679,-0.138789,northern
+940GZZLUODS,Old Street Underground Station,NaptanMetroStation,51.525864,-0.08777,northern
+940GZZLUOVL,Oval Underground Station,NaptanMetroStation,51.48185,-0.112439,northern
+940GZZLUSKW,Stockwell Underground Station,NaptanMetroStation,51.472184,-0.122644,northern
+940GZZLUSWN,South Wimbledon Underground Station,NaptanMetroStation,51.415309,-0.192005,northern
+940GZZLUTAW,Totteridge & Whetstone Underground Station,NaptanMetroStation,51.630597,-0.17921,northern
+940GZZLUTBC,Tooting Bec Underground Station,NaptanMetroStation,51.435678,-0.159736,northern
+940GZZLUTBY,Tooting Broadway Underground Station,NaptanMetroStation,51.42763,-0.168374,northern
+940GZZLUTCR,Tottenham Court Road Underground Station,NaptanMetroStation,51.516426,-0.13041,northern
+940GZZLUTFP,Tufnell Park Underground Station,NaptanMetroStation,51.556822,-0.138433,northern
+940GZZLUWFN,West Finchley Underground Station,NaptanMetroStation,51.609426,-0.188362,northern
+940GZZLUWLO,Waterloo Underground Station,NaptanMetroStation,51.503299,-0.11478,northern
+940GZZLUWOP,Woodside Park Underground Station,NaptanMetroStation,51.618014,-0.18542,northern
+940GZZLUWRR,Warren Street Underground Station,NaptanMetroStation,51.524951,-0.138321,northern

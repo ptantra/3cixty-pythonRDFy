@@ -1,0 +1,3 @@
+stationNaptan,stationName,stopType,lat,lon,line
+930GWWC,Woolwich Ferry North Pier,NaptanFerryPort,51.497764,0.060776,woolwich-ferry
+930GWWS,Woolwich Ferry South Pier,NaptanFerryPort,51.495169,0.062085,woolwich-ferry

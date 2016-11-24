@@ -1,0 +1,1337 @@
+origin,destination,time
+"Harrow & Wealdstone Station			","Kenton Station			",2
+"Harrow & Wealdstone Station			","Kenton Station			",2
+"Kenton Station			","South Kenton Station			",2
+"Kenton Station			","South Kenton Station			",2
+"South Kenton Station			","North Wembley Station			",2
+"South Kenton Station			","North Wembley Station			",2
+"North Wembley Station			","Wembley Central Station			",2
+"North Wembley Station			","Wembley Central Station			",2
+"Wembley Central Station			","Stonebridge Park Station			",3
+"Wembley Central Station			","Stonebridge Park Station			",3
+"Stonebridge Park Station			","Harlesden Station			",2
+"Stonebridge Park Station			","Harlesden Station			",2
+"Harlesden Station			","Willesden Junction Station			",2
+"Harlesden Station			","Willesden Junction Station			",2
+"Willesden Junction Station			","Kensal Green Station			",3
+"Kensal Green Station			","Queen's Park Station			",5
+"Queen's Park Station			","Kilburn Park Station			",1
+"Kilburn Park Station			","Maida Vale Station			",2
+"Maida Vale Station			","Warwick Avenue Station			",2
+"Warwick Avenue Station			","Paddington Station			",2
+"Warwick Avenue Station			","Paddington Station			",2
+"Warwick Avenue Station			","Paddington Station			",2
+"Paddington Station			","Bayswater Station			",2
+"Paddington Station			","Bayswater Station			",2
+"Paddington Station			","Edgware Road Circle Station			",2
+"Paddington Station			","Edgware Road Circle Station			",2
+"Paddington Station			","Edgware Road Circle Station			",2
+"Paddington Station			","Edgware Road Circle Station			",2
+"Paddington Station			","Edgware Road Bakerloo Station			",2
+"Edgware Road Bakerloo Station			","Marylebone Station			",1
+"Marylebone Station			","Baker Street Station			",1
+"Marylebone Station			","Baker Street Station			",1
+"Marylebone Station			","Baker Street Station			",1
+"Marylebone Station			","Baker Street Station			",1
+"Marylebone Station			","Baker Street Station			",1
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Bond Street Station			",3
+"Baker Street Station			","Bond Street Station			",3
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Regent's Park Station			",2
+"Regent's Park Station			","Oxford Circus Station			",2
+"Regent's Park Station			","Oxford Circus Station			",2
+"Regent's Park Station			","Oxford Circus Station			",2
+"Oxford Circus Station			","Green Park Station			",1
+"Oxford Circus Station			","Green Park Station			",1
+"Oxford Circus Station			","Green Park Station			",1
+"Oxford Circus Station			","Tottenham Court Road Station			",1
+"Oxford Circus Station			","Tottenham Court Road Station			",1
+"Oxford Circus Station			","Piccadilly Circus Station			",3
+"Oxford Circus Station			","Piccadilly Circus Station			",3
+"Piccadilly Circus Station			","Leicester Square Station			",2
+"Piccadilly Circus Station			","Leicester Square Station			",2
+"Piccadilly Circus Station			","Charing Cross Station			",1
+"Piccadilly Circus Station			","Charing Cross Station			",1
+"Charing Cross Station			","Leicester Square Station			",1
+"Charing Cross Station			","Leicester Square Station			",1
+"Charing Cross Station			","Embankment Station			",1
+"Charing Cross Station			","Embankment Station			",1
+"Charing Cross Station			","Embankment Station			",1
+"Charing Cross Station			","Embankment Station			",1
+"Embankment Station			","Charing Cross Station			",2
+"Embankment Station			","Charing Cross Station			",2
+"Embankment Station			","Westminster Station			",2
+"Embankment Station			","Westminster Station			",2
+"Embankment Station			","Westminster Station			",2
+"Embankment Station			","Waterloo Station			",2
+"Embankment Station			","Waterloo Station			",2
+"Embankment Station			","Waterloo Station			",2
+"Embankment Station			","Waterloo Station			",2
+"Waterloo Station			","Bank Station			",4
+"Waterloo Station			","Bank Station			",4
+"Waterloo Station			","Bank Station			",4
+"Waterloo Station			","Embankment Station			",1
+"Waterloo Station			","Embankment Station			",1
+"Waterloo Station			","Embankment Station			",1
+"Waterloo Station			","Embankment Station			",1
+"Waterloo Station			","Southwark Station			",0
+"Waterloo Station			","Lambeth North Station			",2
+"Lambeth North Station			","Elephant & Castle Station			",3
+"Lambeth North Station			","Elephant & Castle Station			",3
+"Elephant & Castle Station			","Borough Station			",1
+"West Ruislip Station			","Ruislip Gardens Station			",3
+"Ruislip Gardens Station			","South Ruislip Station			",1
+"South Ruislip Station			","Northolt Station			",3
+"Northolt Station			","Greenford Station			",2
+"Greenford Station			","Perivale Station			",2
+"Ealing Broadway Station			","West Acton Station			",2
+"Perivale Station			","Hanger Lane Station			",3
+"Hanger Lane Station			","North Acton Station			",4
+"West Acton Station			","North Acton Station			",3
+"North Acton Station			","East Acton Station			",1
+"East Acton Station			","White City Station			",4
+"White City Station			","Shepherd's Bush Central Station			",3
+"Shepherd's Bush Central Station			","Holland Park Station			",1
+"Holland Park Station			","Notting Hill Gate Station			",2
+"Holland Park Station			","Notting Hill Gate Station			",2
+"Holland Park Station			","Notting Hill Gate Station			",2
+"Notting Hill Gate Station			","High Street Kensington Station			",2
+"Notting Hill Gate Station			","High Street Kensington Station			",2
+"Notting Hill Gate Station			","Bayswater Station			",2
+"Notting Hill Gate Station			","Bayswater Station			",2
+"Notting Hill Gate Station			","Queensway Station			",1
+"Queensway Station			","Lancaster Gate Station			",2
+"Lancaster Gate Station			","Marble Arch Station			",2
+"Marble Arch Station			","Bond Street Station			",2
+"Marble Arch Station			","Bond Street Station			",2
+"Bond Street Station			","Green Park Station			",2
+"Bond Street Station			","Green Park Station			",2
+"Bond Street Station			","Green Park Station			",2
+"Bond Street Station			","Oxford Circus Station			",1
+"Bond Street Station			","Oxford Circus Station			",1
+"Bond Street Station			","Oxford Circus Station			",1
+"Oxford Circus Station			","Green Park Station			",1
+"Oxford Circus Station			","Green Park Station			",1
+"Oxford Circus Station			","Green Park Station			",1
+"Oxford Circus Station			","Tottenham Court Road Station			",1
+"Oxford Circus Station			","Tottenham Court Road Station			",1
+"Oxford Circus Station			","Piccadilly Circus Station			",3
+"Oxford Circus Station			","Piccadilly Circus Station			",3
+"Tottenham Court Road Station			","Goodge Street Station			",2
+"Tottenham Court Road Station			","Holborn Station			",2
+"Tottenham Court Road Station			","Holborn Station			",2
+"Holborn Station			","Russell Square Station			",2
+"Holborn Station			","Chancery Lane Station			",2
+"Chancery Lane Station			","St. Paul's Station			",2
+"St. Paul's Station			","Bank Station			",2
+"St. Paul's Station			","Bank Station			",2
+"St. Paul's Station			","Bank Station			",2
+"Bank Station			","Moorgate Station			",2
+"Bank Station			","Moorgate Station			",2
+"Bank Station			","Moorgate Station			",2
+"Bank Station			","Moorgate Station			",2
+"Bank Station			","Liverpool Street Station			",2
+"Bank Station			","Liverpool Street Station			",2
+"Bank Station			","Liverpool Street Station			",2
+"Bank Station			","Liverpool Street Station			",2
+"Liverpool Street Station			","Aldgate Station			",2
+"Liverpool Street Station			","Aldgate Station			",2
+"Liverpool Street Station			","Aldgate East Station			",4
+"Liverpool Street Station			","Aldgate East Station			",4
+"Liverpool Street Station			","Aldgate Station			",8
+"Liverpool Street Station			","Aldgate Station			",8
+"Liverpool Street Station			","Bethnal Green Station			",3
+"Bethnal Green Station			","Mile End Station			",2
+"Bethnal Green Station			","Mile End Station			",2
+"Bethnal Green Station			","Mile End Station			",2
+"Mile End Station			","Bow Road Station			",1
+"Mile End Station			","Bow Road Station			",1
+"Mile End Station			","Bow Road Station			",2
+"Mile End Station			","Bow Road Station			",2
+"Mile End Station			","Stratford Station			",4
+"Mile End Station			","Stratford Station			",4
+"Stratford Station			","Leyton Station			",2
+"Leyton Station			","Leytonstone Station			",3
+"Leytonstone Station			","Snaresbrook Station			",3
+"Snaresbrook Station			","South Woodford Station			",2
+"Wanstead Station			","Redbridge Station			",2
+"Redbridge Station			","Gants Hill Station			",2
+"South Woodford Station			","Woodford Station			",2
+"South Woodford Station			","Woodford Station			",2
+"Gants Hill Station			","Newbury Park Station			",2
+"Woodford Station			","Buckhurst Hill Station			",3
+"Newbury Park Station			","Barkingside Station			",2
+"Barkingside Station			","Fairlop Station			",1
+"Fairlop Station			","Hainault Station			",2
+"Hainault Station			","Grange Hill Station			",2
+"Grange Hill Station			","Chigwell Station			",2
+"Chigwell Station			","Roding Valley Station			",4
+"Roding Valley Station			","Woodford Station			",2
+"Roding Valley Station			","Woodford Station			",2
+"Buckhurst Hill Station			","Loughton Station			",2
+"Woodford Station			","Buckhurst Hill Station			",3
+"Loughton Station			","Debden Station			",3
+"Debden Station			","Theydon Bois Station			",3
+"Theydon Bois Station			","Epping Station			",3
+"Hammersmith Station			","Goldhawk Road Station			",1
+"Hammersmith Station			","Goldhawk Road Station			",1
+"Hammersmith Station			","Goldhawk Road Station			",1
+"Hammersmith Station			","Goldhawk Road Station			",1
+"Goldhawk Road Station			","Shepherd's Bush Hammersmith & City Station			",2
+"Goldhawk Road Station			","Shepherd's Bush Hammersmith & City Station			",2
+"Goldhawk Road Station			","Shepherd's Bush Hammersmith & City Station			",2
+"Goldhawk Road Station			","Shepherd's Bush Hammersmith & City Station			",2
+"Latimer Road Station			","Ladbroke Grove Station			",1
+"Latimer Road Station			","Ladbroke Grove Station			",1
+"Latimer Road Station			","Ladbroke Grove Station			",1
+"Latimer Road Station			","Ladbroke Grove Station			",1
+"Ladbroke Grove Station			","Westbourne Park Station			",2
+"Ladbroke Grove Station			","Westbourne Park Station			",2
+"Ladbroke Grove Station			","Westbourne Park Station			",2
+"Ladbroke Grove Station			","Westbourne Park Station			",2
+"Westbourne Park Station			","Royal Oak Station			",1
+"Westbourne Park Station			","Royal Oak Station			",1
+"Westbourne Park Station			","Royal Oak Station			",1
+"Westbourne Park Station			","Royal Oak Station			",1
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Paddington Station			",2
+"Edgware Road Circle Station			","Paddington Station			",2
+"Edgware Road Circle Station			","Paddington Station			",2
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Bond Street Station			",3
+"Baker Street Station			","Bond Street Station			",3
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Regent's Park Station			",2
+"Great Portland Street Station			","Euston Square Station			",2
+"Great Portland Street Station			","Euston Square Station			",2
+"Great Portland Street Station			","Euston Square Station			",2
+"Great Portland Street Station			","Euston Square Station			",1
+"Great Portland Street Station			","Euston Square Station			",1
+"Great Portland Street Station			","Euston Square Station			",1
+"Great Portland Street Station			","Euston Square Station			",2
+"Great Portland Street Station			","Euston Square Station			",2
+"Great Portland Street Station			","Euston Square Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",3
+"Euston Square Station			","King's Cross St. Pancras Station			",3
+"Euston Square Station			","King's Cross St. Pancras Station			",3
+"Euston Square Station			","King's Cross St. Pancras Station			",3
+"Euston Square Station			","King's Cross St. Pancras Station			",3
+"Euston Square Station			","King's Cross St. Pancras Station			",3
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"King's Cross St. Pancras Station			","Euston Station			",1
+"King's Cross St. Pancras Station			","Euston Station			",1
+"King's Cross St. Pancras Station			","Euston Station			",1
+"King's Cross St. Pancras Station			","Caledonian Road Station			",4
+"King's Cross St. Pancras Station			","Euston Station			",2
+"King's Cross St. Pancras Station			","Euston Station			",2
+"King's Cross St. Pancras Station			","Euston Station			",2
+"King's Cross St. Pancras Station			","Farringdon Station			",4
+"King's Cross St. Pancras Station			","Farringdon Station			",4
+"King's Cross St. Pancras Station			","Farringdon Station			",4
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"Farringdon Station			","Barbican Station			",0
+"Farringdon Station			","Barbican Station			",0
+"Farringdon Station			","Barbican Station			",0
+"Farringdon Station			","Barbican Station			",2
+"Farringdon Station			","Barbican Station			",2
+"Farringdon Station			","Barbican Station			",2
+"Farringdon Station			","Barbican Station			",2
+"Farringdon Station			","Barbican Station			",2
+"Farringdon Station			","Barbican Station			",2
+"Barbican Station			","Moorgate Station			",3
+"Barbican Station			","Moorgate Station			",3
+"Barbican Station			","Moorgate Station			",3
+"Barbican Station			","Moorgate Station			",3
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Moorgate Station			","Old Street Station			",1
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",1
+"Moorgate Station			","Liverpool Street Station			",1
+"Moorgate Station			","Liverpool Street Station			",1
+"Moorgate Station			","Liverpool Street Station			",1
+"Liverpool Street Station			","Aldgate Station			",2
+"Liverpool Street Station			","Aldgate Station			",2
+"Liverpool Street Station			","Aldgate East Station			",4
+"Liverpool Street Station			","Aldgate East Station			",4
+"Liverpool Street Station			","Aldgate Station			",8
+"Liverpool Street Station			","Aldgate Station			",8
+"Liverpool Street Station			","Bethnal Green Station			",3
+"Aldgate Station			","Tower Hill Station			",2
+"Aldgate Station			","Tower Hill Station			",2
+"Tower Hill Station			","Aldgate East Station			",3
+"Tower Hill Station			","Aldgate East Station			",3
+"Tower Hill Station			","Monument Station			",1
+"Tower Hill Station			","Monument Station			",1
+"Monument Station			","Tower Hill Station			",2
+"Monument Station			","Tower Hill Station			",2
+"Monument Station			","Cannon Street Station			",1
+"Monument Station			","Cannon Street Station			",1
+"Cannon Street Station			","Monument Station			",1
+"Cannon Street Station			","Monument Station			",1
+"Cannon Street Station			","Mansion House Station			",2
+"Cannon Street Station			","Mansion House Station			",2
+"Mansion House Station			","Cannon Street Station			",1
+"Mansion House Station			","Cannon Street Station			",1
+"Mansion House Station			","Blackfriars Station			",1
+"Mansion House Station			","Blackfriars Station			",1
+"Blackfriars Station			","Mansion House Station			",2
+"Blackfriars Station			","Mansion House Station			",2
+"Blackfriars Station			","Temple Station			",2
+"Blackfriars Station			","Temple Station			",2
+"Temple Station			","Blackfriars Station			",2
+"Temple Station			","Blackfriars Station			",2
+"Temple Station			","Embankment Station			",2
+"Temple Station			","Embankment Station			",2
+"Temple Station			","Embankment Station			",2
+"Temple Station			","Embankment Station			",2
+"Embankment Station			","Charing Cross Station			",2
+"Embankment Station			","Charing Cross Station			",2
+"Embankment Station			","Westminster Station			",2
+"Embankment Station			","Westminster Station			",2
+"Embankment Station			","Westminster Station			",2
+"Embankment Station			","Waterloo Station			",2
+"Embankment Station			","Waterloo Station			",2
+"Embankment Station			","Waterloo Station			",2
+"Embankment Station			","Waterloo Station			",2
+"Westminster Station			","Waterloo Station			",2
+"Westminster Station			","Waterloo Station			",2
+"Westminster Station			","Waterloo Station			",2
+"Westminster Station			","Waterloo Station			",2
+"Westminster Station			","St. James's Park Station			",1
+"Westminster Station			","St. James's Park Station			",1
+"St. James's Park Station			","Victoria Station			",2
+"St. James's Park Station			","Victoria Station			",2
+"St. James's Park Station			","Victoria Station			",2
+"Victoria Station			","Pimlico Station			",2
+"Victoria Station			","Sloane Square Station			",3
+"Victoria Station			","Sloane Square Station			",3
+"Sloane Square Station			","South Kensington Station			",2
+"Sloane Square Station			","South Kensington Station			",2
+"Sloane Square Station			","South Kensington Station			",2
+"South Kensington Station			","Knightsbridge Station			",3
+"South Kensington Station			","Gloucester Road Station			",3
+"South Kensington Station			","Gloucester Road Station			",3
+"South Kensington Station			","Gloucester Road Station			",3
+"Gloucester Road Station			","South Kensington Station			",1
+"Gloucester Road Station			","South Kensington Station			",1
+"Gloucester Road Station			","South Kensington Station			",1
+"Gloucester Road Station			","High Street Kensington Station			",3
+"Gloucester Road Station			","High Street Kensington Station			",3
+"High Street Kensington Station			","Notting Hill Gate Station			",2
+"High Street Kensington Station			","Notting Hill Gate Station			",2
+"High Street Kensington Station			","Notting Hill Gate Station			",2
+"Notting Hill Gate Station			","High Street Kensington Station			",2
+"Notting Hill Gate Station			","High Street Kensington Station			",2
+"Notting Hill Gate Station			","Bayswater Station			",2
+"Notting Hill Gate Station			","Bayswater Station			",2
+"Notting Hill Gate Station			","Queensway Station			",1
+"Bayswater Station			","Notting Hill Gate Station			",2
+"Bayswater Station			","Notting Hill Gate Station			",2
+"Bayswater Station			","Notting Hill Gate Station			",2
+"Bayswater Station			","Paddington Station			",2
+"Bayswater Station			","Paddington Station			",2
+"Bayswater Station			","Paddington Station			",2
+"Paddington Station			","Bayswater Station			",2
+"Paddington Station			","Bayswater Station			",2
+"Paddington Station			","Edgware Road Circle Station			",2
+"Paddington Station			","Edgware Road Circle Station			",2
+"Paddington Station			","Edgware Road Circle Station			",2
+"Paddington Station			","Edgware Road Circle Station			",2
+"Paddington Station			","Edgware Road Bakerloo Station			",2
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Paddington Station			",2
+"Edgware Road Circle Station			","Paddington Station			",2
+"Edgware Road Circle Station			","Paddington Station			",2
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Ealing Broadway Station			","West Acton Station			",2
+"Ealing Common Station			",Acton Town Station,3
+"Ealing Common Station			",Acton Town Station,3
+Acton Town Station,"Turnham Green Station			",3
+Acton Town Station,"Turnham Green Station			",3
+"Richmond Station			","Kew Gardens Station			",3
+"Kew Gardens Station			","Gunnersbury Station			",3
+"Wimbledon Station			","Wimbledon Park Station			",2
+"Gunnersbury Station			","Turnham Green Station			",3
+"Gunnersbury Station			","Turnham Green Station			",3
+"Wimbledon Park Station			","Southfields Station			",3
+"Southfields Station			","East Putney Station			",2
+"Turnham Green Station			","Hammersmith (D & P) Station			",5
+"Turnham Green Station			","Hammersmith (D & P) Station			",5
+"East Putney Station			","Putney Bridge Station			",3
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Paddington Station			",2
+"Edgware Road Circle Station			","Paddington Station			",2
+"Edgware Road Circle Station			","Paddington Station			",2
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Paddington Station			","Bayswater Station			",2
+"Paddington Station			","Bayswater Station			",2
+"Paddington Station			","Edgware Road Circle Station			",2
+"Paddington Station			","Edgware Road Circle Station			",2
+"Paddington Station			","Edgware Road Circle Station			",2
+"Paddington Station			","Edgware Road Circle Station			",2
+"Paddington Station			","Edgware Road Bakerloo Station			",2
+"Putney Bridge Station			","Parsons Green Station			",2
+"Bayswater Station			","Notting Hill Gate Station			",2
+"Bayswater Station			","Notting Hill Gate Station			",2
+"Bayswater Station			","Notting Hill Gate Station			",2
+"Bayswater Station			","Paddington Station			",2
+"Bayswater Station			","Paddington Station			",2
+"Bayswater Station			","Paddington Station			",2
+"Hammersmith (D & P) Station			","Barons Court Station			",2
+"Hammersmith (D & P) Station			","Barons Court Station			",2
+"Parsons Green Station			","Fulham Broadway Station			",2
+"Barons Court Station			","Earl's Court Station			",3
+"Barons Court Station			","Earl's Court Station			",3
+"Fulham Broadway Station			","West Brompton Station			",2
+"Notting Hill Gate Station			","High Street Kensington Station			",2
+"Notting Hill Gate Station			","High Street Kensington Station			",2
+"Notting Hill Gate Station			","Bayswater Station			",2
+"Notting Hill Gate Station			","Bayswater Station			",2
+"Notting Hill Gate Station			","Queensway Station			",1
+"High Street Kensington Station			","Notting Hill Gate Station			",2
+"High Street Kensington Station			","Notting Hill Gate Station			",2
+"High Street Kensington Station			","Notting Hill Gate Station			",2
+"Kensington (Olympia) Station			","Earl's Court Station			",4
+"Kensington (Olympia) Station			","Earl's Court Station			",4
+"West Brompton Station			","Earl's Court Station			",3
+"West Brompton Station			","Earl's Court Station			",3
+"Earl's Court Station			","Gloucester Road Station			",2
+"Earl's Court Station			","Gloucester Road Station			",2
+"Earl's Court Station			","Gloucester Road Station			",2
+"Gloucester Road Station			","South Kensington Station			",1
+"Gloucester Road Station			","South Kensington Station			",1
+"Gloucester Road Station			","South Kensington Station			",1
+"Gloucester Road Station			","High Street Kensington Station			",3
+"Gloucester Road Station			","High Street Kensington Station			",3
+"South Kensington Station			","Knightsbridge Station			",3
+"South Kensington Station			","Gloucester Road Station			",3
+"South Kensington Station			","Gloucester Road Station			",3
+"South Kensington Station			","Gloucester Road Station			",3
+"Sloane Square Station			","South Kensington Station			",2
+"Sloane Square Station			","South Kensington Station			",2
+"Sloane Square Station			","South Kensington Station			",2
+"Victoria Station			","Pimlico Station			",2
+"Victoria Station			","Sloane Square Station			",3
+"Victoria Station			","Sloane Square Station			",3
+"St. James's Park Station			","Victoria Station			",2
+"St. James's Park Station			","Victoria Station			",2
+"St. James's Park Station			","Victoria Station			",2
+"Westminster Station			","Waterloo Station			",2
+"Westminster Station			","Waterloo Station			",2
+"Westminster Station			","Waterloo Station			",2
+"Westminster Station			","Waterloo Station			",2
+"Westminster Station			","St. James's Park Station			",1
+"Westminster Station			","St. James's Park Station			",1
+"Embankment Station			","Charing Cross Station			",2
+"Embankment Station			","Charing Cross Station			",2
+"Embankment Station			","Westminster Station			",2
+"Embankment Station			","Westminster Station			",2
+"Embankment Station			","Westminster Station			",2
+"Embankment Station			","Waterloo Station			",2
+"Embankment Station			","Waterloo Station			",2
+"Embankment Station			","Waterloo Station			",2
+"Embankment Station			","Waterloo Station			",2
+"Temple Station			","Blackfriars Station			",2
+"Temple Station			","Blackfriars Station			",2
+"Temple Station			","Embankment Station			",2
+"Temple Station			","Embankment Station			",2
+"Temple Station			","Embankment Station			",2
+"Temple Station			","Embankment Station			",2
+"Blackfriars Station			","Mansion House Station			",2
+"Blackfriars Station			","Mansion House Station			",2
+"Blackfriars Station			","Temple Station			",2
+"Blackfriars Station			","Temple Station			",2
+"Mansion House Station			","Cannon Street Station			",1
+"Mansion House Station			","Cannon Street Station			",1
+"Mansion House Station			","Blackfriars Station			",1
+"Mansion House Station			","Blackfriars Station			",1
+"Cannon Street Station			","Monument Station			",1
+"Cannon Street Station			","Monument Station			",1
+"Cannon Street Station			","Mansion House Station			",2
+"Cannon Street Station			","Mansion House Station			",2
+"Monument Station			","Tower Hill Station			",2
+"Monument Station			","Tower Hill Station			",2
+"Monument Station			","Cannon Street Station			",1
+"Monument Station			","Cannon Street Station			",1
+"Tower Hill Station			","Aldgate East Station			",3
+"Tower Hill Station			","Aldgate East Station			",3
+"Tower Hill Station			","Monument Station			",1
+"Tower Hill Station			","Monument Station			",1
+"Aldgate East Station			","Whitechapel Station			",2
+"Aldgate East Station			","Whitechapel Station			",2
+"Aldgate East Station			","Whitechapel Station			",2
+"Aldgate East Station			","Whitechapel Station			",2
+"Whitechapel Station			","Stepney Green Station			",2
+"Whitechapel Station			","Stepney Green Station			",2
+"Whitechapel Station			","Stepney Green Station			",2
+"Whitechapel Station			","Stepney Green Station			",2
+"Stepney Green Station			","Mile End Station			",2
+"Stepney Green Station			","Mile End Station			",2
+"Stepney Green Station			","Mile End Station			",2
+"Stepney Green Station			","Mile End Station			",2
+"Stepney Green Station			","Mile End Station			",2
+"Stepney Green Station			","Mile End Station			",2
+"Mile End Station			","Bow Road Station			",1
+"Mile End Station			","Bow Road Station			",1
+"Mile End Station			","Bow Road Station			",2
+"Mile End Station			","Bow Road Station			",2
+"Mile End Station			","Stratford Station			",4
+"Mile End Station			","Stratford Station			",4
+"Bow Road Station			","Bromley-By-Bow Station			",2
+"Bow Road Station			","Bromley-By-Bow Station			",2
+"Bow Road Station			","Bromley-By-Bow Station			",2
+"Bow Road Station			","Bromley-By-Bow Station			",2
+"Bromley-By-Bow Station			","West Ham Station			",3
+"Bromley-By-Bow Station			","West Ham Station			",3
+"Bromley-By-Bow Station			","West Ham Station			",3
+"Bromley-By-Bow Station			","West Ham Station			",2
+"Bromley-By-Bow Station			","West Ham Station			",2
+"Bromley-By-Bow Station			","West Ham Station			",2
+"West Ham Station			","Stratford Station			",3
+"West Ham Station			","Stratford Station			",3
+"West Ham Station			","Plaistow Station			",1
+"West Ham Station			","Plaistow Station			",1
+"West Ham Station			","Plaistow Station			",2
+"West Ham Station			","Plaistow Station			",2
+"Plaistow Station			","Upton Park Station			",2
+"Plaistow Station			","Upton Park Station			",2
+"Plaistow Station			","Upton Park Station			",2
+"Plaistow Station			","Upton Park Station			",2
+"Upton Park Station			","East Ham Station			",3
+"Upton Park Station			","East Ham Station			",3
+"Upton Park Station			","East Ham Station			",2
+"Upton Park Station			","East Ham Station			",2
+"East Ham Station			","Barking Station			",3
+"East Ham Station			","Barking Station			",3
+"East Ham Station			","Barking Station			",5
+"East Ham Station			","Barking Station			",5
+"Barking Station			","Upney Station			",2
+"Upney Station			","Becontree Station			",2
+"Becontree Station			","Dagenham Heathway Station			",3
+"Dagenham Heathway Station			","Dagenham East Station			",2
+"Dagenham East Station			","Elm Park Station			",3
+"Elm Park Station			","Hornchurch Station			",2
+"Hornchurch Station			","Upminster Bridge Station			",2
+"Upminster Bridge Station			","Upminster Station			",3
+"Hammersmith Station			","Goldhawk Road Station			",1
+"Hammersmith Station			","Goldhawk Road Station			",1
+"Hammersmith Station			","Goldhawk Road Station			",1
+"Hammersmith Station			","Goldhawk Road Station			",1
+"Goldhawk Road Station			","Shepherd's Bush Hammersmith & City Station			",2
+"Goldhawk Road Station			","Shepherd's Bush Hammersmith & City Station			",2
+"Goldhawk Road Station			","Shepherd's Bush Hammersmith & City Station			",2
+"Goldhawk Road Station			","Shepherd's Bush Hammersmith & City Station			",2
+"Latimer Road Station			","Ladbroke Grove Station			",1
+"Latimer Road Station			","Ladbroke Grove Station			",1
+"Latimer Road Station			","Ladbroke Grove Station			",1
+"Latimer Road Station			","Ladbroke Grove Station			",1
+"Ladbroke Grove Station			","Westbourne Park Station			",2
+"Ladbroke Grove Station			","Westbourne Park Station			",2
+"Ladbroke Grove Station			","Westbourne Park Station			",2
+"Ladbroke Grove Station			","Westbourne Park Station			",2
+"Westbourne Park Station			","Royal Oak Station			",1
+"Westbourne Park Station			","Royal Oak Station			",1
+"Westbourne Park Station			","Royal Oak Station			",1
+"Westbourne Park Station			","Royal Oak Station			",1
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Baker Street Station			",4
+"Edgware Road Circle Station			","Paddington Station			",2
+"Edgware Road Circle Station			","Paddington Station			",2
+"Edgware Road Circle Station			","Paddington Station			",2
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Edgware Road Circle Station			","Baker Street Station			",3
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Bond Street Station			",3
+"Baker Street Station			","Bond Street Station			",3
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Regent's Park Station			",2
+"Great Portland Street Station			","Euston Square Station			",2
+"Great Portland Street Station			","Euston Square Station			",2
+"Great Portland Street Station			","Euston Square Station			",2
+"Great Portland Street Station			","Euston Square Station			",1
+"Great Portland Street Station			","Euston Square Station			",1
+"Great Portland Street Station			","Euston Square Station			",1
+"Great Portland Street Station			","Euston Square Station			",2
+"Great Portland Street Station			","Euston Square Station			",2
+"Great Portland Street Station			","Euston Square Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",3
+"Euston Square Station			","King's Cross St. Pancras Station			",3
+"Euston Square Station			","King's Cross St. Pancras Station			",3
+"Euston Square Station			","King's Cross St. Pancras Station			",3
+"Euston Square Station			","King's Cross St. Pancras Station			",3
+"Euston Square Station			","King's Cross St. Pancras Station			",3
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"King's Cross St. Pancras Station			","Euston Station			",1
+"King's Cross St. Pancras Station			","Euston Station			",1
+"King's Cross St. Pancras Station			","Euston Station			",1
+"King's Cross St. Pancras Station			","Caledonian Road Station			",4
+"King's Cross St. Pancras Station			","Euston Station			",2
+"King's Cross St. Pancras Station			","Euston Station			",2
+"King's Cross St. Pancras Station			","Euston Station			",2
+"King's Cross St. Pancras Station			","Farringdon Station			",4
+"King's Cross St. Pancras Station			","Farringdon Station			",4
+"King's Cross St. Pancras Station			","Farringdon Station			",4
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"Farringdon Station			","Barbican Station			",0
+"Farringdon Station			","Barbican Station			",0
+"Farringdon Station			","Barbican Station			",0
+"Farringdon Station			","Barbican Station			",2
+"Farringdon Station			","Barbican Station			",2
+"Farringdon Station			","Barbican Station			",2
+"Farringdon Station			","Barbican Station			",2
+"Farringdon Station			","Barbican Station			",2
+"Farringdon Station			","Barbican Station			",2
+"Barbican Station			","Moorgate Station			",3
+"Barbican Station			","Moorgate Station			",3
+"Barbican Station			","Moorgate Station			",3
+"Barbican Station			","Moorgate Station			",3
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Moorgate Station			","Old Street Station			",1
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",1
+"Moorgate Station			","Liverpool Street Station			",1
+"Moorgate Station			","Liverpool Street Station			",1
+"Moorgate Station			","Liverpool Street Station			",1
+"Liverpool Street Station			","Aldgate Station			",2
+"Liverpool Street Station			","Aldgate Station			",2
+"Liverpool Street Station			","Aldgate East Station			",4
+"Liverpool Street Station			","Aldgate East Station			",4
+"Liverpool Street Station			","Aldgate Station			",8
+"Liverpool Street Station			","Aldgate Station			",8
+"Liverpool Street Station			","Bethnal Green Station			",3
+"Aldgate East Station			","Whitechapel Station			",2
+"Aldgate East Station			","Whitechapel Station			",2
+"Aldgate East Station			","Whitechapel Station			",2
+"Aldgate East Station			","Whitechapel Station			",2
+"Whitechapel Station			","Stepney Green Station			",2
+"Whitechapel Station			","Stepney Green Station			",2
+"Whitechapel Station			","Stepney Green Station			",2
+"Whitechapel Station			","Stepney Green Station			",2
+"Stepney Green Station			","Mile End Station			",2
+"Stepney Green Station			","Mile End Station			",2
+"Stepney Green Station			","Mile End Station			",2
+"Stepney Green Station			","Mile End Station			",2
+"Stepney Green Station			","Mile End Station			",2
+"Stepney Green Station			","Mile End Station			",2
+"Mile End Station			","Bow Road Station			",1
+"Mile End Station			","Bow Road Station			",1
+"Mile End Station			","Bow Road Station			",2
+"Mile End Station			","Bow Road Station			",2
+"Mile End Station			","Stratford Station			",4
+"Mile End Station			","Stratford Station			",4
+"Bow Road Station			","Bromley-By-Bow Station			",2
+"Bow Road Station			","Bromley-By-Bow Station			",2
+"Bow Road Station			","Bromley-By-Bow Station			",2
+"Bow Road Station			","Bromley-By-Bow Station			",2
+"Bromley-By-Bow Station			","West Ham Station			",3
+"Bromley-By-Bow Station			","West Ham Station			",3
+"Bromley-By-Bow Station			","West Ham Station			",3
+"Bromley-By-Bow Station			","West Ham Station			",2
+"Bromley-By-Bow Station			","West Ham Station			",2
+"Bromley-By-Bow Station			","West Ham Station			",2
+"West Ham Station			","Stratford Station			",3
+"West Ham Station			","Stratford Station			",3
+"West Ham Station			","Plaistow Station			",1
+"West Ham Station			","Plaistow Station			",1
+"West Ham Station			","Plaistow Station			",2
+"West Ham Station			","Plaistow Station			",2
+"Plaistow Station			","Upton Park Station			",2
+"Plaistow Station			","Upton Park Station			",2
+"Plaistow Station			","Upton Park Station			",2
+"Plaistow Station			","Upton Park Station			",2
+"Upton Park Station			","East Ham Station			",3
+"Upton Park Station			","East Ham Station			",3
+"Upton Park Station			","East Ham Station			",2
+"Upton Park Station			","East Ham Station			",2
+"East Ham Station			","Barking Station			",3
+"East Ham Station			","Barking Station			",3
+"East Ham Station			","Barking Station			",5
+"East Ham Station			","Barking Station			",5
+"Barking Station			","Upney Station			",2
+"Stanmore Station			","Canons Park Station			",3
+"Canons Park Station			","Queensbury Station			",2
+"Queensbury Station			","Kingsbury Station			",2
+"Kingsbury Station			","Wembley Park Station			",5
+"Kingsbury Station			","Wembley Park Station			",5
+"Wembley Park Station			","Finchley Road Station			",7
+"Wembley Park Station			","Finchley Road Station			",7
+"Wembley Park Station			","Neasden Station			",2
+"Neasden Station			","Dollis Hill Station			",2
+"Dollis Hill Station			","Willesden Green Station			",2
+"Willesden Green Station			","Kilburn Station			",2
+"Kilburn Station			","West Hampstead Station			",2
+"West Hampstead Station			","Finchley Road Station			",2
+"West Hampstead Station			","Finchley Road Station			",2
+"Finchley Road Station			","Baker Street Station			",8
+"Finchley Road Station			","Baker Street Station			",8
+"Finchley Road Station			","Baker Street Station			",8
+"Finchley Road Station			","Baker Street Station			",8
+"Finchley Road Station			","Baker Street Station			",8
+"Finchley Road Station			","Swiss Cottage Station			",1
+"Swiss Cottage Station			","St. John's Wood Station			",2
+"St. John's Wood Station			","Baker Street Station			",2
+"St. John's Wood Station			","Baker Street Station			",2
+"St. John's Wood Station			","Baker Street Station			",2
+"St. John's Wood Station			","Baker Street Station			",2
+"St. John's Wood Station			","Baker Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Bond Street Station			",3
+"Baker Street Station			","Bond Street Station			",3
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Regent's Park Station			",2
+"Bond Street Station			","Green Park Station			",2
+"Bond Street Station			","Green Park Station			",2
+"Bond Street Station			","Green Park Station			",2
+"Bond Street Station			","Oxford Circus Station			",1
+"Bond Street Station			","Oxford Circus Station			",1
+"Bond Street Station			","Oxford Circus Station			",1
+"Green Park Station			","Victoria Station			",2
+"Green Park Station			","Victoria Station			",2
+"Green Park Station			","Victoria Station			",2
+"Green Park Station			","Piccadilly Circus Station			",1
+"Green Park Station			","Piccadilly Circus Station			",1
+"Green Park Station			","Westminster Station			",2
+"Green Park Station			","Westminster Station			",2
+"Green Park Station			","Westminster Station			",2
+"Westminster Station			","Waterloo Station			",2
+"Westminster Station			","Waterloo Station			",2
+"Westminster Station			","Waterloo Station			",2
+"Westminster Station			","Waterloo Station			",2
+"Westminster Station			","St. James's Park Station			",1
+"Westminster Station			","St. James's Park Station			",1
+"Waterloo Station			","Bank Station			",4
+"Waterloo Station			","Bank Station			",4
+"Waterloo Station			","Bank Station			",4
+"Waterloo Station			","Embankment Station			",1
+"Waterloo Station			","Embankment Station			",1
+"Waterloo Station			","Embankment Station			",1
+"Waterloo Station			","Embankment Station			",1
+"Waterloo Station			","Southwark Station			",0
+"Waterloo Station			","Lambeth North Station			",2
+"Southwark Station			","London Bridge Station			",3
+"Southwark Station			","London Bridge Station			",3
+"London Bridge Station			","Bank Station			",2
+"London Bridge Station			","Bank Station			",2
+"London Bridge Station			","Bank Station			",2
+"London Bridge Station			","Bermondsey Station			",2
+"Bermondsey Station			","Canada Water Station			",2
+"Canada Water Station			","Canary Wharf Station			",2
+"Canary Wharf Station			","North Greenwich Station			",3
+"North Greenwich Station			","Canning Town Station			",2
+"Canning Town Station			","West Ham Station			",4
+"Canning Town Station			","West Ham Station			",4
+"Canning Town Station			","West Ham Station			",4
+"West Ham Station			","Stratford Station			",3
+"West Ham Station			","Stratford Station			",3
+"West Ham Station			","Plaistow Station			",1
+"West Ham Station			","Plaistow Station			",1
+"West Ham Station			","Plaistow Station			",2
+"West Ham Station			","Plaistow Station			",2
+"Stratford Station			","Leyton Station			",2
+"Amersham Station			","Chalfont & Latimer Station			",4
+"Chesham Station			","Chalfont & Latimer Station			",9
+"Uxbridge Station			","Hillingdon Station			",3
+"Uxbridge Station			","Hillingdon Station			",3
+"Uxbridge Station			","Hillingdon Station			",3
+"Uxbridge Station			","Hillingdon Station			",3
+"Chalfont & Latimer Station			","Chorleywood Station			",3
+"Hillingdon Station			","Ickenham Station			",2
+"Hillingdon Station			","Ickenham Station			",2
+"Hillingdon Station			","Ickenham Station			",2
+"Hillingdon Station			","Ickenham Station			",2
+"Chorleywood Station			","Rickmansworth Station			",4
+"Ickenham Station			","Ruislip Station			",2
+"Ickenham Station			","Ruislip Station			",2
+"Ickenham Station			","Ruislip Station			",2
+"Ickenham Station			","Ruislip Station			",2
+"Watford Station			","Croxley Station			",3
+"Croxley Station			","Moor Park Station			",4
+"Rickmansworth Station			","Moor Park Station			",5
+"Ruislip Station			","Ruislip Manor Station			",2
+"Ruislip Station			","Ruislip Manor Station			",2
+"Ruislip Station			","Ruislip Manor Station			",2
+"Ruislip Station			","Ruislip Manor Station			",2
+"Moor Park Station			","Northwood Station			",3
+"Ruislip Manor Station			","Eastcote Station			",2
+"Ruislip Manor Station			","Eastcote Station			",2
+"Ruislip Manor Station			","Eastcote Station			",2
+"Ruislip Manor Station			","Eastcote Station			",2
+"Eastcote Station			","Rayners Lane Station			",3
+"Eastcote Station			","Rayners Lane Station			",3
+"Eastcote Station			","Rayners Lane Station			",3
+"Eastcote Station			","Rayners Lane Station			",3
+"Northwood Station			","Northwood Hills Station			",2
+"Northwood Hills Station			","Pinner Station			",3
+"Rayners Lane Station			","South Harrow Station			",3
+"Rayners Lane Station			","West Harrow Station			",2
+"Pinner Station			","North Harrow Station			",2
+"West Harrow Station			","Harrow on the Hill Station			",4
+"Harrow on the Hill Station			","North Harrow Station			",4
+"Harrow on the Hill Station			","Northwick Park Station			",2
+"Northwick Park Station			","Preston Road Station			",2
+"Preston Road Station			","Wembley Park Station			",3
+"Preston Road Station			","Wembley Park Station			",3
+"Wembley Park Station			","Finchley Road Station			",7
+"Wembley Park Station			","Finchley Road Station			",7
+"Wembley Park Station			","Neasden Station			",2
+"Finchley Road Station			","Baker Street Station			",8
+"Finchley Road Station			","Baker Street Station			",8
+"Finchley Road Station			","Baker Street Station			",8
+"Finchley Road Station			","Baker Street Station			",8
+"Finchley Road Station			","Baker Street Station			",8
+"Finchley Road Station			","Swiss Cottage Station			",1
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Bond Street Station			",3
+"Baker Street Station			","Bond Street Station			",3
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Great Portland Street Station			",2
+"Baker Street Station			","Regent's Park Station			",2
+"Great Portland Street Station			","Euston Square Station			",2
+"Great Portland Street Station			","Euston Square Station			",2
+"Great Portland Street Station			","Euston Square Station			",2
+"Great Portland Street Station			","Euston Square Station			",1
+"Great Portland Street Station			","Euston Square Station			",1
+"Great Portland Street Station			","Euston Square Station			",1
+"Great Portland Street Station			","Euston Square Station			",2
+"Great Portland Street Station			","Euston Square Station			",2
+"Great Portland Street Station			","Euston Square Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",3
+"Euston Square Station			","King's Cross St. Pancras Station			",3
+"Euston Square Station			","King's Cross St. Pancras Station			",3
+"Euston Square Station			","King's Cross St. Pancras Station			",3
+"Euston Square Station			","King's Cross St. Pancras Station			",3
+"Euston Square Station			","King's Cross St. Pancras Station			",3
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"Euston Square Station			","King's Cross St. Pancras Station			",2
+"King's Cross St. Pancras Station			","Euston Station			",1
+"King's Cross St. Pancras Station			","Euston Station			",1
+"King's Cross St. Pancras Station			","Euston Station			",1
+"King's Cross St. Pancras Station			","Caledonian Road Station			",4
+"King's Cross St. Pancras Station			","Euston Station			",2
+"King's Cross St. Pancras Station			","Euston Station			",2
+"King's Cross St. Pancras Station			","Euston Station			",2
+"King's Cross St. Pancras Station			","Farringdon Station			",4
+"King's Cross St. Pancras Station			","Farringdon Station			",4
+"King's Cross St. Pancras Station			","Farringdon Station			",4
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"Farringdon Station			","Barbican Station			",0
+"Farringdon Station			","Barbican Station			",0
+"Farringdon Station			","Barbican Station			",0
+"Farringdon Station			","Barbican Station			",2
+"Farringdon Station			","Barbican Station			",2
+"Farringdon Station			","Barbican Station			",2
+"Farringdon Station			","Barbican Station			",2
+"Farringdon Station			","Barbican Station			",2
+"Farringdon Station			","Barbican Station			",2
+"Barbican Station			","Moorgate Station			",3
+"Barbican Station			","Moorgate Station			",3
+"Barbican Station			","Moorgate Station			",3
+"Barbican Station			","Moorgate Station			",3
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Barbican Station			","Moorgate Station			",2
+"Moorgate Station			","Old Street Station			",1
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",1
+"Moorgate Station			","Liverpool Street Station			",1
+"Moorgate Station			","Liverpool Street Station			",1
+"Moorgate Station			","Liverpool Street Station			",1
+"Liverpool Street Station			","Aldgate Station			",2
+"Liverpool Street Station			","Aldgate Station			",2
+"Liverpool Street Station			","Aldgate East Station			",4
+"Liverpool Street Station			","Aldgate East Station			",4
+"Liverpool Street Station			","Aldgate Station			",8
+"Liverpool Street Station			","Aldgate Station			",8
+"Liverpool Street Station			","Bethnal Green Station			",3
+"Aldgate Station			","Tower Hill Station			",2
+"Aldgate Station			","Tower Hill Station			",2
+"Morden Station			","South Wimbledon Station			",2
+"South Wimbledon Station			","Colliers Wood Station			",2
+"Colliers Wood Station			","Tooting Broadway Station			",2
+"Tooting Broadway Station			","Tooting Bec Station			",2
+"Tooting Bec Station			","Balham Station			",2
+"Balham Station			","Clapham South Station			",2
+"Clapham South Station			","Clapham Common Station			",2
+"Clapham Common Station			","Clapham North Station			",2
+"Clapham North Station			","Stockwell Station			",2
+"Clapham North Station			","Stockwell Station			",2
+"Stockwell Station			","Brixton Station			",2
+"Stockwell Station			","Oval Station			",2
+"Oval Station			","Kennington Station			",3
+"Kennington Station			","Elephant & Castle Station			",2
+"Kennington Station			","Elephant & Castle Station			",2
+"Kennington Station			","Waterloo Station			",3
+"Kennington Station			","Waterloo Station			",3
+"Kennington Station			","Waterloo Station			",3
+"Kennington Station			","Waterloo Station			",3
+"Elephant & Castle Station			","Borough Station			",1
+"Waterloo Station			","Bank Station			",4
+"Waterloo Station			","Bank Station			",4
+"Waterloo Station			","Bank Station			",4
+"Waterloo Station			","Embankment Station			",1
+"Waterloo Station			","Embankment Station			",1
+"Waterloo Station			","Embankment Station			",1
+"Waterloo Station			","Embankment Station			",1
+"Waterloo Station			","Southwark Station			",0
+"Waterloo Station			","Lambeth North Station			",2
+"Borough Station			","London Bridge Station			",2
+"Borough Station			","London Bridge Station			",2
+"Embankment Station			","Charing Cross Station			",2
+"Embankment Station			","Charing Cross Station			",2
+"Embankment Station			","Westminster Station			",2
+"Embankment Station			","Westminster Station			",2
+"Embankment Station			","Westminster Station			",2
+"Embankment Station			","Waterloo Station			",2
+"Embankment Station			","Waterloo Station			",2
+"Embankment Station			","Waterloo Station			",2
+"Embankment Station			","Waterloo Station			",2
+"London Bridge Station			","Bank Station			",2
+"London Bridge Station			","Bank Station			",2
+"London Bridge Station			","Bank Station			",2
+"London Bridge Station			","Bermondsey Station			",2
+"Charing Cross Station			","Leicester Square Station			",1
+"Charing Cross Station			","Leicester Square Station			",1
+"Charing Cross Station			","Embankment Station			",1
+"Charing Cross Station			","Embankment Station			",1
+"Charing Cross Station			","Embankment Station			",1
+"Charing Cross Station			","Embankment Station			",1
+"Bank Station			","Moorgate Station			",2
+"Bank Station			","Moorgate Station			",2
+"Bank Station			","Moorgate Station			",2
+"Bank Station			","Moorgate Station			",2
+"Bank Station			","Liverpool Street Station			",2
+"Bank Station			","Liverpool Street Station			",2
+"Bank Station			","Liverpool Street Station			",2
+"Bank Station			","Liverpool Street Station			",2
+"Leicester Square Station			","Covent Garden Station			",1
+"Leicester Square Station			","Tottenham Court Road Station			",1
+"Leicester Square Station			","Tottenham Court Road Station			",1
+"Moorgate Station			","Old Street Station			",1
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",2
+"Moorgate Station			","Liverpool Street Station			",1
+"Moorgate Station			","Liverpool Street Station			",1
+"Moorgate Station			","Liverpool Street Station			",1
+"Moorgate Station			","Liverpool Street Station			",1
+"Tottenham Court Road Station			","Goodge Street Station			",2
+"Tottenham Court Road Station			","Holborn Station			",2
+"Tottenham Court Road Station			","Holborn Station			",2
+"Goodge Street Station			","Warren Street Station			",1
+"Goodge Street Station			","Warren Street Station			",1
+"Old Street Station			","Angel Station			",4
+"Angel Station			","King's Cross St. Pancras Station			",2
+"Angel Station			","King's Cross St. Pancras Station			",2
+"Angel Station			","King's Cross St. Pancras Station			",2
+"Angel Station			","King's Cross St. Pancras Station			",2
+"Angel Station			","King's Cross St. Pancras Station			",2
+"Angel Station			","King's Cross St. Pancras Station			",2
+"Warren Street Station			","Oxford Circus Station			",2
+"Warren Street Station			","Oxford Circus Station			",2
+"Warren Street Station			","Oxford Circus Station			",2
+"Warren Street Station			","Euston Station			",2
+"Warren Street Station			","Euston Station			",2
+"Warren Street Station			","Euston Station			",2
+"Euston Station			","Warren Street Station			",2
+"Euston Station			","Warren Street Station			",2
+"Euston Station			","Mornington Crescent Station			",1
+"King's Cross St. Pancras Station			","Euston Station			",1
+"King's Cross St. Pancras Station			","Euston Station			",1
+"King's Cross St. Pancras Station			","Euston Station			",1
+"King's Cross St. Pancras Station			","Caledonian Road Station			",4
+"King's Cross St. Pancras Station			","Euston Station			",2
+"King's Cross St. Pancras Station			","Euston Station			",2
+"King's Cross St. Pancras Station			","Euston Station			",2
+"King's Cross St. Pancras Station			","Farringdon Station			",4
+"King's Cross St. Pancras Station			","Farringdon Station			",4
+"King's Cross St. Pancras Station			","Farringdon Station			",4
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"Euston Station			","Warren Street Station			",2
+"Euston Station			","Warren Street Station			",2
+"Euston Station			","Mornington Crescent Station			",1
+"Mornington Crescent Station			","Camden Town Station			",2
+"Camden Town Station			","Kentish Town Station			",3
+"Camden Town Station			","Chalk Farm Station			",2
+"Chalk Farm Station			","Belsize Park Station			",2
+"Kentish Town Station			","Tufnell Park Station			",2
+"Belsize Park Station			","Hampstead Station			",2
+"Tufnell Park Station			","Archway Station			",2
+"Archway Station			","Highgate Station			",3
+"Hampstead Station			","Golders Green Station			",4
+"Golders Green Station			","Brent Cross Station			",3
+"Highgate Station			","East Finchley Station			",2
+"Brent Cross Station			","Hendon Central Station			",2
+"East Finchley Station			","Finchley Central Station			",4
+"Finchley Central Station			","Mill Hill East Station			",3
+"Finchley Central Station			","West Finchley Station			",3
+"Hendon Central Station			","Colindale Station			",2
+"Colindale Station			","Burnt Oak Station			",2
+"West Finchley Station			","Woodside Park Station			",1
+"Burnt Oak Station			","Edgware Station			",3
+"Woodside Park Station			","Totteridge & Whetstone Station			",3
+"Totteridge & Whetstone Station			","High Barnet Station			",3
+"Uxbridge Station			","Hillingdon Station			",3
+"Uxbridge Station			","Hillingdon Station			",3
+"Uxbridge Station			","Hillingdon Station			",3
+"Uxbridge Station			","Hillingdon Station			",3
+"Hillingdon Station			","Ickenham Station			",2
+"Hillingdon Station			","Ickenham Station			",2
+"Hillingdon Station			","Ickenham Station			",2
+"Hillingdon Station			","Ickenham Station			",2
+"Ickenham Station			","Ruislip Station			",2
+"Ickenham Station			","Ruislip Station			",2
+"Ickenham Station			","Ruislip Station			",2
+"Ickenham Station			","Ruislip Station			",2
+"Ruislip Station			","Ruislip Manor Station			",2
+"Ruislip Station			","Ruislip Manor Station			",2
+"Ruislip Station			","Ruislip Manor Station			",2
+"Ruislip Station			","Ruislip Manor Station			",2
+"Ruislip Manor Station			","Eastcote Station			",2
+"Ruislip Manor Station			","Eastcote Station			",2
+"Ruislip Manor Station			","Eastcote Station			",2
+"Ruislip Manor Station			","Eastcote Station			",2
+"Eastcote Station			","Rayners Lane Station			",3
+"Eastcote Station			","Rayners Lane Station			",3
+"Eastcote Station			","Rayners Lane Station			",3
+"Eastcote Station			","Rayners Lane Station			",3
+"Heathrow Terminals 1, 2, 3 Station			","Hatton Cross Station			",3
+"Heathrow Terminal 4 Station			","Heathrow Terminals 1, 2, 3 Station			",7
+"Rayners Lane Station			","South Harrow Station			",3
+"Rayners Lane Station			","West Harrow Station			",2
+"Hatton Cross Station			","Hounslow West Station			",3
+"Hounslow West Station			","Hounslow Central Station			",3
+"South Harrow Station			","Sudbury Hill Station			",3
+"Hounslow Central Station			","Hounslow East Station			",1
+"Sudbury Hill Station			","Sudbury Town Station			",2
+"Hounslow East Station			","Osterley Station			",2
+"Sudbury Town Station			","Alperton Station			",3
+"Alperton Station			","Park Royal Station			",2
+"Osterley Station			","Boston Manor Station			",4
+"Boston Manor Station			","Northfields Station			",3
+"Park Royal Station			","North Ealing Station			",2
+"North Ealing Station			","Ealing Common Station			",2
+"North Ealing Station			","Ealing Common Station			",2
+"Northfields Station			","South Ealing Station			",1
+"Ealing Common Station			",Acton Town Station,3
+"Ealing Common Station			",Acton Town Station,3
+"South Ealing Station			",Acton Town Station,5
+"South Ealing Station			",Acton Town Station,5
+Acton Town Station,"Turnham Green Station			",3
+Acton Town Station,"Turnham Green Station			",3
+"Turnham Green Station			","Hammersmith (D & P) Station			",5
+"Turnham Green Station			","Hammersmith (D & P) Station			",5
+"Hammersmith (D & P) Station			","Barons Court Station			",2
+"Hammersmith (D & P) Station			","Barons Court Station			",2
+"Barons Court Station			","Earl's Court Station			",3
+"Barons Court Station			","Earl's Court Station			",3
+"Earl's Court Station			","Gloucester Road Station			",2
+"Earl's Court Station			","Gloucester Road Station			",2
+"Earl's Court Station			","Gloucester Road Station			",2
+"Gloucester Road Station			","South Kensington Station			",1
+"Gloucester Road Station			","South Kensington Station			",1
+"Gloucester Road Station			","South Kensington Station			",1
+"Gloucester Road Station			","High Street Kensington Station			",3
+"Gloucester Road Station			","High Street Kensington Station			",3
+"South Kensington Station			","Knightsbridge Station			",3
+"South Kensington Station			","Gloucester Road Station			",3
+"South Kensington Station			","Gloucester Road Station			",3
+"South Kensington Station			","Gloucester Road Station			",3
+"Knightsbridge Station			","Hyde Park Corner Station			",1
+"Hyde Park Corner Station			","Green Park Station			",3
+"Hyde Park Corner Station			","Green Park Station			",3
+"Hyde Park Corner Station			","Green Park Station			",3
+"Green Park Station			","Victoria Station			",2
+"Green Park Station			","Victoria Station			",2
+"Green Park Station			","Victoria Station			",2
+"Green Park Station			","Piccadilly Circus Station			",1
+"Green Park Station			","Piccadilly Circus Station			",1
+"Green Park Station			","Westminster Station			",2
+"Green Park Station			","Westminster Station			",2
+"Green Park Station			","Westminster Station			",2
+"Piccadilly Circus Station			","Leicester Square Station			",2
+"Piccadilly Circus Station			","Leicester Square Station			",2
+"Piccadilly Circus Station			","Charing Cross Station			",1
+"Piccadilly Circus Station			","Charing Cross Station			",1
+"Leicester Square Station			","Covent Garden Station			",1
+"Leicester Square Station			","Tottenham Court Road Station			",1
+"Leicester Square Station			","Tottenham Court Road Station			",1
+"Covent Garden Station			","Holborn Station			",1
+"Covent Garden Station			","Holborn Station			",1
+"Holborn Station			","Russell Square Station			",2
+"Holborn Station			","Chancery Lane Station			",2
+"Russell Square Station			","King's Cross St. Pancras Station			",2
+"Russell Square Station			","King's Cross St. Pancras Station			",2
+"Russell Square Station			","King's Cross St. Pancras Station			",2
+"Russell Square Station			","King's Cross St. Pancras Station			",2
+"Russell Square Station			","King's Cross St. Pancras Station			",2
+"Russell Square Station			","King's Cross St. Pancras Station			",2
+"King's Cross St. Pancras Station			","Euston Station			",1
+"King's Cross St. Pancras Station			","Euston Station			",1
+"King's Cross St. Pancras Station			","Euston Station			",1
+"King's Cross St. Pancras Station			","Caledonian Road Station			",4
+"King's Cross St. Pancras Station			","Euston Station			",2
+"King's Cross St. Pancras Station			","Euston Station			",2
+"King's Cross St. Pancras Station			","Euston Station			",2
+"King's Cross St. Pancras Station			","Farringdon Station			",4
+"King's Cross St. Pancras Station			","Farringdon Station			",4
+"King's Cross St. Pancras Station			","Farringdon Station			",4
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"Caledonian Road Station			","Holloway Road Station			",1
+"Holloway Road Station			","Arsenal Station			",1
+"Arsenal Station			","Finsbury Park Station			",2
+"Arsenal Station			","Finsbury Park Station			",2
+"Finsbury Park Station			","Highbury & Islington Station			",3
+"Finsbury Park Station			","Manor House Station			",2
+"Manor House Station			","Turnpike Lane Station			",4
+"Turnpike Lane Station			","Wood Green Station			",2
+"Wood Green Station			","Bounds Green Station			",2
+"Bounds Green Station			","Arnos Grove Station			",4
+"Arnos Grove Station			","Southgate Station			",3
+"Southgate Station			","Oakwood Station			",3
+"Oakwood Station			","Cockfosters Station			",3
+"Walthamstow Central Station			","Blackhorse Road Station			",2
+"Blackhorse Road Station			","Tottenham Hale Station			",2
+"Tottenham Hale Station			","Seven Sisters Station			",3
+"Seven Sisters Station			","Finsbury Park Station			",3
+"Seven Sisters Station			","Finsbury Park Station			",3
+"Finsbury Park Station			","Highbury & Islington Station			",3
+"Finsbury Park Station			","Manor House Station			",2
+"Highbury & Islington Station			","King's Cross St. Pancras Station			",3
+"Highbury & Islington Station			","King's Cross St. Pancras Station			",3
+"Highbury & Islington Station			","King's Cross St. Pancras Station			",3
+"Highbury & Islington Station			","King's Cross St. Pancras Station			",3
+"Highbury & Islington Station			","King's Cross St. Pancras Station			",3
+"Highbury & Islington Station			","King's Cross St. Pancras Station			",3
+"King's Cross St. Pancras Station			","Euston Station			",1
+"King's Cross St. Pancras Station			","Euston Station			",1
+"King's Cross St. Pancras Station			","Euston Station			",1
+"King's Cross St. Pancras Station			","Caledonian Road Station			",4
+"King's Cross St. Pancras Station			","Euston Station			",2
+"King's Cross St. Pancras Station			","Euston Station			",2
+"King's Cross St. Pancras Station			","Euston Station			",2
+"King's Cross St. Pancras Station			","Farringdon Station			",4
+"King's Cross St. Pancras Station			","Farringdon Station			",4
+"King's Cross St. Pancras Station			","Farringdon Station			",4
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"King's Cross St. Pancras Station			","Farringdon Station			",3
+"Euston Station			","Warren Street Station			",2
+"Euston Station			","Warren Street Station			",2
+"Euston Station			","Mornington Crescent Station			",1
+"Warren Street Station			","Oxford Circus Station			",2
+"Warren Street Station			","Oxford Circus Station			",2
+"Warren Street Station			","Oxford Circus Station			",2
+"Warren Street Station			","Euston Station			",2
+"Warren Street Station			","Euston Station			",2
+"Warren Street Station			","Euston Station			",2
+"Oxford Circus Station			","Green Park Station			",1
+"Oxford Circus Station			","Green Park Station			",1
+"Oxford Circus Station			","Green Park Station			",1
+"Oxford Circus Station			","Tottenham Court Road Station			",1
+"Oxford Circus Station			","Tottenham Court Road Station			",1
+"Oxford Circus Station			","Piccadilly Circus Station			",3
+"Oxford Circus Station			","Piccadilly Circus Station			",3
+"Green Park Station			","Victoria Station			",2
+"Green Park Station			","Victoria Station			",2
+"Green Park Station			","Victoria Station			",2
+"Green Park Station			","Piccadilly Circus Station			",1
+"Green Park Station			","Piccadilly Circus Station			",1
+"Green Park Station			","Westminster Station			",2
+"Green Park Station			","Westminster Station			",2
+"Green Park Station			","Westminster Station			",2
+"Victoria Station			","Pimlico Station			",2
+"Victoria Station			","Sloane Square Station			",3
+"Victoria Station			","Sloane Square Station			",3
+"Pimlico Station			","Vauxhall Station			",2
+"Vauxhall Station			","Stockwell Station			",2
+"Vauxhall Station			","Stockwell Station			",2
+"Stockwell Station			","Brixton Station			",2
+"Stockwell Station			","Oval Station			",2
+"Waterloo Station			","Bank Station			",4
+"Waterloo Station			","Bank Station			",4
+"Waterloo Station			","Bank Station			",4
+"Waterloo Station			","Embankment Station			",1
+"Waterloo Station			","Embankment Station			",1
+"Waterloo Station			","Embankment Station			",1
+"Waterloo Station			","Embankment Station			",1
+"Waterloo Station			","Southwark Station			",0
+"Waterloo Station			","Lambeth North Station			",2
+"Bank Station			","Moorgate Station			",2
+"Bank Station			","Moorgate Station			",2
+"Bank Station			","Moorgate Station			",2
+"Bank Station			","Moorgate Station			",2
+"Bank Station			","Liverpool Street Station			",2
+"Bank Station			","Liverpool Street Station			",2
+"Bank Station			","Liverpool Street Station			",2
+"Bank Station			","Liverpool Street Station			",2

@@ -1,0 +1,687 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dul: <http://ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geom: <http://geovocab.org/geometry#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix locationOnt: <http://data.linkedevents.org/def/location#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix naptan: <http://transport.data.gov.uk/def/naptan/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix trans: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/Transporte#> .
+@prefix transit: <http://vocab.org/transit/terms/> .
+@prefix travel: <http://3cixty.com/ontology#> .
+@prefix unknown: <http://data.linkedevents.org/def/unknown#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/017b639b_2867_5dce_916c_7e885ec7c10a> a dul:Place,
+        transit:Station ;
+    rdfs:label "Lewisham DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/017b639b_2867_5dce_916c_7e885ec7c10a/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/017b639b_2867_5dce_916c_7e885ec7c10a/geometry> a geo:Point ;
+    geo:lat "51.464665"^^xsd:double ;
+    geo:long "-0.012874"^^xsd:double ;
+    locn:geometry "POINT (51.464665 -0.012874)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/079e84fb_94b0_5cd0_a493_fc003b86fd86> a dul:Place,
+        transit:Station ;
+    rdfs:label "Beckton DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/079e84fb_94b0_5cd0_a493_fc003b86fd86/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/079e84fb_94b0_5cd0_a493_fc003b86fd86/geometry> a geo:Point ;
+    geo:lat "51.514362"^^xsd:double ;
+    geo:long "0.061453"^^xsd:double ;
+    locn:geometry "POINT (51.514362 0.061453)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/098fbb8d_f70a_5705_a3e0_fc908f689afb> a dul:Place,
+        transit:Station ;
+    rdfs:label "Island Gardens DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/098fbb8d_f70a_5705_a3e0_fc908f689afb/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/098fbb8d_f70a_5705_a3e0_fc908f689afb/geometry> a geo:Point ;
+    geo:lat "51.487811"^^xsd:double ;
+    geo:long "-0.010139"^^xsd:double ;
+    locn:geometry "POINT (51.487811 -0.010139)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/169d6df4_5113_5687_b7c0_2d69be89f9ac> a dul:Place,
+        transit:Station ;
+    rdfs:label "Langdon Park DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/169d6df4_5113_5687_b7c0_2d69be89f9ac/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/169d6df4_5113_5687_b7c0_2d69be89f9ac/geometry> a geo:Point ;
+    geo:lat "51.515172"^^xsd:double ;
+    geo:long "-0.01415"^^xsd:double ;
+    locn:geometry "POINT (51.515172 -0.01415)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/1f34ed50_08c0_5c02_8a52_c29a8e6e6722> a dul:Place,
+        transit:Station ;
+    rdfs:label "Tower Gateway DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/1f34ed50_08c0_5c02_8a52_c29a8e6e6722/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/1f34ed50_08c0_5c02_8a52_c29a8e6e6722/geometry> a geo:Point ;
+    geo:lat "51.510617"^^xsd:double ;
+    geo:long "-0.074818"^^xsd:double ;
+    locn:geometry "POINT (51.510617 -0.074818)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/21a11c21_f6df_53e2_a39b_f0c55b5308a1> a dul:Place,
+        transit:Station ;
+    rdfs:label "Pontoon Dock DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/21a11c21_f6df_53e2_a39b_f0c55b5308a1/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/21a11c21_f6df_53e2_a39b_f0c55b5308a1/geometry> a geo:Point ;
+    geo:lat "51.502212"^^xsd:double ;
+    geo:long "0.032115"^^xsd:double ;
+    locn:geometry "POINT (51.502212 0.032115)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/2b2c8d74_5277_5157_9908_2c2bb3a62046> a dul:Place,
+        transit:Station ;
+    rdfs:label "Prince Regent DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/2b2c8d74_5277_5157_9908_2c2bb3a62046/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/2b2c8d74_5277_5157_9908_2c2bb3a62046/geometry> a geo:Point ;
+    geo:lat "51.509263"^^xsd:double ;
+    geo:long "0.034158"^^xsd:double ;
+    locn:geometry "POINT (51.509263 0.034158)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/30a73613_8fe3_54e9_a7fb_b225352f90de> a dul:Place,
+        transit:Station ;
+    rdfs:label "Poplar DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/30a73613_8fe3_54e9_a7fb_b225352f90de/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/30a73613_8fe3_54e9_a7fb_b225352f90de/geometry> a geo:Point ;
+    geo:lat "51.507744"^^xsd:double ;
+    geo:long "-0.017384"^^xsd:double ;
+    locn:geometry "POINT (51.507744 -0.017384)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/3fca09f0_11db_564f_9239_44607bd9b0db> a dul:Place,
+        transit:Station ;
+    rdfs:label "Cyprus DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/3fca09f0_11db_564f_9239_44607bd9b0db/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/3fca09f0_11db_564f_9239_44607bd9b0db/geometry> a geo:Point ;
+    geo:lat "51.508473"^^xsd:double ;
+    geo:long "0.063925"^^xsd:double ;
+    locn:geometry "POINT (51.508473 0.063925)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/47809702_2872_500d_b8f9_9caf8a5a45c4> a dul:Place,
+        transit:Station ;
+    rdfs:label "Blackwall DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/47809702_2872_500d_b8f9_9caf8a5a45c4/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/47809702_2872_500d_b8f9_9caf8a5a45c4/geometry> a geo:Point ;
+    geo:lat "51.507991"^^xsd:double ;
+    geo:long "-0.006969"^^xsd:double ;
+    locn:geometry "POINT (51.507991 -0.006969)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/4b2f5f0b_0563_5bd6_94b3_71165f773d37> a dul:Place,
+        transit:Station ;
+    rdfs:label "Custom House (for ExCel) DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/4b2f5f0b_0563_5bd6_94b3_71165f773d37/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/4b2f5f0b_0563_5bd6_94b3_71165f773d37/geometry> a geo:Point ;
+    geo:lat "51.509716"^^xsd:double ;
+    geo:long "0.026699"^^xsd:double ;
+    locn:geometry "POINT (51.509716 0.026699)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/53630dfa_0afd_50f4_8f42_380354f78b92> a dul:Place,
+        transit:Station ;
+    rdfs:label "Devons Road DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/53630dfa_0afd_50f4_8f42_380354f78b92/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/53630dfa_0afd_50f4_8f42_380354f78b92/geometry> a geo:Point ;
+    geo:lat "51.522667"^^xsd:double ;
+    geo:long "-0.017615"^^xsd:double ;
+    locn:geometry "POINT (51.522667 -0.017615)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/53b44365_4e79_5ff2_8ec6_5a9a98404548> a dul:Place,
+        transit:Station ;
+    rdfs:label "All Saints DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/53b44365_4e79_5ff2_8ec6_5a9a98404548/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/53b44365_4e79_5ff2_8ec6_5a9a98404548/geometry> a geo:Point ;
+    geo:lat "51.511"^^xsd:double ;
+    geo:long "-0.013135"^^xsd:double ;
+    locn:geometry "POINT (51.511 -0.013135)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/58ddfa31_5d53_5671_a408_92616ffb38f6> a dul:Place,
+        transit:Station ;
+    rdfs:label "Stratford DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/58ddfa31_5d53_5671_a408_92616ffb38f6/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/58ddfa31_5d53_5671_a408_92616ffb38f6/geometry> a geo:Point ;
+    geo:lat "51.541758"^^xsd:double ;
+    geo:long "-0.003287"^^xsd:double ;
+    locn:geometry "POINT (51.541758 -0.003287)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/5941928c_5490_531c_9811_a674a8925365> a dul:Place,
+        transit:Station ;
+    rdfs:label "West India Quay DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/5941928c_5490_531c_9811_a674a8925365/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/5941928c_5490_531c_9811_a674a8925365/geometry> a geo:Point ;
+    geo:lat "51.50703"^^xsd:double ;
+    geo:long "-0.020311"^^xsd:double ;
+    locn:geometry "POINT (51.50703 -0.020311)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/5d3b0ba6_f23d_5595_baf3_8ee69e0cd6b3> a dul:Place,
+        transit:Station ;
+    rdfs:label "Cutty Sark (for Maritime Greenwich) DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/5d3b0ba6_f23d_5595_baf3_8ee69e0cd6b3/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/5d3b0ba6_f23d_5595_baf3_8ee69e0cd6b3/geometry> a geo:Point ;
+    geo:lat "51.481671"^^xsd:double ;
+    geo:long "-0.01081"^^xsd:double ;
+    locn:geometry "POINT (51.481671 -0.01081)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/5ff679ed_ad2f_5e94_826b_7361dd75d550> a dul:Place,
+        transit:Station ;
+    rdfs:label "Stratford International DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/5ff679ed_ad2f_5e94_826b_7361dd75d550/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/5ff679ed_ad2f_5e94_826b_7361dd75d550/geometry> a geo:Point ;
+    geo:lat "51.545265"^^xsd:double ;
+    geo:long "-0.009638"^^xsd:double ;
+    locn:geometry "POINT (51.545265 -0.009638)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/63fdde37_5529_5f28_8265_9349fe3746dc> a dul:Place,
+        transit:Station ;
+    rdfs:label "Beckton Park DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/63fdde37_5529_5f28_8265_9349fe3746dc/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/63fdde37_5529_5f28_8265_9349fe3746dc/geometry> a geo:Point ;
+    geo:lat "51.508793"^^xsd:double ;
+    geo:long "0.054932"^^xsd:double ;
+    locn:geometry "POINT (51.508793 0.054932)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/675e6008_8b85_52b5_81a4_a7e116d3f626> a dul:Place,
+        transit:Station ;
+    rdfs:label "Limehouse DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/675e6008_8b85_52b5_81a4_a7e116d3f626/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/675e6008_8b85_52b5_81a4_a7e116d3f626/geometry> a geo:Point ;
+    geo:lat "51.512393"^^xsd:double ;
+    geo:long "-0.039809"^^xsd:double ;
+    locn:geometry "POINT (51.512393 -0.039809)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/687b6100_e559_53f7_ac08_92e3ce3fad65> a dul:Place,
+        transit:Station ;
+    rdfs:label "Elverson Road DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/687b6100_e559_53f7_ac08_92e3ce3fad65/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/687b6100_e559_53f7_ac08_92e3ce3fad65/geometry> a geo:Point ;
+    geo:lat "51.469074"^^xsd:double ;
+    geo:long "-0.016728"^^xsd:double ;
+    locn:geometry "POINT (51.469074 -0.016728)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/7bfbdf3c_9bf8_5acc_a4f1_138c69f70582> a dul:Place,
+        transit:Station ;
+    rdfs:label "Deptford Bridge DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/7bfbdf3c_9bf8_5acc_a4f1_138c69f70582/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/7bfbdf3c_9bf8_5acc_a4f1_138c69f70582/geometry> a geo:Point ;
+    geo:lat "51.474215"^^xsd:double ;
+    geo:long "-0.022438"^^xsd:double ;
+    locn:geometry "POINT (51.474215 -0.022438)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/7c58d06f_aa72_56e9_8984_7d545c6cc08a> a dul:Place,
+        transit:Station ;
+    rdfs:label "Heron Quays DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/7c58d06f_aa72_56e9_8984_7d545c6cc08a/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/7c58d06f_aa72_56e9_8984_7d545c6cc08a/geometry> a geo:Point ;
+    geo:lat "51.503379"^^xsd:double ;
+    geo:long "-0.021421"^^xsd:double ;
+    locn:geometry "POINT (51.503379 -0.021421)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/7cb20d29_c494_5a23_91f9_f07f4f5b0201> a dul:Place,
+        transit:Station ;
+    rdfs:label "Shadwell DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/7cb20d29_c494_5a23_91f9_f07f4f5b0201/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/7cb20d29_c494_5a23_91f9_f07f4f5b0201/geometry> a geo:Point ;
+    geo:lat "51.511693"^^xsd:double ;
+    geo:long "-0.056643"^^xsd:double ;
+    locn:geometry "POINT (51.511693 -0.056643)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/7d334679_ca86_5f46_84ea_cf4eba0e6597> a dul:Place,
+        transit:Station ;
+    rdfs:label "West Silvertown DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/7d334679_ca86_5f46_84ea_cf4eba0e6597/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/7d334679_ca86_5f46_84ea_cf4eba0e6597/geometry> a geo:Point ;
+    geo:lat "51.502838"^^xsd:double ;
+    geo:long "0.02246"^^xsd:double ;
+    locn:geometry "POINT (51.502838 0.02246)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/81c8262c_67d4_5401_b167_d3039b0173fc> a dul:Place,
+        transit:Station ;
+    rdfs:label "Canning Town DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/81c8262c_67d4_5401_b167_d3039b0173fc/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/81c8262c_67d4_5401_b167_d3039b0173fc/geometry> a geo:Point ;
+    geo:lat "51.514127"^^xsd:double ;
+    geo:long "0.008101"^^xsd:double ;
+    locn:geometry "POINT (51.514127 0.008101)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/82b77b9d_951a_5f49_9b18_5f03c76200a5> a dul:Place,
+        transit:Station ;
+    rdfs:label "South Quay DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/82b77b9d_951a_5f49_9b18_5f03c76200a5/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/82b77b9d_951a_5f49_9b18_5f03c76200a5/geometry> a geo:Point ;
+    geo:lat "51.500053"^^xsd:double ;
+    geo:long "-0.016133"^^xsd:double ;
+    locn:geometry "POINT (51.500053 -0.016133)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/8e423fc1_2040_555d_bd4d_808d5b08d37c> a dul:Place,
+        transit:Station ;
+    rdfs:label "Gallions Reach DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/8e423fc1_2040_555d_bd4d_808d5b08d37c/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/8e423fc1_2040_555d_bd4d_808d5b08d37c/geometry> a geo:Point ;
+    geo:lat "51.508941"^^xsd:double ;
+    geo:long "0.071555"^^xsd:double ;
+    locn:geometry "POINT (51.508941 0.071555)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/8f8837dc_71e2_5f4c_81a9_6506649f02e4> a dul:Place,
+        transit:Station ;
+    rdfs:label "Stratford High Street DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/8f8837dc_71e2_5f4c_81a9_6506649f02e4/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/8f8837dc_71e2_5f4c_81a9_6506649f02e4/geometry> a geo:Point ;
+    geo:lat "51.538196"^^xsd:double ;
+    geo:long "-0.001078"^^xsd:double ;
+    locn:geometry "POINT (51.538196 -0.001078)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/95eca7ff_7f4a_5068_b7ce_3f18815fefcc> a dul:Place,
+        transit:Station ;
+    rdfs:label "Bow Church DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/95eca7ff_7f4a_5068_b7ce_3f18815fefcc/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/95eca7ff_7f4a_5068_b7ce_3f18815fefcc/geometry> a geo:Point ;
+    geo:lat "51.527858"^^xsd:double ;
+    geo:long "-0.020936"^^xsd:double ;
+    locn:geometry "POINT (51.527858 -0.020936)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/9af4d933_7447_5488_8620_0803ef0483c0> a dul:Place,
+        transit:Station ;
+    rdfs:label "Crossharbour DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/9af4d933_7447_5488_8620_0803ef0483c0/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/9af4d933_7447_5488_8620_0803ef0483c0/geometry> a geo:Point ;
+    geo:lat "51.495728"^^xsd:double ;
+    geo:long "-0.014606"^^xsd:double ;
+    locn:geometry "POINT (51.495728 -0.014606)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/9d1e4aea_1b87_52c6_b9df_43a8535f4fd6> a dul:Place,
+        transit:Station ;
+    rdfs:label "Woolwich Arsenal DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/9d1e4aea_1b87_52c6_b9df_43a8535f4fd6/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/9d1e4aea_1b87_52c6_b9df_43a8535f4fd6/geometry> a geo:Point ;
+    geo:lat "51.490009"^^xsd:double ;
+    geo:long "0.069127"^^xsd:double ;
+    locn:geometry "POINT (51.490009 0.069127)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/9e74807c_8326_5b9a_bc95_8bd71c77522f> a dul:Place,
+        transit:Station ;
+    rdfs:label "West Ham DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/9e74807c_8326_5b9a_bc95_8bd71c77522f/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/9e74807c_8326_5b9a_bc95_8bd71c77522f/geometry> a geo:Point ;
+    geo:lat "51.527894"^^xsd:double ;
+    geo:long "0.004482"^^xsd:double ;
+    locn:geometry "POINT (51.527894 0.004482)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/a0a30536_94ff_5781_8dc2_4ee981df9327> a dul:Place,
+        transit:Station ;
+    rdfs:label "King George V DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/a0a30536_94ff_5781_8dc2_4ee981df9327/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/a0a30536_94ff_5781_8dc2_4ee981df9327/geometry> a geo:Point ;
+    geo:lat "51.502003"^^xsd:double ;
+    geo:long "0.062624"^^xsd:double ;
+    locn:geometry "POINT (51.502003 0.062624)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/a2999f3d_8f69_5fcc_bbd4_327f43781d1f> a dul:Place,
+        transit:Station ;
+    rdfs:label "Royal Victoria DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/a2999f3d_8f69_5fcc_bbd4_327f43781d1f/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/a2999f3d_8f69_5fcc_bbd4_327f43781d1f/geometry> a geo:Point ;
+    geo:lat "51.509336"^^xsd:double ;
+    geo:long "0.018497"^^xsd:double ;
+    locn:geometry "POINT (51.509336 0.018497)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/a6039cd6_12d0_55df_bdb7_7887767d67c6> a dul:Place,
+        transit:Station ;
+    rdfs:label "Greenwich DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/a6039cd6_12d0_55df_bdb7_7887767d67c6/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/a6039cd6_12d0_55df_bdb7_7887767d67c6/geometry> a geo:Point ;
+    geo:lat "51.478087"^^xsd:double ;
+    geo:long "-0.013673"^^xsd:double ;
+    locn:geometry "POINT (51.478087 -0.013673)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/a62cf53e_1ac3_5160_a129_b95ee59e82f6> a dul:Place,
+        transit:Station ;
+    rdfs:label "Mudchute DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/a62cf53e_1ac3_5160_a129_b95ee59e82f6/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/a62cf53e_1ac3_5160_a129_b95ee59e82f6/geometry> a geo:Point ;
+    geo:lat "51.490704"^^xsd:double ;
+    geo:long "-0.014738"^^xsd:double ;
+    locn:geometry "POINT (51.490704 -0.014738)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/acbde110_bd83_542a_9cd9_4b02b60eac9b> a dul:Place,
+        transit:Station ;
+    rdfs:label "Canary Wharf DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/acbde110_bd83_542a_9cd9_4b02b60eac9b/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/acbde110_bd83_542a_9cd9_4b02b60eac9b/geometry> a geo:Point ;
+    geo:lat "51.504838"^^xsd:double ;
+    geo:long "-0.020997"^^xsd:double ;
+    locn:geometry "POINT (51.504838 -0.020997)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/b2baaf40_962f_5dc2_8bfa_d5bee1926742> a dul:Place,
+        transit:Station ;
+    rdfs:label "Royal Albert DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/b2baaf40_962f_5dc2_8bfa_d5bee1926742/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/b2baaf40_962f_5dc2_8bfa_d5bee1926742/geometry> a geo:Point ;
+    geo:lat "51.508357"^^xsd:double ;
+    geo:long "0.045935"^^xsd:double ;
+    locn:geometry "POINT (51.508357 0.045935)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/b40eb0d1_3311_5856_908a_e25b25a636b6> a dul:Place,
+        transit:Station ;
+    rdfs:label "Star Lane DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/b40eb0d1_3311_5856_908a_e25b25a636b6/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/b40eb0d1_3311_5856_908a_e25b25a636b6/geometry> a geo:Point ;
+    geo:lat "51.520786"^^xsd:double ;
+    geo:long "0.004156"^^xsd:double ;
+    locn:geometry "POINT (51.520786 0.004156)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/c7791319_f30f_5ffc_882c_f50eaea3eb14> a dul:Place,
+        transit:Station ;
+    rdfs:label "East India DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/c7791319_f30f_5ffc_882c_f50eaea3eb14/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/c7791319_f30f_5ffc_882c_f50eaea3eb14/geometry> a geo:Point ;
+    geo:lat "51.509359"^^xsd:double ;
+    geo:long "-0.002326"^^xsd:double ;
+    locn:geometry "POINT (51.509359 -0.002326)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/d16fcee7_2ee1_57c8_9add_ec335e7a0cba> a dul:Place,
+        transit:Station ;
+    rdfs:label "Bank DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/d16fcee7_2ee1_57c8_9add_ec335e7a0cba/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/d16fcee7_2ee1_57c8_9add_ec335e7a0cba/geometry> a geo:Point ;
+    geo:lat "51.513233"^^xsd:double ;
+    geo:long "-0.088515"^^xsd:double ;
+    locn:geometry "POINT (51.513233 -0.088515)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/da2c24a8_66aa_5dcf_9b2d_14d29cffd6b0> a dul:Place,
+        transit:Station ;
+    rdfs:label "Westferry DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/da2c24a8_66aa_5dcf_9b2d_14d29cffd6b0/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/da2c24a8_66aa_5dcf_9b2d_14d29cffd6b0/geometry> a geo:Point ;
+    geo:lat "51.509431"^^xsd:double ;
+    geo:long "-0.02675"^^xsd:double ;
+    locn:geometry "POINT (51.509431 -0.02675)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/f0d2bfd2_f9ef_5149_979c_9a07f9da8706> a dul:Place,
+        transit:Station ;
+    rdfs:label "Pudding Mill Lane DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/f0d2bfd2_f9ef_5149_979c_9a07f9da8706/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/f0d2bfd2_f9ef_5149_979c_9a07f9da8706/geometry> a geo:Point ;
+    geo:lat "51.534302"^^xsd:double ;
+    geo:long "-0.012755"^^xsd:double ;
+    locn:geometry "POINT (51.534302 -0.012755)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayStop/fdbe068f_0917_5704_bbb7_a1495fed5c10> a dul:Place,
+        transit:Station ;
+    rdfs:label "London City Airport DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/fdbe068f_0917_5704_bbb7_a1495fed5c10/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/fdbe068f_0917_5704_bbb7_a1495fed5c10/geometry> a geo:Point ;
+    geo:lat "51.503416"^^xsd:double ;
+    geo:long "0.048739"^^xsd:double ;
+    locn:geometry "POINT (51.503416 0.048739)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/transit/london/subwayRoute/dlr> a transit:RailRoute ;
+    schema:name "dlr" ;
+    transit:Station <http://data.linkedevents.org/transit/london/subwayStop/017b639b_2867_5dce_916c_7e885ec7c10a>,
+        <http://data.linkedevents.org/transit/london/subwayStop/079e84fb_94b0_5cd0_a493_fc003b86fd86>,
+        <http://data.linkedevents.org/transit/london/subwayStop/098fbb8d_f70a_5705_a3e0_fc908f689afb>,
+        <http://data.linkedevents.org/transit/london/subwayStop/169d6df4_5113_5687_b7c0_2d69be89f9ac>,
+        <http://data.linkedevents.org/transit/london/subwayStop/1f34ed50_08c0_5c02_8a52_c29a8e6e6722>,
+        <http://data.linkedevents.org/transit/london/subwayStop/21a11c21_f6df_53e2_a39b_f0c55b5308a1>,
+        <http://data.linkedevents.org/transit/london/subwayStop/2b2c8d74_5277_5157_9908_2c2bb3a62046>,
+        <http://data.linkedevents.org/transit/london/subwayStop/30a73613_8fe3_54e9_a7fb_b225352f90de>,
+        <http://data.linkedevents.org/transit/london/subwayStop/3fca09f0_11db_564f_9239_44607bd9b0db>,
+        <http://data.linkedevents.org/transit/london/subwayStop/47809702_2872_500d_b8f9_9caf8a5a45c4>,
+        <http://data.linkedevents.org/transit/london/subwayStop/4b2f5f0b_0563_5bd6_94b3_71165f773d37>,
+        <http://data.linkedevents.org/transit/london/subwayStop/53630dfa_0afd_50f4_8f42_380354f78b92>,
+        <http://data.linkedevents.org/transit/london/subwayStop/53b44365_4e79_5ff2_8ec6_5a9a98404548>,
+        <http://data.linkedevents.org/transit/london/subwayStop/58ddfa31_5d53_5671_a408_92616ffb38f6>,
+        <http://data.linkedevents.org/transit/london/subwayStop/5941928c_5490_531c_9811_a674a8925365>,
+        <http://data.linkedevents.org/transit/london/subwayStop/5d3b0ba6_f23d_5595_baf3_8ee69e0cd6b3>,
+        <http://data.linkedevents.org/transit/london/subwayStop/5ff679ed_ad2f_5e94_826b_7361dd75d550>,
+        <http://data.linkedevents.org/transit/london/subwayStop/63fdde37_5529_5f28_8265_9349fe3746dc>,
+        <http://data.linkedevents.org/transit/london/subwayStop/675e6008_8b85_52b5_81a4_a7e116d3f626>,
+        <http://data.linkedevents.org/transit/london/subwayStop/687b6100_e559_53f7_ac08_92e3ce3fad65>,
+        <http://data.linkedevents.org/transit/london/subwayStop/7bfbdf3c_9bf8_5acc_a4f1_138c69f70582>,
+        <http://data.linkedevents.org/transit/london/subwayStop/7c58d06f_aa72_56e9_8984_7d545c6cc08a>,
+        <http://data.linkedevents.org/transit/london/subwayStop/7cb20d29_c494_5a23_91f9_f07f4f5b0201>,
+        <http://data.linkedevents.org/transit/london/subwayStop/7d334679_ca86_5f46_84ea_cf4eba0e6597>,
+        <http://data.linkedevents.org/transit/london/subwayStop/81c8262c_67d4_5401_b167_d3039b0173fc>,
+        <http://data.linkedevents.org/transit/london/subwayStop/82b77b9d_951a_5f49_9b18_5f03c76200a5>,
+        <http://data.linkedevents.org/transit/london/subwayStop/8e423fc1_2040_555d_bd4d_808d5b08d37c>,
+        <http://data.linkedevents.org/transit/london/subwayStop/8f8837dc_71e2_5f4c_81a9_6506649f02e4>,
+        <http://data.linkedevents.org/transit/london/subwayStop/95eca7ff_7f4a_5068_b7ce_3f18815fefcc>,
+        <http://data.linkedevents.org/transit/london/subwayStop/9af4d933_7447_5488_8620_0803ef0483c0>,
+        <http://data.linkedevents.org/transit/london/subwayStop/9d1e4aea_1b87_52c6_b9df_43a8535f4fd6>,
+        <http://data.linkedevents.org/transit/london/subwayStop/9e74807c_8326_5b9a_bc95_8bd71c77522f>,
+        <http://data.linkedevents.org/transit/london/subwayStop/a0a30536_94ff_5781_8dc2_4ee981df9327>,
+        <http://data.linkedevents.org/transit/london/subwayStop/a2999f3d_8f69_5fcc_bbd4_327f43781d1f>,
+        <http://data.linkedevents.org/transit/london/subwayStop/a6039cd6_12d0_55df_bdb7_7887767d67c6>,
+        <http://data.linkedevents.org/transit/london/subwayStop/a62cf53e_1ac3_5160_a129_b95ee59e82f6>,
+        <http://data.linkedevents.org/transit/london/subwayStop/acbde110_bd83_542a_9cd9_4b02b60eac9b>,
+        <http://data.linkedevents.org/transit/london/subwayStop/b2baaf40_962f_5dc2_8bfa_d5bee1926742>,
+        <http://data.linkedevents.org/transit/london/subwayStop/b40eb0d1_3311_5856_908a_e25b25a636b6>,
+        <http://data.linkedevents.org/transit/london/subwayStop/c7791319_f30f_5ffc_882c_f50eaea3eb14>,
+        <http://data.linkedevents.org/transit/london/subwayStop/d16fcee7_2ee1_57c8_9add_ec335e7a0cba>,
+        <http://data.linkedevents.org/transit/london/subwayStop/da2c24a8_66aa_5dcf_9b2d_14d29cffd6b0>,
+        <http://data.linkedevents.org/transit/london/subwayStop/f0d2bfd2_f9ef_5149_979c_9a07f9da8706>,
+        <http://data.linkedevents.org/transit/london/subwayStop/fdbe068f_0917_5704_bbb7_a1495fed5c10> .
+

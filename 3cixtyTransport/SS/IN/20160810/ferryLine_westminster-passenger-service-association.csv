@@ -1,0 +1,5 @@
+stationNaptan,stationName,stopType,lat,lon,line
+930GHCP,Hampton Court Pier,NaptanFerryPort,51.403918,-0.34168,westminster-passenger-service-association
+930GKEW,Kew Pier,NaptanFerryPort,51.486423,-0.286432,westminster-passenger-service-association
+930GRLS,Richmond Landing Stage,NaptanFerryPort,51.457096,-0.306114,westminster-passenger-service-association
+930GWMR,Westminster Pier,NaptanFerryPort,51.501567,-0.123738,westminster-passenger-service-association

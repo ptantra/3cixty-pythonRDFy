@@ -1,0 +1,48 @@
+stationNaptan,stationName,stopType,lat,lon,line
+940GZZLUACT,Acton Town Underground Station,NaptanMetroStation,51.503057,-0.280462,circle
+940GZZLUALD,Aldgate Underground Station,NaptanMetroStation,51.514246,-0.075689,circle
+940GZZLUBBN,Barbican Underground Station,NaptanMetroStation,51.520275,-0.097993,circle
+940GZZLUBKF,Blackfriars Underground Station,NaptanMetroStation,51.511581,-0.103659,circle
+940GZZLUBSC,Barons Court Underground Station,NaptanMetroStation,51.490311,-0.213427,circle
+940GZZLUBST,Baker Street Underground Station,NaptanMetroStation,51.522883,-0.15713,circle
+940GZZLUBWT,Bayswater Underground Station,NaptanMetroStation,51.512284,-0.187938,circle
+940GZZLUCST,Cannon Street Underground Station,NaptanMetroStation,51.51151,-0.090432,circle
+940GZZLUCWP,Chiswick Park Underground Station,NaptanMetroStation,51.494627,-0.267972,circle
+940GZZLUEBY,Ealing Broadway Underground Station,NaptanMetroStation,51.515017,-0.301457,circle
+940GZZLUECM,Ealing Common Underground Station,NaptanMetroStation,51.51014,-0.288265,circle
+940GZZLUECT,Earl's Court Underground Station,NaptanMetroStation,51.492063,-0.193378,circle
+940GZZLUEMB,Embankment Underground Station,NaptanMetroStation,51.507058,-0.122666,circle
+940GZZLUERC,Edgware Road (Circle Line) Underground Station,NaptanMetroStation,51.519858,-0.167832,circle
+940GZZLUESQ,Euston Square Underground Station,NaptanMetroStation,51.525604,-0.135829,circle
+940GZZLUFCN,Farringdon Underground Station,NaptanMetroStation,51.520252,-0.104913,circle
+940GZZLUGHK,Goldhawk Road Underground Station,NaptanMetroStation,51.502005,-0.226715,circle
+940GZZLUGPS,Great Portland Street Underground Station,NaptanMetroStation,51.52384,-0.144262,circle
+940GZZLUGTR,Gloucester Road Underground Station,NaptanMetroStation,51.494316,-0.182658,circle
+940GZZLUHSC,Hammersmith (H&C Line) Underground Station,NaptanMetroStation,51.493383,-0.225033,circle
+940GZZLUHSD,Hammersmith (Dist&Picc Line) Underground Station,NaptanMetroStation,51.4923,-0.22362,circle
+940GZZLUHSK,High Street Kensington Underground Station,NaptanMetroStation,51.501055,-0.192792,circle
+940GZZLUKSX,King's Cross St. Pancras Underground Station,NaptanMetroStation,51.530663,-0.123194,circle
+940GZZLULAD,Ladbroke Grove Underground Station,NaptanMetroStation,51.517449,-0.210391,circle
+940GZZLULRD,Latimer Road Underground Station,NaptanMetroStation,51.513389,-0.217799,circle
+940GZZLULVT,Liverpool Street Underground Station,NaptanMetroStation,51.517372,-0.083182,circle
+940GZZLUMGT,Moorgate Underground Station,NaptanMetroStation,51.518176,-0.088322,circle
+940GZZLUMMT,Monument Underground Station,NaptanMetroStation,51.5107,-0.085969,circle
+940GZZLUMSH,Mansion House Underground Station,NaptanMetroStation,51.512117,-0.094009,circle
+940GZZLUNHG,Notting Hill Gate Underground Station,NaptanMetroStation,51.509128,-0.196104,circle
+940GZZLUPAC,Paddington Underground Station,NaptanMetroStation,51.516581,-0.175689,circle
+940GZZLUPAH,Paddington (H&C Line)-Underground,NaptanMetroStation,51.518187,-0.178306,circle
+940GZZLURVP,Ravenscourt Park Underground Station,NaptanMetroStation,51.494122,-0.235881,circle
+940GZZLURYO,Royal Oak Underground Station,NaptanMetroStation,51.519113,-0.188748,circle
+940GZZLUSBM,Shepherd's Bush Market Underground Station,NaptanMetroStation,51.505579,-0.226375,circle
+940GZZLUSFB,Stamford Brook Underground Station,NaptanMetroStation,51.494917,-0.245704,circle
+940GZZLUSJP,St. James's Park Underground Station,NaptanMetroStation,51.499544,-0.133608,circle
+940GZZLUSKS,South Kensington Underground Station,NaptanMetroStation,51.494094,-0.174138,circle
+940GZZLUSSQ,Sloane Square Underground Station,NaptanMetroStation,51.49227,-0.156377,circle
+940GZZLUTMP,Temple Underground Station,NaptanMetroStation,51.511006,-0.11426,circle
+940GZZLUTNG,Turnham Green Underground Station,NaptanMetroStation,51.495148,-0.254555,circle
+940GZZLUTWH,Tower Hill Underground Station,NaptanMetroStation,51.509971,-0.076546,circle
+940GZZLUVIC,Victoria Underground Station,NaptanMetroStation,51.496359,-0.143102,circle
+940GZZLUWKN,West Kensington Underground Station,NaptanMetroStation,51.490459,-0.206636,circle
+940GZZLUWLA,Wood Lane Underground Station,NaptanMetroStation,51.509669,-0.22453,circle
+940GZZLUWSM,Westminster Underground Station,NaptanMetroStation,51.50132,-0.124861,circle
+940GZZLUWSP,Westbourne Park Underground Station,NaptanMetroStation,51.52111,-0.201065,circle

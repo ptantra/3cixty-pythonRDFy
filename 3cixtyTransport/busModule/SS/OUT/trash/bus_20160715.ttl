@@ -1,0 +1,284 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dul: <http://ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geom: <http://geovocab.org/geometry#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix locationOnt: <http://data.linkedevents.org/def/location#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix naptan: <http://transport.data.gov.uk/def/naptan/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix trans: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/Transporte#> .
+@prefix transit: <http://vocab.org/transit/terms/> .
+@prefix travel: <http://3cixty.com/ontology#> .
+@prefix unknown: <http://data.linkedevents.org/def/unknown#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.linkedevents.org/transit/London/stop/48037> a dul:Place,
+        naptan:londonBusStop,
+        transit:Stop ;
+    rdfs:label "Bus Stop - ST MARY MAGDALENE CHURCH" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/375f3e09-1525-5c0a-aa3e-211531ef1ca1/geometry> ;
+    dc:identifier "48037" ;
+    dc:publisher <https://tfl.gov.uk/modes/buses/> ;
+    schema:geo <http://data.linkedevents.org/location/375f3e09-1525-5c0a-aa3e-211531ef1ca1/geometry> ;
+    schema:location <http://data.linkedevents.org/location/375f3e09-1525-5c0a-aa3e-211531ef1ca1/address> ;
+    transit:route <http://data.linkedevents.org/transit/London/route/> ;
+    geo:location <http://data.linkedevents.org/location/375f3e09-1525-5c0a-aa3e-211531ef1ca1/geometry> ;
+    locn:address <http://data.linkedevents.org/location/375f3e09-1525-5c0a-aa3e-211531ef1ca1/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48458> a dul:Place,
+        naptan:londonBusStop,
+        transit:Stop ;
+    rdfs:label "Bus Stop - HOLLOWAY ROAD STATION" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/34118907-77a2-5693-bcf9-b557c2edccfd/geometry> ;
+    dc:identifier "48458" ;
+    dc:publisher <https://tfl.gov.uk/modes/buses/> ;
+    schema:geo <http://data.linkedevents.org/location/34118907-77a2-5693-bcf9-b557c2edccfd/geometry> ;
+    schema:location <http://data.linkedevents.org/location/34118907-77a2-5693-bcf9-b557c2edccfd/address> ;
+    transit:route <http://data.linkedevents.org/transit/London/route/> ;
+    geo:location <http://data.linkedevents.org/location/34118907-77a2-5693-bcf9-b557c2edccfd/geometry> ;
+    locn:address <http://data.linkedevents.org/location/34118907-77a2-5693-bcf9-b557c2edccfd/address> .
+
+<http://data.linkedevents.org/transit/London/stop/48461> a dul:Place,
+        naptan:londonBusStop,
+        transit:Stop ;
+    rdfs:label "Bus Stop - HIGHBURY CORNER" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/45dc135e-2797-5844-9f31-5cc8b40781f4/geometry> ;
+    dc:identifier "48461" ;
+    dc:publisher <https://tfl.gov.uk/modes/buses/> ;
+    schema:geo <http://data.linkedevents.org/location/45dc135e-2797-5844-9f31-5cc8b40781f4/geometry> ;
+    schema:location <http://data.linkedevents.org/location/45dc135e-2797-5844-9f31-5cc8b40781f4/address> ;
+    transit:route <http://data.linkedevents.org/transit/London/route/> ;
+    geo:location <http://data.linkedevents.org/location/45dc135e-2797-5844-9f31-5cc8b40781f4/geometry> ;
+    locn:address <http://data.linkedevents.org/location/45dc135e-2797-5844-9f31-5cc8b40781f4/address> .
+
+<http://data.linkedevents.org/transit/London/stop/54595> a dul:Place,
+        naptan:londonBusStop,
+        transit:Stop ;
+    rdfs:label "Bus Stop - LYNWOOD ROAD" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/9e5331f6-655f-549d-9115-421cc1fe32e2/geometry> ;
+    dc:identifier "54595" ;
+    dc:publisher <https://tfl.gov.uk/modes/buses/> ;
+    schema:geo <http://data.linkedevents.org/location/9e5331f6-655f-549d-9115-421cc1fe32e2/geometry> ;
+    schema:location <http://data.linkedevents.org/location/9e5331f6-655f-549d-9115-421cc1fe32e2/address> ;
+    transit:route <http://data.linkedevents.org/transit/London/route/> ;
+    geo:location <http://data.linkedevents.org/location/9e5331f6-655f-549d-9115-421cc1fe32e2/geometry> ;
+    locn:address <http://data.linkedevents.org/location/9e5331f6-655f-549d-9115-421cc1fe32e2/address> .
+
+<http://data.linkedevents.org/transit/London/stop/57538> a dul:Place,
+        naptan:londonBusStop,
+        transit:Stop ;
+    rdfs:label "Bus Stop - ST MARY MAGDALENE CHURCH" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/dc0e8a50-9f4a-5d3f-9945-e13d2599a5b7/geometry> ;
+    dc:identifier "57538" ;
+    dc:publisher <https://tfl.gov.uk/modes/buses/> ;
+    schema:geo <http://data.linkedevents.org/location/dc0e8a50-9f4a-5d3f-9945-e13d2599a5b7/geometry> ;
+    schema:location <http://data.linkedevents.org/location/dc0e8a50-9f4a-5d3f-9945-e13d2599a5b7/address> ;
+    transit:route <http://data.linkedevents.org/transit/London/route/> ;
+    geo:location <http://data.linkedevents.org/location/dc0e8a50-9f4a-5d3f-9945-e13d2599a5b7/geometry> ;
+    locn:address <http://data.linkedevents.org/location/dc0e8a50-9f4a-5d3f-9945-e13d2599a5b7/address> .
+
+<http://data.linkedevents.org/transit/London/stop/58713> a dul:Place,
+        naptan:londonBusStop,
+        transit:Stop ;
+    rdfs:label "Bus Stop - HOLLOWAY ROAD STATION" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/db1b362c-d63f-57f2-8b46-416de99c12bb/geometry> ;
+    dc:identifier "58713" ;
+    dc:publisher <https://tfl.gov.uk/modes/buses/> ;
+    schema:geo <http://data.linkedevents.org/location/db1b362c-d63f-57f2-8b46-416de99c12bb/geometry> ;
+    schema:location <http://data.linkedevents.org/location/db1b362c-d63f-57f2-8b46-416de99c12bb/address> ;
+    transit:route <http://data.linkedevents.org/transit/London/route/> ;
+    geo:location <http://data.linkedevents.org/location/db1b362c-d63f-57f2-8b46-416de99c12bb/geometry> ;
+    locn:address <http://data.linkedevents.org/location/db1b362c-d63f-57f2-8b46-416de99c12bb/address> .
+
+<http://data.linkedevents.org/transit/London/stop/71829> a dul:Place,
+        naptan:londonBusStop,
+        transit:Stop ;
+    rdfs:label "Bus Stop - LYNWOOD ROAD" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/f81abd86-de98-5728-a09c-159439803acc/geometry> ;
+    dc:identifier "71829" ;
+    dc:publisher <https://tfl.gov.uk/modes/buses/> ;
+    schema:geo <http://data.linkedevents.org/location/f81abd86-de98-5728-a09c-159439803acc/geometry> ;
+    schema:location <http://data.linkedevents.org/location/f81abd86-de98-5728-a09c-159439803acc/address> ;
+    transit:route <http://data.linkedevents.org/transit/London/route/> ;
+    geo:location <http://data.linkedevents.org/location/f81abd86-de98-5728-a09c-159439803acc/geometry> ;
+    locn:address <http://data.linkedevents.org/location/f81abd86-de98-5728-a09c-159439803acc/address> .
+
+<http://data.linkedevents.org/transit/London/stop/72689> a dul:Place,
+        naptan:londonBusStop,
+        transit:Stop ;
+    rdfs:label "Bus Stop - TREVOR CLOSE" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/d0bd682a-d99a-52b4-9dfa-bd747d5e85ec/geometry> ;
+    dc:identifier "72689" ;
+    dc:publisher <https://tfl.gov.uk/modes/buses/> ;
+    schema:geo <http://data.linkedevents.org/location/d0bd682a-d99a-52b4-9dfa-bd747d5e85ec/geometry> ;
+    schema:location <http://data.linkedevents.org/location/d0bd682a-d99a-52b4-9dfa-bd747d5e85ec/address> ;
+    transit:route <http://data.linkedevents.org/transit/London/route/> ;
+    geo:location <http://data.linkedevents.org/location/d0bd682a-d99a-52b4-9dfa-bd747d5e85ec/geometry> ;
+    locn:address <http://data.linkedevents.org/location/d0bd682a-d99a-52b4-9dfa-bd747d5e85ec/address> .
+
+<http://data.linkedevents.org/transit/London/stop/77150> a dul:Place,
+        naptan:londonBusStop,
+        transit:Stop ;
+    rdfs:label "Bus Stop - HIGHBURY & ISLINGTON STATION" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/6b940eea-b808-5550-a878-fdbafdcbb814/geometry> ;
+    dc:identifier "77150" ;
+    dc:publisher <https://tfl.gov.uk/modes/buses/> ;
+    schema:geo <http://data.linkedevents.org/location/6b940eea-b808-5550-a878-fdbafdcbb814/geometry> ;
+    schema:location <http://data.linkedevents.org/location/6b940eea-b808-5550-a878-fdbafdcbb814/address> ;
+    transit:route <http://data.linkedevents.org/transit/London/route/> ;
+    geo:location <http://data.linkedevents.org/location/6b940eea-b808-5550-a878-fdbafdcbb814/geometry> ;
+    locn:address <http://data.linkedevents.org/location/6b940eea-b808-5550-a878-fdbafdcbb814/address> .
+
+<http://data.linkedevents.org/transit/London/stop/91532> a dul:Place,
+        naptan:londonBusStop,
+        transit:Stop ;
+    rdfs:label "Bus Stop - WESTMINSTER STATION  - PARLIAMENT SQUARE" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/busstop> ;
+    geom:geometry <http://data.linkedevents.org/location/4d498e90-bd74-57a4-977b-d494e5f955b3/geometry> ;
+    dc:identifier "91532" ;
+    dc:publisher <https://tfl.gov.uk/modes/buses/> ;
+    schema:geo <http://data.linkedevents.org/location/4d498e90-bd74-57a4-977b-d494e5f955b3/geometry> ;
+    schema:location <http://data.linkedevents.org/location/4d498e90-bd74-57a4-977b-d494e5f955b3/address> ;
+    transit:route <http://data.linkedevents.org/transit/London/route/> ;
+    geo:location <http://data.linkedevents.org/location/4d498e90-bd74-57a4-977b-d494e5f955b3/geometry> ;
+    locn:address <http://data.linkedevents.org/location/4d498e90-bd74-57a4-977b-d494e5f955b3/address> .
+
+<http://data.linkedevents.org/location/34118907-77a2-5693-bcf9-b557c2edccfd/address> a dcterms:Location,
+        schema:PostalAddress ;
+    dcterms:title "HOLLOWAY ROAD STATION" ;
+    schema:addressLocality "London" ;
+    schema:streetAddress "" ;
+    locn:address "" ;
+    locn:adminUnitL12 "London" .
+
+<http://data.linkedevents.org/location/375f3e09-1525-5c0a-aa3e-211531ef1ca1/address> a dcterms:Location,
+        schema:PostalAddress ;
+    dcterms:title "ST MARY MAGDALENE CHURCH" ;
+    schema:addressLocality "London" ;
+    schema:streetAddress "" ;
+    locn:address "" ;
+    locn:adminUnitL12 "London" .
+
+<http://data.linkedevents.org/location/45dc135e-2797-5844-9f31-5cc8b40781f4/address> a dcterms:Location,
+        schema:PostalAddress ;
+    dcterms:title "HIGHBURY CORNER" ;
+    schema:addressLocality "London" ;
+    schema:streetAddress "" ;
+    locn:address "" ;
+    locn:adminUnitL12 "London" .
+
+<http://data.linkedevents.org/location/4d498e90-bd74-57a4-977b-d494e5f955b3/address> a dcterms:Location,
+        schema:PostalAddress ;
+    dcterms:title "WESTMINSTER STATION  - PARLIAMENT SQUARE" ;
+    schema:addressLocality "London" ;
+    schema:streetAddress "" ;
+    locn:address "" ;
+    locn:adminUnitL12 "London" .
+
+<http://data.linkedevents.org/location/6b940eea-b808-5550-a878-fdbafdcbb814/address> a dcterms:Location,
+        schema:PostalAddress ;
+    dcterms:title "HIGHBURY & ISLINGTON STATION" ;
+    schema:addressLocality "London" ;
+    schema:streetAddress "" ;
+    locn:address "" ;
+    locn:adminUnitL12 "London" .
+
+<http://data.linkedevents.org/location/9e5331f6-655f-549d-9115-421cc1fe32e2/address> a dcterms:Location,
+        schema:PostalAddress ;
+    dcterms:title "LYNWOOD ROAD" ;
+    schema:addressLocality "London" ;
+    schema:streetAddress "" ;
+    locn:address "" ;
+    locn:adminUnitL12 "London" .
+
+<http://data.linkedevents.org/location/d0bd682a-d99a-52b4-9dfa-bd747d5e85ec/address> a dcterms:Location,
+        schema:PostalAddress ;
+    dcterms:title "TREVOR CLOSE" ;
+    schema:addressLocality "London" ;
+    schema:streetAddress "" ;
+    locn:address "" ;
+    locn:adminUnitL12 "London" .
+
+<http://data.linkedevents.org/location/db1b362c-d63f-57f2-8b46-416de99c12bb/address> a dcterms:Location,
+        schema:PostalAddress ;
+    dcterms:title "HOLLOWAY ROAD STATION" ;
+    schema:addressLocality "London" ;
+    schema:streetAddress "" ;
+    locn:address "" ;
+    locn:adminUnitL12 "London" .
+
+<http://data.linkedevents.org/location/dc0e8a50-9f4a-5d3f-9945-e13d2599a5b7/address> a dcterms:Location,
+        schema:PostalAddress ;
+    dcterms:title "ST MARY MAGDALENE CHURCH" ;
+    schema:addressLocality "London" ;
+    schema:streetAddress "" ;
+    locn:address "" ;
+    locn:adminUnitL12 "London" .
+
+<http://data.linkedevents.org/location/f81abd86-de98-5728-a09c-159439803acc/address> a dcterms:Location,
+        schema:PostalAddress ;
+    dcterms:title "LYNWOOD ROAD" ;
+    schema:addressLocality "London" ;
+    schema:streetAddress "" ;
+    locn:address "" ;
+    locn:adminUnitL12 "London" .
+
+<http://data.linkedevents.org/location/34118907-77a2-5693-bcf9-b557c2edccfd/geometry> a geo:Point ;
+    geo:lat "-5.32652194131"^^xsd:double ;
+    geo:long "54.6286860708"^^xsd:double .
+
+<http://data.linkedevents.org/location/375f3e09-1525-5c0a-aa3e-211531ef1ca1/geometry> a geo:Point ;
+    geo:lat "-5.33282515774"^^xsd:double ;
+    geo:long "54.6314708449"^^xsd:double .
+
+<http://data.linkedevents.org/location/45dc135e-2797-5844-9f31-5cc8b40781f4/geometry> a geo:Point ;
+    geo:lat "-5.33893117656"^^xsd:double ;
+    geo:long "54.6335414049"^^xsd:double .
+
+<http://data.linkedevents.org/location/4d498e90-bd74-57a4-977b-d494e5f955b3/geometry> a geo:Point ;
+    geo:lat "-5.4130785639"^^xsd:double ;
+    geo:long "54.6184966243"^^xsd:double .
+
+<http://data.linkedevents.org/location/6b940eea-b808-5550-a878-fdbafdcbb814/geometry> a geo:Point ;
+    geo:lat "-5.33579184922"^^xsd:double ;
+    geo:long "54.6330615343"^^xsd:double .
+
+<http://data.linkedevents.org/location/9e5331f6-655f-549d-9115-421cc1fe32e2/geometry> a geo:Point ;
+    geo:lat "-5.35816275097"^^xsd:double ;
+    geo:long "54.5097576307"^^xsd:double .
+
+<http://data.linkedevents.org/location/d0bd682a-d99a-52b4-9dfa-bd747d5e85ec/geometry> a geo:Point ;
+    geo:lat "-5.47865350992"^^xsd:double ;
+    geo:long "54.4872297331"^^xsd:double .
+
+<http://data.linkedevents.org/location/db1b362c-d63f-57f2-8b46-416de99c12bb/geometry> a geo:Point ;
+    geo:lat "-5.32510555946"^^xsd:double ;
+    geo:long "54.6278528178"^^xsd:double .
+
+<http://data.linkedevents.org/location/dc0e8a50-9f4a-5d3f-9945-e13d2599a5b7/geometry> a geo:Point ;
+    geo:lat "-5.33244230759"^^xsd:double ;
+    geo:long "54.6311486986"^^xsd:double .
+
+<http://data.linkedevents.org/location/f81abd86-de98-5728-a09c-159439803acc/geometry> a geo:Point ;
+    geo:lat "-5.3578089761"^^xsd:double ;
+    geo:long "54.5101541185"^^xsd:double .
+

@@ -1,0 +1,180 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dul: <http://ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://www.w3.org/TR/vocab-ssn/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/003503d1-8c6c-5ee3-b83a-2b7fec5890bf> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/03344aaf-c4f8-535b-b28e-e6377f718d3d> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/03b21b82-0b5b-5f9f-9fae-773ab5922aba> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/0ffa7d8b-af5d-5fe7-9854-c02bc714b392> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/22316ea2-a3bb-5539-8a32-b96fc2a6df40> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/29ebb155-de17-5b02-ac13-eaa51a399905> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/3667181c-155e-5fb5-be5c-4e80b84a51dc> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/38cd6cdf-d759-59f0-8095-6fc04d3c3e0f> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/4c694136-242f-5ad1-a0c9-b066b093891f> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/5b1d5f79-9ff1-5674-920e-deadce560de7> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/75f39809-5a7c-5a4d-a485-6ad1dc328446> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "clear"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/7d2e545f-386b-5958-8d7e-6ecd45a9face> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/830bc7c4-5561-55d7-ae3d-d6a958792b9d> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/91794fe9-b55f-55b8-ac8a-23b52c8f4d7f> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/a00a28d3-8179-56ab-8ea4-672e88b1eec8> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/b00d7a67-1bea-5536-822b-5c70b729820b> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/b5bd0747-2758-5b08-888d-475918268688> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/b73de36b-732e-5142-be1a-b4ec84efc880> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/b9959996-f96c-5086-a77c-a56055af463d> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/bab2b7c9-ebe8-5c4b-93fe-7cf8f60d2002> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/bffe1a48-b424-5cab-9460-b39d3301fe6c> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/c2149e59-3e98-52c4-bf4e-d803ca60635e> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/c507eb06-2907-5c65-834c-978f8040eb48> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/c5f3f7d2-c8af-5a5b-abac-aa31a6d5467b> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/c7b671ff-d5c5-5fd6-be2a-cef21321b67a> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/d41a89ef-9f07-5b19-9ea6-ecce7953329c> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/d548aefb-d834-52a8-97c7-0963b99e5799> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "clear"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/d8fedacb-3ec0-5419-b697-6036896ceffb> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/df9d5089-62cd-56af-bab6-dc4bc82d15e3> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/e61048cf-4b15-5aed-b9fd-103676bbd580> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/e6ba92c8-6b5c-55ed-a2b4-b4e017a69886> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/efcd162e-107e-5169-a473-4f211ed57f6e> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/f0fc7a1c-7b58-501e-82e2-24d11af5d0de> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+
+<http://data.linkedevents.org/environment/nice/wunderground/observation/fd6948bb-5c0f-5beb-be11-098c9c95b783> a ns1:observation ;
+    ns1:observationResultTime "2016-10-28T18:00:00"^^xsd:dateTime ;
+    ns1:observationValue "partlycloudy"@en ;
+    ns1:property "weather condition"@en .
+

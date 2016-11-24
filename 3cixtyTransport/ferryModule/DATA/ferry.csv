@@ -1,0 +1,82 @@
+stationNaptan,stationName,stopType,lat,lon,line
+9300BFR1,Blackfriars Pier,NaptanFerryBerth,51.51075,-0.106748,RB1
+9300BFR2,Blackfriars Pier,NaptanFerryBerth,51.510662,-0.106896,RB1
+9300CAW1,Canary Wharf Pier,NaptanFerryBerth,51.505302,-0.028816,RB1
+9300EMB1,Embankment Pier,NaptanFerryBerth,51.507286,-0.121187,RB1
+9300GLP0,Greenland Pier,NaptanFerryBerth,51.494732,-0.031822,RB1
+9300GNW1,Greenwich Pier,NaptanFerryBerth,51.484031,-0.009411,RB1
+9300GNW2,Greenwich Pier,NaptanRailAccessArea,51.484192,-0.008828,RB1
+9300LBR1,London Bridge Pier,NaptanFerryBerth,51.506912,-0.084687,RB1
+9300LBR2,London Bridge Pier,NaptanFerryBerth,51.506913,-0.084773,RB1
+9300MHT1,Masthouse Terrace Pier,NaptanFerryBerth,51.487478,-0.022354,RB1
+9300MHT2,Masthouse Terrace Pier,NaptanFerryBerth,51.487479,-0.02244,RB1
+9300MIL1,North Greenwich Pier,NaptanFerryBerth,51.502221,0.009162,RB1
+9300MIL2,North Greenwich Pier,NaptanRailAccessArea,51.502212,0.009176,RB1
+9300SWK1,Bankside Pier,NaptanFerryBerth,51.508743,-0.096629,RB1
+9300SWK3,Bankside Pier,NaptanFerryBerth,51.508369,-0.096327,RB1
+9300TMP1,Tower Pier,NaptanFerryBerth,51.507339,-0.078963,RB1
+9300WAS1,Woolwich Pier,NaptanFerryBerth,51.495761,0.070856,RB1
+9300WMP1,London Eye Pier,NaptanFerryBerth,51.503317,-0.120442,RB1
+9300WMR2,Westminster Pier,NaptanFerryBerth,51.501818,-0.1234,RB1
+930GBFR,Blackfriars Pier,NaptanFerryPort,51.510858,-0.105649,RB1
+930GCAW,Canary Wharf Pier,NaptanFerryPort,51.505692,-0.028482,RB1
+930GEMB,Embankment Pier,NaptanFerryPort,51.507389,-0.121428,RB1
+930GGLP,Greenland Pier for Surrey Quays,NaptanFerryPort,51.494685,-0.03276,RB1
+930GGNW,Greenwich Pier,NaptanFerryPort,51.483621,-0.009659,RB1
+930GLBR,London Bridge City Pier,NaptanFerryPort,51.506598,-0.084758,RB1
+930GMHT,Masthouse Terrace Pier,NaptanFerryPort,51.487498,-0.021935,RB1
+930GMIL,North Greenwich Pier,NaptanFerryPort,51.502093,0.008768,RB1
+930GSWK,Bankside Pier,NaptanFerryPort,51.508388,-0.096384,RB1
+930GTMP,Tower Pier,NaptanFerryPort,51.507809,-0.079087,RB1
+930GWAS,Woolwich Arsenal Pier,NaptanFerryPort,51.495163,0.07057,RB1
+930GWMP,London Eye Pier,NaptanFerryPort,51.503607,-0.119436,RB1
+930GWMR,Westminster Pier,NaptanFerryPort,51.501563,-0.123742,RB1
+9300MBK1,Millbank Pier,NaptanFerryBerth,51.492197,-0.12512,RB2
+9300MBK2,Millbank Pier,NaptanRailAccessArea,51.491474,-0.12492,RB2
+9300SGW1,Vauxhall St George Pier,NaptanFerryBerth,51.486461,-0.126883,RB2
+9300SGW2,Vauxhall St George Pier,NaptanFerryBerth,51.486462,-0.126983,RB2
+9300SWK1,Bankside Pier,NaptanFerryBerth,51.508743,-0.096629,RB2
+9300SWK3,Bankside Pier,NaptanFerryBerth,51.508369,-0.096327,RB2
+930GMBK,Millbank Pier,NaptanFerryPort,51.492118,-0.125239,RB2
+930GSGW,St. George Wharf Pier,NaptanFerryPort,51.486461,-0.126883,RB2
+930GSWK,Bankside Pier,NaptanFerryPort,51.508388,-0.096384,RB2
+930GWMR,Westminster Pier,NaptanFerryPort,51.501563,-0.123742,RB2
+9300CAW3,Canary Wharf Pier,NaptanFerryBerth,51.505056,-0.028596,RB4
+9300NEL1,Hilton Docklands / Nelson Dock Pier,NaptanFerryBerth,51.504552,-0.031788,RB4
+930GCAW,Canary Wharf Pier,NaptanFerryPort,51.505692,-0.028482,RB4
+930GNEL,Doubletree Docklands Nelson Dock Pier,NaptanFerryPort,51.504535,-0.032898,RB4
+9300MIL1,North Greenwich Pier,NaptanFerryBerth,51.502221,0.009162,RB5
+9300MIL2,North Greenwich Pier,NaptanRailAccessArea,51.502212,0.009176,RB5
+9300WAS1,Woolwich Pier,NaptanFerryBerth,51.495761,0.070856,RB5
+930GMIL,North Greenwich Pier,NaptanFerryPort,51.502093,0.008768,RB5
+930GWAS,Woolwich Arsenal Pier,NaptanFerryPort,51.495163,0.07057,RB5
+9300BFR1,Blackfriars Pier,NaptanFerryBerth,51.51075,-0.106748,RB6
+9300BFR2,Blackfriars Pier,NaptanFerryBerth,51.510662,-0.106896,RB6
+9300BSE1,Cadogan Pier,NaptanFerryBerth,51.482868,-0.166406,RB6
+9300CAW1,Canary Wharf Pier,NaptanFerryBerth,51.505302,-0.028816,RB6
+9300CHP1,Chelsea Harbour Pier,NaptanFerryBerth,51.47404,-0.179849,RB6
+9300CHP2,Chelsea Harbour Pier,NaptanFerryBerth,51.473996,-0.179923,RB6
+9300EMB1,Embankment Pier,NaptanFerryBerth,51.507286,-0.121187,RB6
+9300LBR1,London Bridge Pier,NaptanFerryBerth,51.506912,-0.084687,RB6
+9300LBR2,London Bridge Pier,NaptanFerryBerth,51.506913,-0.084773,RB6
+9300PLW1,Plantation Wharf,NaptanFerryBerth,51.466831,-0.181777,RB6
+9300PLW2,Plantation Wharf,NaptanFerryBerth,51.466833,-0.181921,RB6
+9300PUT1,Putney Pier.,NaptanFerryBerth,51.467295,-0.215492,RB6
+9300SGW1,Vauxhall St George Pier,NaptanFerryBerth,51.486461,-0.126883,RB6
+9300SGW2,Vauxhall St George Pier,NaptanFerryBerth,51.486462,-0.126983,RB6
+9300SWK1,Bankside Pier,NaptanFerryBerth,51.508743,-0.096629,RB6
+9300WRQ1,Wandsworth Pier,NaptanFerryBerth,51.462842,-0.198923,RB6
+9300WRQ2,Wandsworth Pier,NaptanFerryBerth,51.462879,-0.198994,RB6
+930GBFR,Blackfriars Pier,NaptanFerryPort,51.510858,-0.105649,RB6
+930GBSE,Cadogan Pier,NaptanFerryPort,51.483256,-0.16652,RB6
+930GCAW,Canary Wharf Pier,NaptanFerryPort,51.505692,-0.028482,RB6
+930GCHP,Chelsea Harbour Pier,NaptanFerryPort,51.474146,-0.180335,RB6
+930GEMB,Embankment Pier,NaptanFerryPort,51.507389,-0.121428,RB6
+930GLBR,London Bridge City Pier,NaptanFerryPort,51.506598,-0.084758,RB6
+930GPLW,Plantation Wharf Pier,NaptanFerryPort,51.466833,-0.181921,RB6
+930GPUT,Putney Pier,NaptanFerryPort,51.467083,-0.215774,RB6
+930GSGW,St. George Wharf Pier,NaptanFerryPort,51.486461,-0.126883,RB6
+930GSWK,Bankside Pier,NaptanFerryPort,51.508388,-0.096384,RB6
+930GWRQ,Wandsworth Riverside Quarter Pier,NaptanFerryPort,51.462771,-0.199013,RB6
+930GWWC,Woolwich Ferry North Pier,NaptanFerryPort,51.497764,0.060776,woolwich-ferry
+930GWWS,Woolwich Ferry South Pier,NaptanFerryPort,51.495169,0.062085,woolwich-ferry

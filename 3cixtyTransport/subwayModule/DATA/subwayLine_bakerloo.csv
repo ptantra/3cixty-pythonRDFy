@@ -1,0 +1,26 @@
+stationNaptan,stationName,stopType,lat,lon,line
+940GZZLUBST,Baker Street Underground Station,NaptanMetroStation,51.522883,-0.15713,bakerloo
+940GZZLUCHX,Charing Cross Underground Station,NaptanMetroStation,51.50741,-0.127277,bakerloo
+940GZZLUEAC,Elephant & Castle Underground Station,NaptanMetroStation,51.494536,-0.100606,bakerloo
+940GZZLUEMB,Embankment Underground Station,NaptanMetroStation,51.507058,-0.122666,bakerloo
+940GZZLUERB,Edgware Road (Bakerloo) Underground Station,NaptanMetroStation,51.520299,-0.17015,bakerloo
+940GZZLUHAW,Harrow & Wealdstone Underground Station,NaptanMetroStation,51.592268,-0.335217,bakerloo
+940GZZLUHSN,Harlesden Underground Station,NaptanMetroStation,51.53631,-0.257883,bakerloo
+940GZZLUKEN,Kenton Underground Station,NaptanMetroStation,51.581756,-0.31691,bakerloo
+940GZZLUKPK,Kilburn Park Underground Station,NaptanMetroStation,51.534979,-0.194232,bakerloo
+940GZZLUKSL,Kensal Green Underground Station,NaptanMetroStation,51.530539,-0.225016,bakerloo
+940GZZLULBN,Lambeth North Underground Station,NaptanMetroStation,51.498808,-0.112315,bakerloo
+940GZZLUMVL,Maida Vale Underground Station,NaptanMetroStation,51.529777,-0.185758,bakerloo
+940GZZLUMYB,Marylebone Underground Station,NaptanMetroStation,51.522322,-0.163207,bakerloo
+940GZZLUNWY,North Wembley Underground Station,NaptanMetroStation,51.562551,-0.304,bakerloo
+940GZZLUOXC,Oxford Circus Underground Station,NaptanMetroStation,51.515224,-0.141903,bakerloo
+940GZZLUPAC,Paddington Underground Station,NaptanMetroStation,51.516581,-0.175689,bakerloo
+940GZZLUPCC,Piccadilly Circus Underground Station,NaptanMetroStation,51.51005,-0.133798,bakerloo
+940GZZLUQPS,Queen's Park Underground Station,NaptanMetroStation,51.534158,-0.204574,bakerloo
+940GZZLURGP,Regent's Park Underground Station,NaptanMetroStation,51.523344,-0.146444,bakerloo
+940GZZLUSGP,Stonebridge Park Underground Station,NaptanMetroStation,51.543959,-0.275892,bakerloo
+940GZZLUSKT,South Kenton Underground Station,NaptanMetroStation,51.570232,-0.308433,bakerloo
+940GZZLUWJN,Willesden Junction Underground Station,NaptanMetroStation,51.532259,-0.244283,bakerloo
+940GZZLUWKA,Warwick Avenue Underground Station,NaptanMetroStation,51.523263,-0.183783,bakerloo
+940GZZLUWLO,Waterloo Underground Station,NaptanMetroStation,51.503299,-0.11478,bakerloo
+940GZZLUWYC,Wembley Central Underground Station,NaptanMetroStation,51.552304,-0.296852,bakerloo

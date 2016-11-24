@@ -1,0 +1,5 @@
+stationNaptan,stationName,stopType,lat,lon,line
+9300CAW3,Canary Wharf Pier,NaptanFerryBerth,51.505056,-0.028596,RB4
+9300NEL1,Hilton Docklands / Nelson Dock Pier,NaptanFerryBerth,51.504552,-0.031788,RB4
+930GCAW,Canary Wharf Pier,NaptanFerryPort,51.505692,-0.028482,RB4
+930GNEL,Doubletree Docklands Nelson Dock Pier,NaptanFerryPort,51.504535,-0.032898,RB4

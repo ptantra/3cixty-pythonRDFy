@@ -1,0 +1,15 @@
+stationNaptan,stationName,stopType,lat,lon,line
+910GBRTWOOD,Brentwood Rail Station,NaptanRailStation,51.613605,0.299586,tfl-rail
+910GCHDWLHT,Chadwell Heath Rail Station,NaptanRailStation,51.568039,0.128958,tfl-rail
+910GFRSTGT,Forest Gate Rail Station,NaptanRailStation,51.549432,0.024353,tfl-rail
+910GGIDEAPK,Gidea Park Rail Station,NaptanRailStation,51.581904,0.205964,tfl-rail
+910GGODMAYS,Goodmayes Rail Station,NaptanRailStation,51.565579,0.110807,tfl-rail
+910GHRLDWOD,Harold Wood Rail Station,NaptanRailStation,51.592766,0.233129,tfl-rail
+910GILFORD,Ilford Rail Station,NaptanRailStation,51.559118,0.06968,tfl-rail
+910GLIVST,London Liverpool Street Rail Station,NaptanRailStation,51.517991,-0.081426,tfl-rail
+910GMANRPK,Manor Park Rail Station,NaptanRailStation,51.552477,0.046342,tfl-rail
+910GMRYLAND,Maryland Rail Station,NaptanRailStation,51.546081,0.005815,tfl-rail
+910GROMFORD,Romford Rail Station,NaptanRailStation,51.574829,0.183237,tfl-rail
+910GSHENFLD,Shenfield Rail Station,NaptanRailStation,51.630877,0.329851,tfl-rail
+910GSTFD,Stratford (London) Rail Station,NaptanRailStation,51.541895,-0.003397,tfl-rail
+910GSVNKNGS,Seven Kings Rail Station,NaptanRailStation,51.564026,0.0971,tfl-rail

@@ -1,0 +1,11 @@
+stationNaptan,stationName,stopType,lat,lon,line
+9300MBK1,Millbank Pier,NaptanFerryBerth,51.492197,-0.12512,RB2
+9300MBK2,Millbank Pier,NaptanRailAccessArea,51.491474,-0.12492,RB2
+9300SGW1,Vauxhall St George Pier,NaptanFerryBerth,51.486461,-0.126883,RB2
+9300SGW2,Vauxhall St George Pier,NaptanFerryBerth,51.486462,-0.126983,RB2
+9300SWK1,Bankside Pier,NaptanFerryBerth,51.508743,-0.096629,RB2
+9300SWK3,Bankside Pier,NaptanFerryBerth,51.508369,-0.096327,RB2
+930GMBK,Millbank Pier,NaptanFerryPort,51.492118,-0.125239,RB2
+930GSGW,St. George Wharf Pier,NaptanFerryPort,51.486461,-0.126883,RB2
+930GSWK,Bankside Pier,NaptanFerryPort,51.508388,-0.096384,RB2
+930GWMR,Westminster Pier,NaptanFerryPort,51.501563,-0.123742,RB2

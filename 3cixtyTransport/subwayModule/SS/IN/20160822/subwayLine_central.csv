@@ -1,0 +1,50 @@
+stationNaptan,stationName,stopType,lat,lon,line
+940GZZLUBKE,Barkingside Underground Station,NaptanMetroStation,51.585695,0.088596,central
+940GZZLUBKH,Buckhurst Hill Underground Station,NaptanMetroStation,51.626612,0.046767,central
+940GZZLUBLG,Bethnal Green Underground Station,NaptanMetroStation,51.527227,-0.0555,central
+940GZZLUBND,Bond Street Underground Station,NaptanMetroStation,51.514309,-0.149719,central
+940GZZLUBNK,Bank Underground Station,NaptanMetroStation,51.513424,-0.088948,central
+940GZZLUCHL,Chancery Lane Underground Station,NaptanMetroStation,51.518251,-0.111578,central
+940GZZLUCWL,Chigwell Underground Station,NaptanMetroStation,51.617923,0.075051,central
+940GZZLUDBN,Debden Underground Station,NaptanMetroStation,51.645394,0.083793,central
+940GZZLUEAN,East Acton Underground Station,NaptanMetroStation,51.516616,-0.247248,central
+940GZZLUEBY,Ealing Broadway Underground Station,NaptanMetroStation,51.515022,-0.301457,central
+940GZZLUEPG,Epping Underground Station,NaptanMetroStation,51.693689,0.11378,central
+940GZZLUFLP,Fairlop Underground Station,NaptanMetroStation,51.595625,0.091015,central
+940GZZLUGFD,Greenford Underground Station,NaptanMetroStation,51.54243,-0.346052,central
+940GZZLUGGH,Grange Hill Underground Station,NaptanMetroStation,51.613385,0.092077,central
+940GZZLUGTH,Gants Hill Underground Station,NaptanMetroStation,51.57655,0.066195,central
+940GZZLUHBN,Holborn Underground Station,NaptanMetroStation,51.517585,-0.12047,central
+940GZZLUHGR,Hanger Lane Underground Station,NaptanMetroStation,51.530182,-0.292704,central
+940GZZLUHLT,Hainault Underground Station,NaptanMetroStation,51.603665,0.093493,central
+940GZZLUHPK,Holland Park Underground Station,NaptanMetroStation,51.507148,-0.205677,central
+940GZZLULGN,Loughton Underground Station,NaptanMetroStation,51.641451,0.055486,central
+940GZZLULGT,Lancaster Gate Underground Station,NaptanMetroStation,51.511727,-0.175491,central
+940GZZLULVT,Liverpool Street Underground Station,NaptanMetroStation,51.517377,-0.083176,central
+940GZZLULYN,Leyton Underground Station,NaptanMetroStation,51.556595,-0.005515,central
+940GZZLULYS,Leytonstone Underground Station,NaptanMetroStation,51.56833,0.008202,central
+940GZZLUMBA,Marble Arch Underground Station,NaptanMetroStation,51.513429,-0.15895,central
+940GZZLUMED,Mile End Underground Station,NaptanMetroStation,51.525127,-0.033633,central
+940GZZLUNAN,North Acton Underground Station,NaptanMetroStation,51.523529,-0.259754,central
+940GZZLUNBP,Newbury Park Underground Station,NaptanMetroStation,51.575732,0.090015,central
+940GZZLUNHG,Notting Hill Gate Underground Station,NaptanMetroStation,51.509132,-0.196102,central
+940GZZLUNHT,Northolt Underground Station,NaptanMetroStation,51.548242,-0.368702,central
+940GZZLUOXC,Oxford Circus Underground Station,NaptanMetroStation,51.515228,-0.141899,central
+940GZZLUPVL,Perivale Underground Station,NaptanMetroStation,51.536723,-0.323447,central
+940GZZLUQWY,Queensway Underground Station,NaptanMetroStation,51.510316,-0.187149,central
+940GZZLURBG,Redbridge Underground Station,NaptanMetroStation,51.576249,0.045369,central
+940GZZLURSG,Ruislip Gardens Underground Station,NaptanMetroStation,51.560742,-0.410699,central
+940GZZLURVY,Roding Valley Underground Station,NaptanMetroStation,51.617206,0.043657,central
+940GZZLUSBC,Shepherd's Bush (Central) Underground Station,NaptanMetroStation,51.504381,-0.218812,central
+940GZZLUSNB,Snaresbrook Underground Station,NaptanMetroStation,51.580684,0.021449,central
+940GZZLUSPU,St. Paul's Underground Station,NaptanMetroStation,51.51494,-0.097562,central
+940GZZLUSRP,South Ruislip Underground Station,NaptanMetroStation,51.556859,-0.398904,central
+940GZZLUSTD,Stratford Underground Station,NaptanMetroStation,51.541811,-0.00345,central
+940GZZLUSWF,South Woodford Underground Station,NaptanMetroStation,51.591913,0.027347,central
+940GZZLUTCR,Tottenham Court Road Underground Station,NaptanMetroStation,51.516431,-0.130406,central
+940GZZLUTHB,Theydon Bois Underground Station,NaptanMetroStation,51.671768,0.103097,central
+940GZZLUWCY,White City Underground Station,NaptanMetroStation,51.511964,-0.224295,central
+940GZZLUWOF,Woodford Underground Station,NaptanMetroStation,51.606906,0.03398,central
+940GZZLUWRP,West Ruislip Underground Station,NaptanMetroStation,51.569686,-0.437875,central
+940GZZLUWSD,Wanstead Underground Station,NaptanMetroStation,51.575507,0.028537,central
+940GZZLUWTA,West Acton Underground Station,NaptanMetroStation,51.518006,-0.28098,central
