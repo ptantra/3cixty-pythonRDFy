@@ -11,18 +11,18 @@ To be used with [Python version 2.70](https://www.python.org/downloads/release/p
 ##Dependencies
 The following Python libraries are required:
 - [PyProj](https://pypi.python.org/pypi/pyproj)
-- [Crontab](https://pypi.python.org/pypi/crontab/0.21.3), 
-⋅⋅*CSV, 
-⋅⋅*[RDFlib](https://pypi.python.org/pypi/crontab/0.21.3), 
-⋅⋅*imp, 
-⋅⋅*os, 
-⋅⋅*sys, 
-⋅⋅*zipfile, 
-⋅⋅*[bs4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), 
-⋅⋅*[pandas](http://pandas.pydata.org), 
-⋅⋅*uuid, 
-⋅⋅*unicodedata and 
-⋅⋅*re
+- [Crontab](https://pypi.python.org/pypi/crontab/0.21.3)
+- [bs4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- [pandas](http://pandas.pydata.org)
+- [RDFlib](https://pypi.python.org/pypi/rdflib)
+- CSV
+- imp
+- os
+- sys
+- zipfile
+- uuid
+- unicodedata 
+- re
 
 ##Endpoints
 The SPARQL endpoint for the London 3cixty knowledge base is http://3cixty.casa.ucl.ac.uk:8890/sparql. 
@@ -30,9 +30,9 @@ The SPARQL endpoint for the London 3cixty knowledge base is http://3cixty.casa.u
 ##Installation
 To run these scripts, clone this Github repo and install all dependencies. Crucially, the folder and file structures must be maintained.
 <p>Various 'modules' have been created for this project.</p>
-..*Transport
-..*Environment
-..*Hotel folders.
+- Transport
+- Environment
+- Hotel
 <p>bikeModule file structure example: </p>
 ````appleScript
 |-- bikeModule',
