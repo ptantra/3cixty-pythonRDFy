@@ -1,7 +1,7 @@
-#About 3cixty-pythonRDFy
-These codes are part of the London component of the 3cixty project development. These codes are mostly written in Python, and they function to retrieve, manipulate and transform unstructured data into turtle RDF and to then validate it. 
+##About 3cixty-pythonRDFy
+These codes are part of the London component of the 3cixty project development. These codes are mostly written in Python, and they function to retrieve, manipulate and transform unstructured data into Turtle RDF and to validate it then. 
 
-The 3cixty project aim to create city specific 'knowledge bases' comprising of the city's events, places, transport facilities, environmental/weather information and hotel booking data that are semantically linked.
+The 3cixty project aims to create city-specific 'knowledge bases' comprising of the city's events, places, transport facilities, environmental/weather information and hotel booking data that are semantically linked.
 
 In this repository the I include the codes that are used on the London transport facilities, London environmental/weather data and London hotel booking data.
 
