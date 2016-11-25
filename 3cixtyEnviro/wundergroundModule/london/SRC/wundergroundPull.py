@@ -7,7 +7,7 @@ from crontab import CronTab
 #from common import urlRetrieve
 from Tkinter import Tk
 
-imp.load_source('common','/Users/patrick/3cixty/codes/3cixtyTransport/commonModule/transportCommon.py')
+imp.load_source('common','/Users/patrick/3cixty/codes/3cixtyCommon/commonFunctions.py')
 from common import getUid, ConvertProj, definePrefixes, bindingPrefixes, readDict
 
 #os.chdir('Z:/3cixty/3cixty_160718/3cixtyTransport/') # @wick1 windows setup

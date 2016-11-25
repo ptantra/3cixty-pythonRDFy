@@ -4,7 +4,7 @@ from random import seed
 from rdflib import URIRef, Literal, Namespace, plugin, Graph, BNode
 from rdflib.store import Store
 
-imp.load_source('common','/Users/patrick/3cixty/codes/3cixtyTransport/commonModule/transportCommon.py')
+imp.load_source('common','/Users/patrick/3cixty/codes/3cixtyCommon/commonFunctions.py')
 from common import readCsv, getUid, ConvertProj, definePrefixes, bindingPrefixes, readDict
 from time import strftime
 

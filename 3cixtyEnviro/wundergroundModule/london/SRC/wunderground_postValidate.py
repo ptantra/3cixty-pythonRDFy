@@ -3,7 +3,7 @@ from time import strftime
 
 import imp
 
-imp.load_source('common','/Users/patrick/3cixty/codes/3cixtyTransport/commonModule/transportCommon.py')
+imp.load_source('common','/Users/patrick/3cixty/codes/3cixtyCommon/commonFunctions.py')
 from common import convertXsdDouble
 
 #os.chdir('Z:/3cixty/3cixty_160718/3cixtyTransport/') # @wick1 windows setup

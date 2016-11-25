@@ -1,15 +1,17 @@
-import os, imp
+import fileinput, os
 from time import strftime
+
+import imp
 
 imp.load_source('common','/Users/patrick/3cixty/codes/3cixtyCommon/commonFunctions.py')
 from common import convertXsdDouble
 
-os.chdir('/Users/patrick/3cixty/codes/3cixtyHotel/airbnbModule/london/') # @patrick CASA Mac setup
+os.chdir('/Users/patrick/3cixty/codes/3cixtyTransport/railModule/') # @patrick CASA Mac setup
 print os.getcwd()
 
 def main():
-    inFileB = 'DATA/airbnb_LondondirtySmall.ttl'
-    outFileB = 'DATA/airbnb_londonSmall.ttl'
+    inFileB = "DATA/overground_dirty.ttl"
+    outFileB = "DATA/overground.ttl"
 
     print('Converting xsd:double')
     convertXsdDouble(inFileB, outFileB)
