@@ -1,7 +1,7 @@
 
 Wunderground stations
 ------------
-<p>The rdf graph for the London wunderground weather stations is generated with data collected from Wunderground forecast api, as published by [Wunderground](https://www.wunderground.com/). The weather stations emits various weather readings. Included in the rdf graph is the weather condition reading and its corresponding timestamps. Each weather station can be identified by its given station id number and is immediately linked with its geometry and address information. A uri observation link is also listed. Because the observations are to be updated periodically, the observations are graphed in a separate 'real-time' ttl file.</p>
+The rdf graph for the London wunderground weather stations is generated with data collected from Wunderground forecast api, as published by [Wunderground](https://www.wunderground.com/). The weather stations emits various weather readings. Included in the rdf graph is the weather condition reading and its corresponding timestamps. Each weather station can be identified by its given station id number and is immediately linked with its geometry and address information. A uri observation link is also listed. Because the observations are to be updated periodically, the observations are graphed in a separate 'real-time' ttl file.
 [Wunderground](https://www.wunderground.com/)
 <p>Each weather station node contains:</p>
 <ul>
