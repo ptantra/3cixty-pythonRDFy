@@ -17,20 +17,25 @@ The SPARQL endpoint for the London 3cixty knowledge base is http://3cixty.casa.u
 
 ##Installation
 Clone this Github repo with all dependencies - it is crucial the folder and file structure are maintained.
+Various 'modules' have been created for this project. Transport, Environment and Hotel folders.
 <p>bikeModule file structure example: </p>
 ````appleScript
-|-- bikeModule',
-|   |-- london_bike_main.py',
-|   |-- SRC',
-|   |   |-- dictionary_bikes.csv',
-|   |   |-- london_bike_postValid.py',
-|   |   |-- london_bikes_rdfy.py',
-|   |   |-- london_bikes_toZip.py',
-|   |   |-- london_bikes_unitTest.py',
-|   |-- DATA',
-|   |   |-- tfl_bikes20160718.csv',
-|   |   |-- tfl_bikes20160728.csv',
-|   |   |-- LOG',
-|   |   |   |-- tfl_bikes20160718.ttl',
-|   |   |   |-- tfl_bikes20160728.ttl'.
 
+|-- bikeModule',
+|   |-- bike_main.py',
+|   |-- SRC',
+|   |   |-- bike_preValidate.py',
+|   |   |-- bike_rdfy.py',
+|   |   |-- bike_postValidate.py',
+|   |   |-- bike_toZip.py',
+|   |-- DATA',
+|   |   |-- tfl_bikes_csv',
+|   |   |-- tfl_bikes_dirty.ttl',
+|   |   |-- tfl_bikes_validated.ttl',
+|   |   |-- tfl_bikes.ttl',
+|   |   |-- tfl_bikes.zip',
+|   |   |-- LOG',
+|   |   |   |-- tfl_bikes_errorLog1.csv',
+|   |   |   |-- tfl_bikes_errorLog2.csv',
+
+````
