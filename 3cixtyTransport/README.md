@@ -18,12 +18,15 @@ Bus TfL data
 
 ![](https://github.com/3cixty/knowledgebase/master/documentation/London/busStopExample_rdfDiagram.svg?raw=true)
 
-![]3cixtyTransport/busStop RDF diagrams_1605034.jpg?raw=true)
+![](3cixtyTransport/busStop RDF diagrams_1605034.jpg?raw=true)
 
 
-![]/busStop RDF diagrams_1605034.jpg?raw=true)
+![](/busStop RDF diagrams_1605034.jpg?raw=true)
 
-![]busStop RDF diagrams_1605034.jpg?raw=true)
+![](busStop RDF diagrams_1605034.jpg?raw=true)
+
+
+![](3cixty-pythonRDFy/3cixtyTransport/busStop RDF diagrams_1605034.jpg?raw=true)
 
 
 
