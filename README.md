@@ -15,3 +15,22 @@ The following Python libraries are required:
 ##Endpoints
 The SPARQL endpoint for the London 3cixty knowledge base is http://3cixty.casa.ucl.ac.uk:8890/sparql. 
 
+##Installation
+Clone this Github repo with all dependencies - it is crucial the folder and file structure are maintained.
+<p>bikeModule file structure example: </p>
+````appleScript
+|-- bikeModule',
+|   |-- london_bike_main.py',
+|   |-- SRC',
+|   |   |-- dictionary_bikes.csv',
+|   |   |-- london_bike_postValid.py',
+|   |   |-- london_bikes_rdfy.py',
+|   |   |-- london_bikes_toZip.py',
+|   |   |-- london_bikes_unitTest.py',
+|   |-- DATA',
+|   |   |-- tfl_bikes20160718.csv',
+|   |   |-- tfl_bikes20160728.csv',
+|   |   |-- LOG',
+|   |   |   |-- tfl_bikes20160718.ttl',
+|   |   |   |-- tfl_bikes20160728.ttl'.
+
