@@ -40,8 +40,9 @@ To run these scripts, clone this Github repo and install all dependencies. Cruci
     - icriModule
     - wundergroundModule
 3. Hotel
-    -airbnbModule
-    
+    - airbnbModule
+
+To execute the files in the module, run the *_main.py file.
 <p>bikeModule file structure example: </p>
 ````appleScript
 |-- bikeModule',
