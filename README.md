@@ -34,7 +34,7 @@ To run these scripts, clone this Github repo and install all dependencies. Cruci
     - commonModule
     - bikeModule
     - busModule
-    - undergroundModule
+    - railModule
     - ferryModule
 2. Environment
     - icriModule
