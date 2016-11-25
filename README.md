@@ -5,7 +5,7 @@ The 3cixty project aims to create city-specific 'knowledge bases' comprising of 
 
 In this repository the I include the codes that are used on the London transport facilities, London environmental/weather data and London hotel booking data.
 
-[![Alt text for your video](http://img.youtu.be/K6_ylq1ufH8/0.jpg)](https://youtu.be/K6_ylq1ufH8)
+[![3cixty Video](http://img.youtube.com/vi/K6_ylq1ufH8/0.jpg)](https://youtu.be/K6_ylq1ufH8)
 
 https://youtu.be/K6_ylq1ufH8
 
