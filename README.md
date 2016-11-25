@@ -3,7 +3,7 @@ These codes are part of the London component of the 3cixty project development. 
 
 The 3cixty project aim to create city specific 'knowledge bases' comprising of the city's events, places, transport facilities, environmental/weather information and hotel booking data that are semantically linked.
 
-In this repository the I include the codes that are used on the London transport facilities, London environmental/ weather data and London hotel booking data.
+In this repository the I include the codes that are used on the London transport facilities, London environmental/weather data and London hotel booking data.
 
 ##Requirements
 To be used with [Python version 2.70](https://www.python.org/downloads/release/python-2712)
