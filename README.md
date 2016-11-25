@@ -30,9 +30,12 @@ The SPARQL endpoint for the London 3cixty knowledge base is http://3cixty.casa.u
 ##Installation
 To run these scripts, clone this Github repo and install all dependencies. Crucially, the folder and file structures must be maintained.
 <p>Various 'modules' have been created for this project.</p>
-- Transport
-- Environment
-- Hotel
+1. Transport
+    - bikeModule
+    - busModule
+    - undergroundModule
+2. Environment
+3. Hotel
 <p>bikeModule file structure example: </p>
 ````appleScript
 |-- bikeModule',
