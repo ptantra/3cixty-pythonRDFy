@@ -17,7 +17,10 @@ The SPARQL endpoint for the London 3cixty knowledge base is http://3cixty.casa.u
 
 ##Installation
 Clone this Github repo with all dependencies - it is crucial the folder and file structure are maintained.
-Various 'modules' have been created for this project. Transport, Environment and Hotel folders.
+Various 'modules' have been created for this project.
+..*Transport
+..*Environment
+..*Hotel folders.
 <p>bikeModule file structure example: </p>
 ````appleScript
 |-- bikeModule',
