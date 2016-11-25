@@ -20,7 +20,6 @@ Clone this Github repo with all dependencies - it is crucial the folder and file
 Various 'modules' have been created for this project. Transport, Environment and Hotel folders.
 <p>bikeModule file structure example: </p>
 ````appleScript
-
 |-- bikeModule',
 |   |-- bike_main.py',
 |   |-- SRC',
@@ -37,5 +36,4 @@ Various 'modules' have been created for this project. Transport, Environment and
 |   |   |-- LOG',
 |   |   |   |-- tfl_bikes_errorLog1.csv',
 |   |   |   |-- tfl_bikes_errorLog2.csv',
-
 ````
