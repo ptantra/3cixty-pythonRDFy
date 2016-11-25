@@ -10,14 +10,26 @@ To be used with [Python version 2.70](https://www.python.org/downloads/release/p
 
 ##Dependencies
 The following Python libraries are required:
-[PyProj](https://pypi.python.org/pypi/pyproj), [Crontab](https://pypi.python.org/pypi/crontab/0.21.3), CSV, [RDFlib](https://pypi.python.org/pypi/crontab/0.21.3), imp, os, sys, zipfile, [bs4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [pandas](http://pandas.pydata.org), uuid, unicodedata and re
+⋅⋅*[PyProj](https://pypi.python.org/pypi/pyproj)
+⋅⋅*[Crontab](https://pypi.python.org/pypi/crontab/0.21.3), 
+⋅⋅*CSV, 
+⋅⋅*[RDFlib](https://pypi.python.org/pypi/crontab/0.21.3), 
+⋅⋅*imp, 
+⋅⋅*os, 
+⋅⋅*sys, 
+⋅⋅*zipfile, 
+⋅⋅*[bs4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), 
+⋅⋅*[pandas](http://pandas.pydata.org), 
+⋅⋅*uuid, 
+⋅⋅*unicodedata and 
+⋅⋅*re
 
 ##Endpoints
 The SPARQL endpoint for the London 3cixty knowledge base is http://3cixty.casa.ucl.ac.uk:8890/sparql. 
 
 ##Installation
-Clone this Github repo with all dependencies - it is crucial the folder and file structure are maintained.
-Various 'modules' have been created for this project.
+To run these scripts, clone this Github repo and install all dependencies. Crucially, the folder and file structures must be maintained.
+<p>Various 'modules' have been created for this project.</p>
 ..*Transport
 ..*Environment
 ..*Hotel folders.
