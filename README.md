@@ -13,5 +13,5 @@ The following Python libraries are required:
 [PyProj](https://pypi.python.org/pypi/pyproj), [Crontab](https://pypi.python.org/pypi/crontab/0.21.3), CSV, [RDFlib](https://pypi.python.org/pypi/crontab/0.21.3), imp, os, sys, zipfile, [bs4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [pandas](http://pandas.pydata.org), uuid, unicodedata and re
 
 ##Endpoints
-The SPARQL endpoint for the London 3cixty data is http://3cixty.casa.ucl.ac.uk:8890/sparql. 
+The SPARQL endpoint for the London 3cixty knowledge base is http://3cixty.casa.ucl.ac.uk:8890/sparql. 
 
