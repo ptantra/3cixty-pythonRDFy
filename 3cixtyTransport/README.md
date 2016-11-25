@@ -17,6 +17,16 @@ Bus TfL data
 [Example of a London TfL Bus stop RDF ontology diagram: East Street bus stop](https://github.com/3cixty/knowledgebase/master/documentation/London/busStopExample_rdfDiagram.svg)
 
 ![](https://github.com/3cixty/knowledgebase/master/documentation/London/busStopExample_rdfDiagram.svg?raw=true)
+
+![]3cixtyTransport/busStop RDF diagrams_1605034.jpg?raw=true)
+
+
+![]/busStop RDF diagrams_1605034.jpg?raw=true)
+
+![]busStop RDF diagrams_1605034.jpg?raw=true)
+
+
+
 <p>London bus stop turtle file example:</p>
 ```Turtle
 <http://data.linkedevents.org/transit/London/stop/47001> a dul:Place,
