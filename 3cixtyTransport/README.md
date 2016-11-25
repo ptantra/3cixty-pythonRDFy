@@ -18,10 +18,7 @@ Bus TfL data
 
 
 
-![](busStop RDF diagrams_1605034.jpg?raw=true)
-
-
-
+![London Bus stop RDF graph diagram](busStop RDF diagrams_1605034.jpg?raw=true)
 
 
 <p>London bus stop turtle file example:</p>
@@ -33,18 +30,14 @@ Bus TfL data
     locationOnt:businessType "http://data.linkedevents.org/kos/3cixty/busstop" ;
     geom:geometry <http://data.linkedevents.org/location/dd8eef47-7f85-5fe9-8e48-58958c93e6e6/geometry> ;
     dc:identifier "47001" ;
-    dc:publisher <https://tfl.gov.uk/modes/buses/> ;
+    dc:publisher <https://tfl.gov.uk/> ;
     schema:location <http://data.linkedevents.org/location/dd8eef47-7f85-5fe9-8e48-58958c93e6e6/address> ;
     geo:location <http://data.linkedevents.org/location/dd8eef47-7f85-5fe9-8e48-58958c93e6e6/geometry> ;
     locn:address <http://data.linkedevents.org/location/dd8eef47-7f85-5fe9-8e48-58958c93e6e6/address> .
     
 <http://data.linkedevents.org/location/dd8eef47-7f85-5fe9-8e48-58958c93e6e6/address> a dct:Location,
         schema:PostalAddress ;
-    dct:title "East Street" ;
-    schema:addressLocality "London" ;
-    schema:streetAddress "East Street" ;
-    locn:address "East Street" ;
-    locn:adminUnit12 "London" .
+    locn:address "EAST STREET - LONDON" .
 
 <http://data.linkedevents.org/location/dd8eef47-7f85-5fe9-8e48-58958c93e6e6/geometry> a geo:Point ;
     geo:lat "51.48734305"^^xsd:double ;
@@ -54,7 +47,7 @@ Bus TfL data
 <p>Example SPARQL query: T.B.C.</p>
 </br>
 
-Underground, overground, tram and light rail TfL data
+Underground, overground, tram and light rail TfL data 
 ------------
 <p>The ttl dataset for London Underground stations published by Transport for London contains:</p>
 <ul>
