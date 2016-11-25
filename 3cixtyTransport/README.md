@@ -13,8 +13,10 @@ Bus TfL data
 <li>Address and location</li>
 <li>Bus stop geometry has both point coordinates and geoSPARQL literal value.</li>
 </ul>
-[London TfL Bus stop RDF ontology diagram](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/busStop_rdfDiagram.svg)</br>
-[Example of a London TfL Bus stop RDF ontology diagram: East Street bus stop](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/busStopExample_rdfDiagram.svg)
+[London TfL Bus stop RDF ontology diagram](https://github.com/3cixty/knowledgebase/master/documentation/London/busStop_rdfDiagram.svg)</br>
+[Example of a London TfL Bus stop RDF ontology diagram: East Street bus stop](https://github.com/3cixty/knowledgebase/master/documentation/London/busStopExample_rdfDiagram.svg)
+
+![](https://github.com/3cixty/knowledgebase/master/documentation/London/busStopExample_rdfDiagram.svg?raw=true)
 <p>London bus stop turtle file example:</p>
 ```Turtle
 <http://data.linkedevents.org/transit/London/stop/47001> a dul:Place,
