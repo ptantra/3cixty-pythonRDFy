@@ -93,7 +93,7 @@ class RDFCreator:
                 self.data.append(Bus(line[0]))
         for item in self.data:
             item.createBusGraph(self.g)
-            print 'Graph extended ' + str(index)
+            print 'Graph extended ' + str(index) + ' entities.'
             index +=1
         return self.g
 

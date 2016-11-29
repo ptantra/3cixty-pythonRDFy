@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e159873f-9702-4a59-9853-e39ca14c269b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3cixtyTransport/busModule/SRC/RDFo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3cixtyTransport/busModule/SRC/bus_rdfy_aga.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3cixtyTransport/busModule/DATA/bus_aga.ttl" afterPath="$PROJECT_DIR$/3cixtyTransport/busModule/DATA/bus_aga.ttl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3cixtyTransport/busModule/SRC/RDFo.py" afterPath="$PROJECT_DIR$/3cixtyTransport/busModule/SRC/RDFo.py" />
     </list>
     <ignored path="3cixty-pythonRDFy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bus_rdfy.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bus_rdfy.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3cixtyTransport/busModule/SRC/bus_rdfy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29">
-              <caret line="127" column="52" selection-start-line="127" selection-start-column="52" selection-end-line="127" selection-end-column="52" />
+            <state relative-caret-position="555">
+              <caret line="112" column="63" selection-start-line="112" selection-start-column="63" selection-end-line="112" selection-end-column="63" />
               <folding>
                 <element signature="e#45#70#0" expanded="true" />
               </folding>
@@ -82,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RDFo.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RDFo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3cixtyTransport/busModule/SRC/RDFo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="89" column="90" selection-start-line="89" selection-start-column="90" selection-end-line="89" selection-end-column="90" />
+            <state relative-caret-position="935">
+              <caret line="97" column="98" selection-start-line="97" selection-start-column="98" selection-end-line="97" selection-end-column="98" />
               <folding>
                 <element signature="e#11#24#0" expanded="true" />
               </folding>
@@ -602,16 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3cixtyTransport/busModule/SRC/bus_rdfy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="127" column="52" selection-start-line="127" selection-start-column="52" selection-end-line="127" selection-end-column="52" />
-          <folding>
-            <element signature="e#45#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3cixtyTransport/busModule/SRC/bus_rdfy_aga.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -624,10 +614,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3cixtyTransport/busModule/SRC/RDFo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="89" column="90" selection-start-line="89" selection-start-column="90" selection-end-line="89" selection-end-column="90" />
+        <state relative-caret-position="935">
+          <caret line="97" column="98" selection-start-line="97" selection-start-column="98" selection-end-line="97" selection-end-column="98" />
           <folding>
             <element signature="e#11#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3cixtyTransport/busModule/SRC/bus_rdfy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="112" column="63" selection-start-line="112" selection-start-column="63" selection-end-line="112" selection-end-column="63" />
+          <folding>
+            <element signature="e#45#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
