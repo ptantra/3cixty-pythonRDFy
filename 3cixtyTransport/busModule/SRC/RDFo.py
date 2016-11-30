@@ -1,10 +1,10 @@
-#libraries
+# ---- libraries
 import rdflib
 from rdflib import URIRef, Literal, Namespace, Graph
 import csv, uuid
 import string, random
 
-# This is an object that can bind its prefixes
+# ----  This is an object that can bind its prefixes
 
 class Tree:
     def __init__(self, g):
@@ -110,7 +110,7 @@ class Bus(RDF):
 # ----- This is the Airbnb class
 
 class Airbnb(RDF):
-    def __init__(self, objectId):
+    def __init__(self, objectId, label, area, lat, long):
         RDF.__init__(self)
         self.acco = Namespace('http://purl.org/acco/ns#')
         self.gr =  Namespace('http://purl.org/goodrelations/v1#')
@@ -120,6 +120,13 @@ class Airbnb(RDF):
 
         self.objectId = objectId
         self.placeUID = self.createLocationResUID()
+        self.label = label
+        self.area = area
+        self.lat = lat
+        self.long = long
+        self.wkt = "POINT (" + str(self.lat) + " " + str(self.long) + ")"
+        self.publisher = URIRef('https://www.airbnb.co.uk')
+        self.country = Literal('UK')
 
     def createLocationResUID(self):
         hotelUri = Namespace("http://data.linkedevents.org/places/london/hotels")
@@ -146,20 +153,34 @@ class Airbnb(RDF):
         placeAddress = URIRef(self.placeUID + '/address')
         return placeAddress
 
+    def createSameAsLink(self):
+        sameAsLink = URIRef("http://www.airbnb.co.uk/rooms/" + str(self.objectId))
+        return sameAsLink
+
     def createPlaceGraph(self, g):
         place = self.createPlace()
         geom = self.createGeometry()
         address = self.createAddress()
+        sameAsLink = self.createSameAsLink()
 
-        g.add((place, self.rdf.type, self.dul.place))
+        g.add((place, self.rdf.type, self.dul.Place))
         g.add((place, self.rdf.type, self.acco.Hotel))
+        g.add((place, self.rdfs.label, Literal(self.label)))
         g.add((place, self.locationOnt.businessType, self.threecixtyKOS.residence))
+        g.add((place, self.dc.identifier, Literal(self.objectId)))
+        g.add((place, self.dc.publisher, self.publisher))
+        g.add((place, self.owl.sameAs, sameAsLink))
         g.add((place, self.schema.location, address))
         g.add((place, self.geo.location, geom))
 
-        g.add((address, self.rdf.type, self.acco.Hotel))
-
         g.add((geom, self.rdf.type, self.geo.Point))
+        g.add((geom, self.geo.lat, Literal(self.lat, datatype=self.xsd.placeholder)))
+        g.add((geom, self.geo.long, Literal(self.long, datatype=self.xsd.placeholder)))
+        g.add((geom, self.locn.geometry, Literal(self.wkt, datatype=self.geosparql.wktLiteral)))
+
+        g.add((address, self.rdf.type, self.schema.postalAddress))
+        g.add((address, self.schema.addressCountry, self.country))
+        g.add((address, self.schema.addressLocality, Literal(self.area)))
 
         return g
 
@@ -190,7 +211,7 @@ class RDFCreator:
             f.next()
             print 'Building the graph...'
             for line in csv.reader(f, dialect='excel', delimiter=','):
-                self.data.append(Airbnb(line[0]))
+                self.data.append(Airbnb(line[0], line[13], line[2], line[3], line[4]))
         for item in self.data:
             item.createPlaceGraph(self.g)
             print 'Graph extended ' + str(index) + ' entities.'
@@ -210,5 +231,5 @@ def main(content, path):
 # -------- Execution
 rdf = RDFCreator()
 #main(rdf.createBusStopRDF('/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyTransport/busModule/DATA/busStopCodeOnly.csv'), '/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyTransport/busModule/DATA/busStopSimple.ttl')
-main(rdf.createAirbnbRDF('/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyHotel/airbnbModule/london/DATA/airbnbLondon_validated_idOnly.csv'), '/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyHotel/airbnbModule/london/DATA/airbnbSimple.ttl')
+main(rdf.createAirbnbRDF('/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyHotel/airbnbModule/london/DATA/airbnbLondon_validated.csv'), '/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyHotel/airbnbModule/london/DATA/airbnbSimple.ttl')
 
