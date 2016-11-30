@@ -105,6 +105,7 @@ def definePrefixes():
         'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
         'rdfs': 'http://www.w3.org/2000/01/rdf-schema#',
         'locationOnt': 'http://data.linkedevents.org/def/location#',
+        'locationRes': 'http://data.linkedevents.org/location/',
         'locn': 'http://www.w3.org/ns/locn#',
         'naptan': 'http://transport.data.gov.uk/def/naptan/',
         'owl':'http://www.w3.org/2002/07/owl#',

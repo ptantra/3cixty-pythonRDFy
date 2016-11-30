@@ -5,6 +5,7 @@ import csv, uuid
 import string, random
 
 # This is an object that can bind its prefixes
+
 class Tree:
     def __init__(self, g):
         self.g = g
@@ -38,15 +39,16 @@ class Tree:
             self.g.bind(key, self.prefixes[key])
         return self.g
 
+# ----- Global UID generator
+
 def getUid(value, namespace):
-    #namespace = Namespace("http://transport.data.gov.uk/def/naptan/")
     idencode = value.encode('utf-8')
     uid = uuid.uuid5(namespace, idencode)
     return uid
 
 # This is an RDF superclass that knows all the namespaces
 class RDF:
-    def __init__(self): #just common namespaces
+    def __init__(self): # common namespaces
         self.dc = Namespace('http://purl.org/dc/elements/1.1/')
         self.dct = Namespace('http://purl.org/dc/terms/')
         self.dul = Namespace('http://ontologydesignpatterns.org/ont/dul/DUL.owl#')
@@ -65,7 +67,7 @@ class RDF:
 class Bus(RDF):
     def __init__(self, stopId):
         RDF.__init__(self)
-        self.geom = Namespace('http://geovocab.org/geometry#')
+        self.geom = Namespace('http://geovocab.org/geometry#') # specific namespaces
         self.naptan = Namespace('http://transport.data.gov.uk/def/naptan/')
         self.transit = Namespace('http://vocab.org/transit/terms/')
 
@@ -105,7 +107,7 @@ class Bus(RDF):
 
         return g
 
-# ----- This is the airbnb class
+# ----- This is the Airbnb class
 
 class Airbnb(RDF):
     def __init__(self, objectId):
@@ -114,6 +116,7 @@ class Airbnb(RDF):
         self.gr =  Namespace('http://purl.org/goodrelations/v1#')
         self.owl = Namespace('http://www.w3.org/2002/07/owl#')
         self.threecixtyKOS = Namespace('http://data.linkedevents.org/kos/3cixty/')
+        self.locationRes = Namespace('http://data.linkedevents.org/location/')
 
         self.objectId = objectId
         self.placeUID = self.createLocationResUID()
@@ -122,36 +125,43 @@ class Airbnb(RDF):
         hotelUri = Namespace("http://data.linkedevents.org/places/london/hotels")
         idencode = str(self.objectId)
         uid = getUid(idencode, hotelUri)
-        uuidList = list(Literal(uid))
+        puid = URIRef("http://data.linkedevents.org/location/" + Literal(uid))
+        uuidList = list(puid)
         chars = string.ascii_letters
         random.seed(101)  # set seed so the random number generated is replicable in the next iteration
         newId = ''.join(random.choice(chars))
-        uuidList[0] = newId
+        uuidList[38] = newId
         locationResUID = ''.join(uuidList).lower()
         return locationResUID # this returns a UUID starting with a letter!
 
     def createPlace(self):
-        placeURI = URIRef('http://data.linkedevents.org/london/hotels/' + Literal(self.placeUID))
+        placeURI = URIRef(self.placeUID)
         return placeURI
 
     def createGeometry(self):
-        placeGeom = URIRef('http://data.linkedevents.org/London/location/' + Literal(self.placeUID) + '/geometry')
+        placeGeom = URIRef(self.placeUID + '/geometry')
         return placeGeom
 
     def createAddress(self):
-        placeAddress = URIRef('http://data.linkedevents.org/location/' + Literal(self.placeUID) + '/address')
+        placeAddress = URIRef(self.placeUID + '/address')
         return placeAddress
 
     def createPlaceGraph(self, g):
         place = self.createPlace()
-        #place = self.createLocationResId()
         geom = self.createGeometry()
         address = self.createAddress()
 
         g.add((place, self.rdf.type, self.dul.place))
+        g.add((place, self.rdf.type, self.acco.Hotel))
         g.add((place, self.locationOnt.businessType, self.threecixtyKOS.residence))
         g.add((place, self.schema.location, address))
         g.add((place, self.geo.location, geom))
+
+        g.add((address, self.rdf.type, self.acco.Hotel))
+
+        g.add((geom, self.rdf.type, self.geo.Point))
+
+        return g
 
 # ----- This is an RDF creator
 
@@ -201,5 +211,4 @@ def main(content, path):
 rdf = RDFCreator()
 #main(rdf.createBusStopRDF('/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyTransport/busModule/DATA/busStopCodeOnly.csv'), '/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyTransport/busModule/DATA/busStopSimple.ttl')
 main(rdf.createAirbnbRDF('/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyHotel/airbnbModule/london/DATA/airbnbLondon_validated_idOnly.csv'), '/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyHotel/airbnbModule/london/DATA/airbnbSimple.ttl')
-
 
