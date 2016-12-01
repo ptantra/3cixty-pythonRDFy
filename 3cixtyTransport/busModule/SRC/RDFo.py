@@ -1,11 +1,13 @@
 # ---- libraries
 
 from rdflib import URIRef, Literal, Namespace, Graph
-import csv, uuid
-import string, random
-
+import csv
+import uuid
+import string
+import random
 
 # -------- This is an RDF superclass
+
 
 class RDF:
     def __init__(self):  # common namespaces
@@ -28,8 +30,8 @@ class RDF:
         uid = uuid.uuid5(namespace, idencode)
         return uid
 
-
 # ------ This is the Bus class
+
 
 class Bus(RDF):
     def __init__(self, stopId):
@@ -90,7 +92,115 @@ class Bus(RDF):
 
         return g
 
+# ----- This is a Busline class
+
+
+class Busline(RDF):
+    def __init__(self, route, run, lat, long, label):
+        RDF.__init__(self)
+        self.sf = Namespace("http://www.opengis.net/ont/sf#")
+        self.transit = Namespace('http://vocab.org/transit/terms/')
+
+        self.route = route
+        self.run = run
+        self.lat = lat
+        self.long = long
+        self.wkt = "POINT (" + str(self.lat) + " " + str(self.long) + ")"
+        self.label = Literal(str(label).title())
+
+    @staticmethod
+    def bindPrefixes(graph):
+        prefixes = {
+            'geo': 'http://www.w3.org/2003/01/geo/wgs84_pos#',
+            'locn': 'http://www.w3.org/ns/locn#',
+            'naptan': 'http://transport.data.gov.uk/def/naptan/',
+            'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
+            'schema': 'http://schema.org/',
+            'sf': 'http://www.opengis.net/ont/sf#',
+            'transit': 'http://vocab.org/transit/terms/'
+        }
+        for key in prefixes:
+            graph.bind(key, prefixes[key])
+        return graph
+
+    def createBusline(self):
+        busline = URIRef('http://data.linkedevents.org/transit/London/busLine/' + Literal(self.route))
+        return busline
+
+    def createBuslineGeometry(self):
+        buslineGeom = URIRef(self.createBusline() + '/geometry')
+        return buslineGeom
+
+    def createRoute(self):
+        busRoute = URIRef('http://data.linkedevents.org/transit/London/route/' + Literal(self.route))
+        return busRoute
+
+    def createRouteService(self):
+        routeService = URIRef('http://data.linkedevents.org/transit/London/service/' + Literal(self.route) + '_' + Literal(self.run))
+        return routeService
+
+    def createBuslineGraph(self, g):
+        busline = self.createBusline()
+        geom = self.createBuslineGeometry()
+        route = self.createRoute()
+        service = self.createRouteService()
+
+        g.add((busline, self.rdf.type, self.transit.BusRoute))
+        g.add((busline, self.geo.location, geom))
+        g.add((busline, self.rdfs.label, self.label))
+        g.add((busline, self.transit.RouteService, service))
+        g.add((busline, self.transit.route, route))
+        g.add((geom, self.rdf.type, self.sf.LineString))
+        g.add((geom, self.locn.geometry, Literal(self.wkt, datatype=self.geosparql.wktLiteral)))
+
+        return g
+
+# ------ This is a Bus Correspondence class
+
+
+class BusCorrespondence(Bus):
+    def __init__(self, stopId, route, run, seq):
+        RDF.__init__(self)
+        self.transit = Namespace('http://vocab.org/transit/terms/')
+
+        self.stopId = stopId
+        self.route = route
+        self.run = run
+        self.seq = seq
+        self.service = str(self.route) + '_' + str(self.run)
+
+    @staticmethod
+    def bindPrefixes(graph):
+        prefixes = {
+            'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
+            'transit': 'http://vocab.org/transit/terms/',
+            'xsd': 'http://www.w3.org/2001/XMLSchema#'
+        }
+        for key in prefixes:
+            graph.bind(key, prefixes[key])
+        return graph
+
+    def createServiceStop(self):
+        serviceStopId = URIRef('http://data.linkedevents.org/transit/London/serviceStop/' + Literal(self.service) + '/' + Literal(self.stopId))
+        return serviceStopId
+
+    def createService(self):
+        service = URIRef('http://data.linkedevents.org/transit/London/service/' + Literal(self.service))
+        return service
+
+    def createBusCorrespondenceGraph(self, g):
+        servStop = self.createServiceStop()
+        stop = self.createBusStop()
+        serv = self.createService()
+
+        g.add((servStop, self.rdf.type, self.transit.ServiceStop))
+        g.add((servStop, self.transit.service, serv))
+        g.add((servStop, self.transit.sequence, Literal(self.seq, datatype=self.xsd.int)))
+        g.add((servStop, self.transit.stop, stop))
+        return g
+
 # ----- This is the Airbnb class
+
 
 class Airbnb(RDF):
     def __init__(self, objectId, label, area, lat, long):
@@ -191,6 +301,7 @@ class Airbnb(RDF):
 
 # ----- This is an RDF creator
 
+
 class RDFCreator:
     def __init__(self):
         self.data = []
@@ -211,6 +322,36 @@ class RDFCreator:
         Bus.bindPrefixes(self.g)
         return self.g
 
+    def createBuslineRDF(self, path):
+        index = 0
+        with open(path, 'r') as f:
+            f.next()
+            print 'Building the graph...'
+            for line in csv.reader(f, dialect='excel', delimiter=','):
+                self.data.append(Busline(line[0], line[1], line[2], line[3], line[4]))
+        for item in self.data:
+            item.createBuslineGraph(self.g)
+            print 'Graph extended ' + str(index) + ' entities.'
+            index += 1
+        print 'Graph complete with ' + str(index) + ' Busline entities.'
+        Busline.bindPrefixes(self.g)
+        return self.g
+
+    def createBusCorrespondenceRDF(self, path):
+        index = 0
+        with open(path, 'r') as f:
+            f.next()
+            print 'Building the graph...'
+            for line in csv.reader(f, dialect='excel', delimiter=','):
+                self.data.append(BusCorrespondence(line[0], line[1], line[2], line[3]))
+        for item in self.data:
+            item.createBuslineGraph(self.g)
+            print 'Graph extended ' + str(index) + ' entities.'
+            index += 1
+        print 'Graph complete with ' + str(index) + ' Bus Correspondence entities.'
+        BusCorrespondence.bindPrefixes(self.g)
+        return self.g
+
     def createAirbnbRDF(self, path):
         index = 0
         with open(path, 'r') as f:
@@ -228,13 +369,25 @@ class RDFCreator:
 
 
 # -------- Main
+
 def main(content, path):
     print "Generating file... Wait."
     content.serialize(destination=path, format='turtle')
     print('The file in place.')
 
 # -------- Execution
+
 rdf = RDFCreator()
-#main(rdf.createBusStopRDF('/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyTransport/busModule/DATA/busStopCodeOnly.csv'), '/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyTransport/busModule/DATA/busStopSimple.ttl')
-main(rdf.createAirbnbRDF('/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyHotel/airbnbModule/london/DATA/airbnbLondon_validated.csv'), '/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyHotel/airbnbModule/london/DATA/airbnbSimple2.ttl')
+
+# ---- Airbnb
+
+airbnb_content = rdf.createAirbnbRDF('/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyHotel/airbnbModule/london/DATA/airbnbLondon_validated.csv')
+airbnb_path = '/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyHotel/airbnbModule/london/DATA/airbnbSimple2.ttl'
+#main(airbnb_content, airbnb_path)
+
+#----- Bus
+
+bus_content = rdf.createBusStopRDF('/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyTransport/busModule/DATA/busStopCodeOnly.csv')
+bus_path = '/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyTransport/busModule/DATA/busStopSimple.ttl'
+main(bus_content, bus_path)
 
