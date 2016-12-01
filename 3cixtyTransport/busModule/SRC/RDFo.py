@@ -4,49 +4,9 @@ from rdflib import URIRef, Literal, Namespace, Graph
 import csv, uuid
 import string, random
 
-# ----  This is an object that can bind its prefixes
 
-class Tree:
-    def __init__(self, g):
-        self.g = g
-        self.prefixes = {
-            'acco': 'http://purl.org/acco/ns#',
-            'dc': 'http://purl.org/dc/elements/1.1/',
-            'dct': 'http://purl.org/dc/terms/',
-            'dul': 'http://ontologydesignpatterns.org/ont/dul/DUL.owl#',
-            'geo': 'http://www.w3.org/2003/01/geo/wgs84_pos#',
-            'geom': 'http://geovocab.org/geometry#',
-            'geosparql': 'http://www.opengis.net/ont/geosparql#',
-            'gr': 'http://purl.org/goodrelations/v1#',
-            'locationOnt': 'http://data.linkedevents.org/def/location#',
-            'locationRes': 'http://data.linkedevents.org/location/',
-            'locn': 'http://www.w3.org/ns/locn#',
-            'naptan': 'http://transport.data.gov.uk/def/naptan/',
-            'owl':'http://www.w3.org/2002/07/owl#',
-            'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
-            'rdfs': 'http://www.w3.org/2000/01/rdf-schema#',
-            'schema':'http://schema.org/',
-            'threecixtyKOS': 'http://data.linkedevents.org/kos/3cixty/',
-            'time': 'http://www.w3.org/2006/time#',
-            'transit': 'http://vocab.org/transit/terms/',
-            'unknown': 'http://data.linkedevents.org/def/unknown#',
-            'xsd': 'http://www.w3.org/2001/XMLSchema#'
-        }
+# -------- This is an RDF superclass
 
-    def bindingPrefixes(self, g):
-        self.g = g
-        for key in self.prefixes:
-            self.g.bind(key, self.prefixes[key])
-        return self.g
-
-# ----- Global UID generator
-
-def getUid(value, namespace):
-    idencode = value.encode('utf-8')
-    uid = uuid.uuid5(namespace, idencode)
-    return uid
-
-# This is an RDF superclass that knows all the namespaces
 class RDF:
     def __init__(self): # common namespaces
         self.dc = Namespace('http://purl.org/dc/elements/1.1/')
@@ -62,6 +22,13 @@ class RDF:
         self.unknown = Namespace('http://data.linkedevents.org/def/unknown#')
         self.xsd = Namespace('http://www.w3.org/2001/XMLSchema#')
 
+    @staticmethod # ------ UID Generator
+    def getUID(value, namespace):
+        idencode = value.encode('utf-8')
+        uid = uuid.uuid5(namespace, idencode)
+        return uid
+
+
 # ------ This is the Bus class
 
 class Bus(RDF):
@@ -72,7 +39,23 @@ class Bus(RDF):
         self.transit = Namespace('http://vocab.org/transit/terms/')
 
         self.stopId = stopId
-        self.stopUID = getUid(self.stopId, self.naptan)
+        self.stopUID = RDF.getUID(self.stopId, self.naptan)
+
+    @staticmethod
+    def bindPrefixes(graph):
+        prefixes = {
+            'dc': 'http://purl.org/dc/elements/1.1/',
+            'dul': 'http://ontologydesignpatterns.org/ont/dul/DUL.owl#',
+            'geo': 'http://www.w3.org/2003/01/geo/wgs84_pos#',
+            'geom': 'http://geovocab.org/geometry#',
+            'naptan': 'http://transport.data.gov.uk/def/naptan/',
+            'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
+            'schema': 'http://schema.org/',
+            'transit': 'http://vocab.org/transit/terms/'
+        }
+        for key in prefixes:
+            graph.bind(key, prefixes[key])
+        return graph
 
     def createBusStop(self):
         busStop = URIRef("http://data.linkedevents.org/transit/stop/" + Literal(self.stopUID))
@@ -128,10 +111,32 @@ class Airbnb(RDF):
         self.publisher = URIRef('https://www.airbnb.co.uk')
         self.country = Literal('UK')
 
+    @staticmethod
+    def bindPrefixes(graph):
+        prefixes = {
+            'acco': 'http://purl.org/acco/ns#',
+            'dc': 'http://purl.org/dc/elements/1.1/',
+            'dul': 'http://ontologydesignpatterns.org/ont/dul/DUL.owl#',
+            'geo': 'http://www.w3.org/2003/01/geo/wgs84_pos#',
+            'geosparql': 'http://www.opengis.net/ont/geosparql#',
+            'locationOnt': 'http://data.linkedevents.org/def/location#',
+            'locationRes': 'http://data.linkedevents.org/location/',
+            'locn': 'http://www.w3.org/ns/locn#',
+            'owl': 'http://www.w3.org/2002/07/owl#',
+            'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
+            'rdfs': 'http://www.w3.org/2000/01/rdf-schema#',
+            'schema': 'http://schema.org/',
+            'threecixtyKOS': 'http://data.linkedevents.org/kos/3cixty/',
+            'xsd': 'http://www.w3.org/2001/XMLSchema#'
+        }
+        for key in prefixes:
+            graph.bind(key, prefixes[key])
+        return graph
+
     def createLocationResUID(self):
         hotelUri = Namespace("http://data.linkedevents.org/places/london/hotels")
         idencode = str(self.objectId)
-        uid = getUid(idencode, hotelUri)
+        uid = RDF.getUID(idencode, hotelUri)
         puid = URIRef("http://data.linkedevents.org/location/" + Literal(uid))
         uuidList = list(puid)
         chars = string.ascii_letters
@@ -203,6 +208,7 @@ class RDFCreator:
             print 'Graph extended ' + str(index) + ' entities.'
             index +=1
         print 'Graph complete with ' + str(index) + ' Bus entities.'
+        Bus.bindPrefixes(self.g)
         return self.g
 
     def createAirbnbRDF(self, path):
@@ -217,19 +223,18 @@ class RDFCreator:
             print 'Graph extended ' + str(index) + ' entities.'
             index += 1
         print 'Graph complete with ' + str(index) + ' Airbnb entities.'
+        Airbnb.bindPrefixes(self.g)
         return self.g
 
 
 # -------- Main
 def main(content, path):
     print "Generating file... Wait."
-    tree = Tree(content)
-    tree.bindingPrefixes(content)
     content.serialize(destination=path, format='turtle')
     print('The file in place.')
 
 # -------- Execution
 rdf = RDFCreator()
 #main(rdf.createBusStopRDF('/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyTransport/busModule/DATA/busStopCodeOnly.csv'), '/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyTransport/busModule/DATA/busStopSimple.ttl')
-main(rdf.createAirbnbRDF('/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyHotel/airbnbModule/london/DATA/airbnbLondon_validated.csv'), '/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyHotel/airbnbModule/london/DATA/airbnbSimple.ttl')
+main(rdf.createAirbnbRDF('/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyHotel/airbnbModule/london/DATA/airbnbLondon_validated.csv'), '/Users/Agata/Desktop/3cixty-pythonRDFy/3cixtyHotel/airbnbModule/london/DATA/airbnbSimple2.ttl')
 
