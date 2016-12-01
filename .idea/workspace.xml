@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e159873f-9702-4a59-9853-e39ca14c269b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3cixtyTransport/busModule/DATA/busStopSimple.ttl" afterPath="$PROJECT_DIR$/3cixtyTransport/busModule/DATA/busStopSimple.ttl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3cixtyTransport/busModule/SRC/RDFo.py" afterPath="$PROJECT_DIR$/3cixtyTransport/busModule/SRC/RDFo.py" />
     </list>
     <ignored path="3cixty-pythonRDFy.iws" />
@@ -64,10 +62,10 @@
       <file leaf-file-name="RDFo.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3cixtyTransport/busModule/SRC/RDFo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="1635">
+              <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
               <folding>
-                <element signature="e#17#30#0" expanded="true" />
+                <element signature="e#18#70#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,7 +98,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1193" />
+    <option name="x" value="615" />
     <option name="y" value="22" />
     <option name="width" value="1730" />
     <option name="height" value="1381" />
@@ -381,7 +379,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1193" y="22" width="1730" height="1381" extended-state="0" />
+    <frame x="615" y="22" width="1730" height="1381" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15730338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -495,10 +493,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3cixtyTransport/busModule/SRC/RDFo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="1635">
+          <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
           <folding>
-            <element signature="e#17#30#0" expanded="true" />
+            <element signature="e#18#70#0" expanded="true" />
           </folding>
         </state>
       </provider>

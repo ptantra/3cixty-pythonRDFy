@@ -1,5 +1,5 @@
 # ---- libraries
-import rdflib
+
 from rdflib import URIRef, Literal, Namespace, Graph
 import csv, uuid
 import string, random
@@ -8,7 +8,7 @@ import string, random
 # -------- This is an RDF superclass
 
 class RDF:
-    def __init__(self): # common namespaces
+    def __init__(self):  # common namespaces
         self.dc = Namespace('http://purl.org/dc/elements/1.1/')
         self.dct = Namespace('http://purl.org/dc/terms/')
         self.dul = Namespace('http://ontologydesignpatterns.org/ont/dul/DUL.owl#')
@@ -22,7 +22,7 @@ class RDF:
         self.unknown = Namespace('http://data.linkedevents.org/def/unknown#')
         self.xsd = Namespace('http://www.w3.org/2001/XMLSchema#')
 
-    @staticmethod # ------ UID Generator
+    @staticmethod  # ------ UID Generator
     def getUID(value, namespace):
         idencode = value.encode('utf-8')
         uid = uuid.uuid5(namespace, idencode)
@@ -34,7 +34,7 @@ class RDF:
 class Bus(RDF):
     def __init__(self, stopId):
         RDF.__init__(self)
-        self.geom = Namespace('http://geovocab.org/geometry#') # specific namespaces
+        self.geom = Namespace('http://geovocab.org/geometry#')  # specific namespaces
         self.naptan = Namespace('http://transport.data.gov.uk/def/naptan/')
         self.transit = Namespace('http://vocab.org/transit/terms/')
 
@@ -69,8 +69,8 @@ class Bus(RDF):
         stopAddress = URIRef('http://data.linkedevents.org/location/' + Literal(self.stopUID) + '/address')
         return stopAddress
 
-    def createLabel(self):
-        title = Literal(str(self.label).title())
+    def createLabel(self, label):
+        title = Literal(str(label).title())
         return title
 
     def createBusGraph(self, g):
@@ -144,7 +144,7 @@ class Airbnb(RDF):
         newId = ''.join(random.choice(chars))
         uuidList[38] = newId
         locationResUID = ''.join(uuidList).lower()
-        return locationResUID # this returns a UUID starting with a letter!
+        return locationResUID  # this returns a UUID starting with a letter!
 
     def createPlace(self):
         placeURI = URIRef(self.placeUID)
