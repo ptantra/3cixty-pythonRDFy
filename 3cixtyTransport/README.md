@@ -154,6 +154,117 @@ Underground, overground, tram and light rail TfL data
 <p>Example SPARQL query: T.B.C.</p>
 </br>
 
+Overground data
+-----------
+<p>Data on overground stations.</p>
+<p>The generated ttl has the following structure:</p>
+<ul>
+<li>Unique URI for each overground station in the TfL network</li>
+<li>Station name and extended description</li>
+<li>Geometry property represented both as coordinates and geoSPARQL literal value</li>
+<li>Address property</li>
+<li>The route servicing the stops</li>
+</ul>
+<p>Overground station turtle file example:</p>
+```Turtle
+<http://data.linkedevents.org/transit/london/subwayStop/0060c7fd_a2ab_53d9_ac8e_79e602992259> a dul:Place,
+        transit:Station ;
+    rdfs:label "Wood Street Rail Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:identifier "910GWDST" ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "RailStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/london-overground> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/0060c7fd_a2ab_53d9_ac8e_79e602992259/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/0060c7fd_a2ab_53d9_ac8e_79e602992259/geometry> a geo:Point ;
+    geo:lat "51.58658"^^xsd:double ;
+    geo:long "-0.002405"^^xsd:double ;
+    locn:geometry "POINT (51.58658 -0.002405)"^^geosparql:wktLiteral .
+        
+<http://data.linkedevents.org/transit/london/subwayRoute/london-overground> a transit:RailRoute ;
+    schema:name "london-overground" ;
+    transit:Station <http://data.linkedevents.org/transit/london/subwayStop/0060c7fd_a2ab_53d9_ac8e_79e602992259>,
+        <http://data.linkedevents.org/transit/london/subwayStop/02fe5a5f_2452_5dac_adfe_931c9d5e19ba>,
+        <http://data.linkedevents.org/transit/london/subwayStop/03458137_e50c_5d87_9fe3_329cf5433b83>,
+        <http://data.linkedevents.org/transit/london/subwayStop/046aa6af_14f4_5e7f_95c7_f42e53af6379>,
+        <http://data.linkedevents.org/transit/london/subwayStop/047e195e_59aa_577e_af54_9560c5c17a22>...
+```
+<p>Example SPARQL query: T.B.C.</p>
+</br>
+
+DLR data
+-----------
+<p>Data on DLR stations.</p>
+<p>The generated ttl has the following structure:</p>
+<ul>
+<li>Unique URI for each overground station in the TfL network</li>
+<li>Station name and extended description</li>
+<li>Geometry property represented both as coordinates and geoSPARQL literal value</li>
+<li>Address property</li>
+<li>The route servicing the stops</li>
+</ul>
+<p>DLR station turtle file example:</p>
+```Turtle
+<http://data.linkedevents.org/transit/london/subwayStop/017b639b_2867_5dce_916c_7e885ec7c10a> a dul:Place,
+        transit:Station ;
+    rdfs:label "Lewisham DLR Station" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/017b639b_2867_5dce_916c_7e885ec7c10a/geometry> .
+
+<http://data.linkedevents.org/transit/london/subwayStop/017b639b_2867_5dce_916c_7e885ec7c10a/geometry> a geo:Point ;
+    geo:lat "51.464665"^^xsd:double ;
+    geo:long "-0.012874"^^xsd:double ;
+    locn:geometry "POINT (51.464665 -0.012874)"^^geosparql:wktLiteral .
+        
+<http://data.linkedevents.org/transit/london/subwayRoute/dlr> a transit:RailRoute ;
+    schema:name "dlr" ;
+    transit:Station <http://data.linkedevents.org/transit/london/subwayStop/017b639b_2867_5dce_916c_7e885ec7c10a>,
+        <http://data.linkedevents.org/transit/london/subwayStop/079e84fb_94b0_5cd0_a493_fc003b86fd86>,
+        <http://data.linkedevents.org/transit/london/subwayStop/098fbb8d_f70a_5705_a3e0_fc908f689afb>,
+        <http://data.linkedevents.org/transit/london/subwayStop/169d6df4_5113_5687_b7c0_2d69be89f9ac>,
+        <http://data.linkedevents.org/transit/london/subwayStop/1f34ed50_08c0_5c02_8a52_c29a8e6e6722>...
+```
+
+Tram data
+-----------
+<p>Data on DLR stations.</p>
+<p>The generated ttl has the following structure:</p>
+<ul>
+<li>Unique URI for each overground station in the TfL network</li>
+<li>Station name and extended description</li>
+<li>Geometry property represented both as coordinates and geoSPARQL literal value</li>
+<li>Address property</li>
+<li>The route servicing the stops</li>
+</ul>
+<p>DLR station turtle file example:</p>
+```Turtle
+<http://data.linkedevents.org/transit/london/subwayStop/09ac2894_fdc2_5c47_b61a_d080973e7ea9> a dul:Place,
+        transit:Station ;
+    rdfs:label "Birkbeck Tram Stop" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "MetroStation" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/tram> ;
+    geo:location <http://data.linkedevents.org/transit/london/subwayStop/09ac2894_fdc2_5c47_b61a_d080973e7ea9/geometry> .
+    
+<http://data.linkedevents.org/transit/london/subwayStop/09ac2894_fdc2_5c47_b61a_d080973e7ea9/geometry> a geo:Point ;
+    geo:lat "51.403767"^^xsd:double ;
+    geo:long "-0.055787"^^xsd:double ;
+    locn:geometry "POINT (51.403767 -0.055787)"^^geosparql:wktLiteral .
+    
+<http://data.linkedevents.org/transit/london/subwayRoute/tram> a transit:RailRoute ;
+    schema:name "tram" ;
+    transit:Station <http://data.linkedevents.org/transit/london/subwayStop/09ac2894_fdc2_5c47_b61a_d080973e7ea9>,
+        <http://data.linkedevents.org/transit/london/subwayStop/0c750e9d_7134_5ca0_9071_cbf6c9fcc682>,
+        <http://data.linkedevents.org/transit/london/subwayStop/13e99cc7_ed00_528d_af0b_2a81df44cc37>,
+        <http://data.linkedevents.org/transit/london/subwayStop/1530e627_d722_5930_aaab_7127484a5d88>...
+```
+
+
 Bicycle TfL data
 -----------
 <p>Data on bike hire stations were published by Transport for London.</p>
