@@ -39,7 +39,20 @@ Bus TfL data: Bus Stops
     geo:lon "-0.3348309612429955"^^xsd:double ;
     locn:geometry "POINT (51.460191021304176 -0.3348309612429955)"^^geosparql:wktLiteral .
 ```
-<p>Example SPARQL query: T.B.C.</p>
+<p>Example SPARQL query:</p>
+```SPARQL
+prefix dct: <http://purl.org/dc/terms/> 
+
+SELECT ?label ?lon ?lat ?identifier
+WHERE {
+{ 
+?node rdfs:label ?label .
+?node a transit:Stop . 
+?node dc:identifier ?identifier . 
+?node geo:location ?location . }
+{?location geo:lon ?lon ; geo:lat ?lat . }
+}limit 20
+```
 </br>
 
 Bus TfL data: Bus Lines
