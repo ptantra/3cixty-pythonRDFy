@@ -68,7 +68,7 @@ Bus TfL data: Bus Lines
 <p>Example SPARQL query: T.B.C.</p>
 </br>
 
-Bus TfL data: Bus correspondence
+Bus TfL data: Bus Correspondence
 ------------
 <p>The bus correspondence contains the information that links the bus stops with the line route number, and the buses serving them.</p>
 <p>Each bus-correspondence entity contains:</p>
