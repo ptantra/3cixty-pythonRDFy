@@ -1,4 +1,4 @@
-LONDON RDF DATA DOCUMENTATION
+LONDON TRANSPORT RDF DATA DOCUMENTATION
 ===============
 <p>The dataset contained in the 3cixty Knowledgebase are:</p>
 
@@ -129,7 +129,21 @@ Underground TfL data
         <http://data.linkedevents.org/transit/london/station/1aa03ce4-705b-5826-b8d3-2e6ffd9fd9db>,
         <http://data.linkedevents.org/transit/london/station/1cc33497-2fee-5bbc-bbf5-a4014ed6c6d6>...
 ```
-<p>Example SPARQL query: T.B.C.</p>
+<p>Example SPARQL query:</p>
+```SPARQL
+prefix dct: <http://purl.org/dc/terms/> 
+
+SELECT ?label ?route ?location ?long ?lat ?description
+WHERE {
+{
+?node rdfs:label ?label .
+?node a transit:Station . 
+?node dct:description ?description . 
+?node geo:location ?location .
+?node transit:route ?route . }
+{?location geo:long ?long ; geo:lat ?lat . }
+}limit 20
+```
 </br>
 
 Overground TfL data
