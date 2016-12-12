@@ -332,6 +332,19 @@ Bicycle TfL data
     schema:streetAddress "Clarence Walk" ;
     locn:address "Clarence Walk, Stockwell" .
 ```
-<p>Example SPARQL query: T.B.C.</p>
+<p>Example SPARQL query:</p>
+```SPARQL
+SELECT ?label ?identifier ?lat ?long ?streetAddress
+WHERE {
+{?node rdfs:label ?label .
+?node a dul:Place . 
+?node dc:identifier ?identifier . 
+?node geo:location ?location .
+?node locn:address ?address .
+?node locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/bikestation> . }
+{?location geo:long ?long ; geo:lat ?lat . }
+{?address schema:streetAddress ?streetAddress. }
+}limit 20
+```
 </br>
 
