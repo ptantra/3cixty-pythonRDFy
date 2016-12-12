@@ -133,14 +133,14 @@ Underground TfL data
 ```SPARQL
 prefix dct: <http://purl.org/dc/terms/> 
 
-SELECT ?label ?route ?location ?long ?lat ?description
+SELECT ?label ?route ?long ?lat ?description
 WHERE {
-{
-?node rdfs:label ?label .
+{?node rdfs:label ?label .
 ?node a transit:Station . 
 ?node dct:description ?description . 
 ?node geo:location ?location .
-?node transit:route ?route . }
+?node transit:route ?route . 
+FILTER ( regex (str(?label), "Underground Station", "i") )}
 {?location geo:long ?long ; geo:lat ?lat . }
 }limit 20
 ```
@@ -182,7 +182,20 @@ Overground TfL data
         <http://data.linkedevents.org/transit/london/subwayStop/046aa6af_14f4_5e7f_95c7_f42e53af6379>,
         <http://data.linkedevents.org/transit/london/subwayStop/047e195e_59aa_577e_af54_9560c5c17a22>...
 ```
-<p>Example SPARQL query: T.B.C.</p>
+<p>Example SPARQL query: </p>
+```SPARQL
+prefix dct: <http://purl.org/dc/terms/> 
+ 
+SELECT ?label ?long ?lat ?description
+WHERE {
+{ ?node rdfs:label ?label .
+?node a transit:Station . 
+?node dct:description ?description . 
+?node geo:location ?location .
+?node transit:route <http://data.linkedevents.org/transit/london/subwayRoute/london-overground> . }
+{?location geo:long ?long ; geo:lat ?lat . }
+}limit 20
+```
 </br>
 
 Docklands Light Railway (DLR) data
@@ -219,6 +232,20 @@ Docklands Light Railway (DLR) data
         <http://data.linkedevents.org/transit/london/subwayStop/098fbb8d_f70a_5705_a3e0_fc908f689afb>,
         <http://data.linkedevents.org/transit/london/subwayStop/169d6df4_5113_5687_b7c0_2d69be89f9ac>,
         <http://data.linkedevents.org/transit/london/subwayStop/1f34ed50_08c0_5c02_8a52_c29a8e6e6722>...
+```
+<p>Example DLR SPARQL query:</p>
+```SPARQL
+prefix dct: <http://purl.org/dc/terms/> 
+ 
+SELECT ?label ?long ?lat ?description
+WHERE {
+{ ?node rdfs:label ?label .
+?node a transit:Station . 
+?node dct:description ?description . 
+?node geo:location ?location .
+?node transit:route <http://data.linkedevents.org/transit/london/subwayRoute/dlr> . }
+{?location geo:long ?long ; geo:lat ?lat . }
+}limit 20
 ```
 
 Tram TfL data
