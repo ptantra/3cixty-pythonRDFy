@@ -127,29 +127,7 @@ Underground, overground, tram and light rail TfL data
         <http://data.linkedevents.org/transit/london/station/0a689524-fa81-5e8e-839f-5b3a8008562d>,
         <http://data.linkedevents.org/transit/london/station/0e5afc17-c3da-587b-a28a-6d23ef0bfcb3>,
         <http://data.linkedevents.org/transit/london/station/1aa03ce4-705b-5826-b8d3-2e6ffd9fd9db>,
-        <http://data.linkedevents.org/transit/london/station/1cc33497-2fee-5bbc-bbf5-a4014ed6c6d6>,
-        <http://data.linkedevents.org/transit/london/station/244f5aa3-dd09-59e0-a0a2-bcd2a401a713>,
-        <http://data.linkedevents.org/transit/london/station/2dc668b9-de4c-5425-881a-c71065c7c1a7>,
-        <http://data.linkedevents.org/transit/london/station/368ed3d7-1108-5fd2-ac8e-70f9120b7be3>,
-        <http://data.linkedevents.org/transit/london/station/45950594-0bfb-5e17-91e3-780e15b07017>,
-        <http://data.linkedevents.org/transit/london/station/4e277dfe-5ec9-5c1c-8f40-56a6df695e48>,
-        <http://data.linkedevents.org/transit/london/station/5999c426-7224-58c1-95db-b9135e2920b5>,
-        <http://data.linkedevents.org/transit/london/station/5c565ac5-b2e9-5d5a-a585-3b9d48a28234>,
-        <http://data.linkedevents.org/transit/london/station/6989c255-63e3-569e-9728-f2729fdf654f>,
-        <http://data.linkedevents.org/transit/london/station/71cfd603-4a74-56c6-bffd-2ab1200b00aa>,
-        <http://data.linkedevents.org/transit/london/station/9a7dce4c-5851-59f9-ae56-7af784891703>,
-        <http://data.linkedevents.org/transit/london/station/a3bf15dc-6ab2-5836-ad16-7f947215235c>,
-        <http://data.linkedevents.org/transit/london/station/aa3f96b7-318e-512f-982f-4cd64940c896>,
-        <http://data.linkedevents.org/transit/london/station/ab97ad9b-0239-5e10-98e6-933a5b291a37>,
-        <http://data.linkedevents.org/transit/london/station/b757fb7c-076e-5416-955f-8af96f769643>,
-        <http://data.linkedevents.org/transit/london/station/ceef7697-3341-575d-bc93-aa18d4197799>,
-        <http://data.linkedevents.org/transit/london/station/d72cdea5-0c99-5950-a7a3-2c89575d3275>,
-        <http://data.linkedevents.org/transit/london/station/dcff3a7d-d8e6-55a6-9ba2-ecb5fc49e033>,
-        <http://data.linkedevents.org/transit/london/station/ee0fea2e-1d2c-52a4-8065-dd7ac7da4f16>,
-        <http://data.linkedevents.org/transit/london/station/ef660c68-0a13-510e-9e42-7bf0dd379cae>,
-        <http://data.linkedevents.org/transit/london/station/f2a20c52-1cc2-5e66-93c9-b1fe22c55bd8>,
-        <http://data.linkedevents.org/transit/london/station/fc822d85-4664-5800-b16f-d69db38eb5f5>,
-        <http://data.linkedevents.org/transit/london/station/ff90da5f-8d25-5c2d-b68a-724f77eea35c> .
+        <http://data.linkedevents.org/transit/london/station/1cc33497-2fee-5bbc-bbf5-a4014ed6c6d6>...
 ```
 <p>Example SPARQL query: T.B.C.</p>
 </br>
