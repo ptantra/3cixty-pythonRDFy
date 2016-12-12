@@ -282,6 +282,20 @@ Tram TfL data
         <http://data.linkedevents.org/transit/london/subwayStop/13e99cc7_ed00_528d_af0b_2a81df44cc37>,
         <http://data.linkedevents.org/transit/london/subwayStop/1530e627_d722_5930_aaab_7127484a5d88>...
 ```
+<p>Example SPARQL query: </p>
+```SPARQL
+prefix dct: <http://purl.org/dc/terms/> 
+ 
+SELECT ?label ?long ?lat ?description
+WHERE {
+{ ?node rdfs:label ?label .
+?node a transit:Station . 
+?node dct:description ?description . 
+?node geo:location ?location .
+?node transit:route <http://data.linkedevents.org/transit/london/subwayRoute/tram>  . }
+{?location geo:long ?long ; geo:lat ?lat . }
+}limit 20
+```
 
 Bicycle TfL data
 -----------
