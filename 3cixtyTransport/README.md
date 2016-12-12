@@ -85,7 +85,7 @@ Bus TfL data: Bus correspondence
     transit:stop <http://data.linkedevents.org/transit/london/stop/2585> .
 ```
 
-Underground, overground, tram and light rail TfL data 
+Underground TfL data
 ------------
 <p>The ttl dataset for London Underground stations published by Transport for London contains:</p>
 <ul>
@@ -132,7 +132,7 @@ Underground, overground, tram and light rail TfL data
 <p>Example SPARQL query: T.B.C.</p>
 </br>
 
-Overground data
+Overground TfL data
 -----------
 <p>Data on overground stations.</p>
 <p>The generated ttl has the following structure:</p>
@@ -171,7 +171,7 @@ Overground data
 <p>Example SPARQL query: T.B.C.</p>
 </br>
 
-DLR data
+Docklands Light Railway (DLR) data
 -----------
 <p>Data on DLR stations.</p>
 <p>The generated ttl has the following structure:</p>
@@ -207,7 +207,7 @@ DLR data
         <http://data.linkedevents.org/transit/london/subwayStop/1f34ed50_08c0_5c02_8a52_c29a8e6e6722>...
 ```
 
-Tram data
+Tram TfL data
 -----------
 <p>Data on DLR stations.</p>
 <p>The generated ttl has the following structure:</p>
@@ -218,7 +218,7 @@ Tram data
 <li>Address property</li>
 <li>The route servicing the stops</li>
 </ul>
-<p>DLR station turtle file example:</p>
+<p>Tram stops turtle file example:</p>
 ```Turtle
 <http://data.linkedevents.org/transit/london/subwayStop/09ac2894_fdc2_5c47_b61a_d080973e7ea9> a dul:Place,
         transit:Station ;
@@ -241,7 +241,6 @@ Tram data
         <http://data.linkedevents.org/transit/london/subwayStop/13e99cc7_ed00_528d_af0b_2a81df44cc37>,
         <http://data.linkedevents.org/transit/london/subwayStop/1530e627_d722_5930_aaab_7127484a5d88>...
 ```
-
 
 Bicycle TfL data
 -----------
