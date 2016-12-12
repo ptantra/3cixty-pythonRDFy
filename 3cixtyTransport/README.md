@@ -2,7 +2,7 @@ LONDON RDF DATA DOCUMENTATION
 ===============
 <p>The dataset contained in the 3cixty Knowledgebase are:</p>
 
-Bus TfL data
+Bus TfL data: Bus Stops
 ------------
 <p>The ttl dataset for London bus stops was generated with data published by [Transport for London]: https://tfl.gov.uk (TfL). Unique [SHA-1](https://en.wikipedia.org/wiki/SHA-1) ID was generated for each bus stop which immediately linked the bus stop to its geometry and address.</p>
 <p>Each bus stop node contains:</p>
@@ -42,7 +42,7 @@ Bus TfL data
 <p>Example SPARQL query: T.B.C.</p>
 </br>
 
-Bus-line TfL data
+Bus TfL data: Bus Lines
 ------------
 <p>The ttl dataset for London bus stops was generated with data published by [Transport for London]: https://tfl.gov.uk (TfL). Unique [SHA-1](https://en.wikipedia.org/wiki/SHA-1) ID was generated for each bus stop which immediately linked the bus stop to its geometry and address.</p>
 <p>Each bus-line entity contains:</p>
@@ -68,9 +68,9 @@ Bus-line TfL data
 <p>Example SPARQL query: T.B.C.</p>
 </br>
 
-Bus correspondence TfL data
+Bus TfL data: Bus correspondence
 ------------
-<p>The bus correspondence graph contains the information that links the stops, line route number, and the buses serving them.</p>
+<p>The bus correspondence contains the information that links the bus stops with the line route number, and the buses serving them.</p>
 <p>Each bus-correspondence entity contains:</p>
 <ul>
 <li>The sequence number representing the position in the bus' sequence of stops.</li>
@@ -93,29 +93,63 @@ Underground, overground, tram and light rail TfL data
 <li>Station name and extended description</li>
 <li>Semantic links to tube lines which stop at given station</li>
 <li>Geometry property represented both as coordinates and geoSPARQL literal value</li>
+<li>Address property</li>
+<li>The route servicing the stops</li>
 </ul>
 [London underground station RDF ontology diagram](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/undergroundStation_rdfDiagram.svg)</br>
 [Example of London underground RDF ontology diagram: Acton Town station](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/undergroundStationExample_rdfDiagram.svg)<br>
 <p>Underground station turtle file example:</p>
 ```Turtle
-<http://data.linkedevents.org/transit/London/subwayStop/ActonTownStation> a dul:Place,
+<http://data.linkedevents.org/transit/london/station/00900227-8a9d-5227-a59e-dd520b48c7ac> a dul:Place,
         transit:Station ;
-    rdfs:label "Acton Town Station" ;
+    rdfs:label "Swiss Cottage Underground Station" ;
     locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/subway> ;
+    dc:identifier "940GZZLUSWC" ;
     dc:publisher <https://tfl.gov.uk> ;
-    dct:description "Acton Town Station London Underground Ltd. Gunnersbury Lane London W3 8HN" ;
-    transit:route <http://data.linkedevents.org/transit/London/subwayRoute/District>,
-        <http://data.linkedevents.org/transit/London/subwayRoute/Piccadilly> ;
-    geo:location <http://data.linkedevents.org/transit/London/subwayStop/ActonTownStation/geometry> .
+    dct:description "Swiss Cottage Station,London Underground Ltd.,Finchley Rd,London,NW3 6HY" ;
+    transit:route <http://data.linkedevents.org/transit/london/subwayRoute/jubilee> ;
+    geo:location <http://data.linkedevents.org/transit/london/station/00900227-8a9d-5227-a59e-dd520b48c7ac/geometry> ;
+    locn:address <http://data.linkedevents.org/location/00900227-8a9d-5227-a59e-dd520b48c7ac/address> .
     
-<http://data.linkedevents.org/transit/London/subwayStop/ActonTownStation/geometry> a geo:Point ;
-    geo:lat "51.5028"^^xsd:double ;
-    geo:long "-0.280251"^^xsd:double ;
-    locn:geometry "POINT(51.5027503967285 -0.280251204967499)"^^geosparql:wktLiteral .
+<http://data.linkedevents.org/transit/london/station/00900227-8a9d-5227-a59e-dd520b48c7ac/geometry> a geo:Point ;
+    geo:lat "51.543681"^^xsd:double ;
+    geo:long "-0.174894"^^xsd:double ;
+    locn:geometry "POINT (51.543681 -0.174894)"^^geosparql:wktLiteral .
+
+<http://data.linkedevents.org/location/00900227-8a9d-5227-a59e-dd520b48c7ac/address> a dct:Location,
+        schema:PostalAddress ;
+    dct:title "Swiss Cottage Underground Station" ;
+    schema:streetAddress "Swiss Cottage Station,London Underground Ltd.,Finchley Rd,London,NW3 6HY"
     
-<http://data.linkedevents.org/transit/London/subwayRoute/Piccadilly> a transit:SubwayRoute .
-    
-<http://data.linkedevents.org/transit/London/subwayRoute/District> a transit:SubwayRoute .
+<http://data.linkedevents.org/transit/london/subwayRoute/jubilee> a transit:RailRoute ;
+    schema:name "jubilee" ;
+    transit:Station <http://data.linkedevents.org/transit/london/station/00900227-8a9d-5227-a59e-dd520b48c7ac>,
+        <http://data.linkedevents.org/transit/london/station/0a689524-fa81-5e8e-839f-5b3a8008562d>,
+        <http://data.linkedevents.org/transit/london/station/0e5afc17-c3da-587b-a28a-6d23ef0bfcb3>,
+        <http://data.linkedevents.org/transit/london/station/1aa03ce4-705b-5826-b8d3-2e6ffd9fd9db>,
+        <http://data.linkedevents.org/transit/london/station/1cc33497-2fee-5bbc-bbf5-a4014ed6c6d6>,
+        <http://data.linkedevents.org/transit/london/station/244f5aa3-dd09-59e0-a0a2-bcd2a401a713>,
+        <http://data.linkedevents.org/transit/london/station/2dc668b9-de4c-5425-881a-c71065c7c1a7>,
+        <http://data.linkedevents.org/transit/london/station/368ed3d7-1108-5fd2-ac8e-70f9120b7be3>,
+        <http://data.linkedevents.org/transit/london/station/45950594-0bfb-5e17-91e3-780e15b07017>,
+        <http://data.linkedevents.org/transit/london/station/4e277dfe-5ec9-5c1c-8f40-56a6df695e48>,
+        <http://data.linkedevents.org/transit/london/station/5999c426-7224-58c1-95db-b9135e2920b5>,
+        <http://data.linkedevents.org/transit/london/station/5c565ac5-b2e9-5d5a-a585-3b9d48a28234>,
+        <http://data.linkedevents.org/transit/london/station/6989c255-63e3-569e-9728-f2729fdf654f>,
+        <http://data.linkedevents.org/transit/london/station/71cfd603-4a74-56c6-bffd-2ab1200b00aa>,
+        <http://data.linkedevents.org/transit/london/station/9a7dce4c-5851-59f9-ae56-7af784891703>,
+        <http://data.linkedevents.org/transit/london/station/a3bf15dc-6ab2-5836-ad16-7f947215235c>,
+        <http://data.linkedevents.org/transit/london/station/aa3f96b7-318e-512f-982f-4cd64940c896>,
+        <http://data.linkedevents.org/transit/london/station/ab97ad9b-0239-5e10-98e6-933a5b291a37>,
+        <http://data.linkedevents.org/transit/london/station/b757fb7c-076e-5416-955f-8af96f769643>,
+        <http://data.linkedevents.org/transit/london/station/ceef7697-3341-575d-bc93-aa18d4197799>,
+        <http://data.linkedevents.org/transit/london/station/d72cdea5-0c99-5950-a7a3-2c89575d3275>,
+        <http://data.linkedevents.org/transit/london/station/dcff3a7d-d8e6-55a6-9ba2-ecb5fc49e033>,
+        <http://data.linkedevents.org/transit/london/station/ee0fea2e-1d2c-52a4-8065-dd7ac7da4f16>,
+        <http://data.linkedevents.org/transit/london/station/ef660c68-0a13-510e-9e42-7bf0dd379cae>,
+        <http://data.linkedevents.org/transit/london/station/f2a20c52-1cc2-5e66-93c9-b1fe22c55bd8>,
+        <http://data.linkedevents.org/transit/london/station/fc822d85-4664-5800-b16f-d69db38eb5f5>,
+        <http://data.linkedevents.org/transit/london/station/ff90da5f-8d25-5c2d-b68a-724f77eea35c> .
 ```
 <p>Example SPARQL query: T.B.C.</p>
 </br>
