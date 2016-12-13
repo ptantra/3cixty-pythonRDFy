@@ -7,11 +7,9 @@ The rdf graph for the London wunderground weather stations is generated with dat
 <ul>
 <li>Identifier</li>
 <li>Label</li>
-<li>Business type</li>
 <li>Publisher</li>
 <li>Link to weather station observation properties</li>
 <li>Link to weather address properties</li>
-<li>Link to weather geometric properties</li>
 <li>Weather station geometry has both point coordinates and geoSPARQL literal value.</li>
 </ul>
 [Wunderground weather station RDF ontology diagram](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/wundergroundStations.svg)</br>
