@@ -20,32 +20,31 @@ The rdf graph for the London wunderground weather stations is generated with dat
 [Example of a real time observation from a Wunderground weather station RDF ontology diagram: East Street bus stop](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/wundergroundStationsExample.svg)
 <p>London Wunderground weather station turtle file example:</p>
 ```Turtle
-<http://data.linkedevents.org/environment/London/wunderground/deviceId/I90579897> a dul:Place,
-        ssn:sensingDevice ;
+<http://data.linkedevents.org/wunderground/deviceId/I90579897> a ssn:sensingDevice ;
     rdfs:label "I90579897" ;
-    locationOnt:businessType <http://data.linkedevents.org/kos/wunderground/weatherstation> ;
-    ssn:hasPropery <http://data.linkedevents.org/environment/London/wunderground/observation/59ed2715-f5aa-53ac-bc01-1eb72c028e7d> ;
-    dct:publisher <https://www.wunderground.com> ;
-    schema:location <http://data.linkedevents.org/environment/London/wunderground/deviceId/I90579897/address> ;
-    geo:location <http://data.linkedevents.org/environment/London/wunderground/deviceId/I90579897/geometry> .
+    dc:publisher <https://www.wunderground.com> ;
+    ssn:hasLocation <http://data.linkedevents.org/wunderground/deviceId/I90579897/address> ;
+    ssn:hasRegion <http://data.linkedevents.org/wunderground/deviceId/I90579897/geometry> ;
+    ssn:observationResult <http://data.linkedevents.org/wunderground/observation/59ed2715-f5aa-53ac-bc01-1eb72c028e7d> .
     
-<http://data.linkedevents.org/environment/London/wunderground/deviceId/I90579897/address> a schema:PostalAddress ;
+<http://data.linkedevents.org/wunderground/deviceId/I90579897/address> a schema:PostalAddress ;
     schema:addressLocality "North Finchley" ;
     schema:streetAddress "North Finchley" ;
-    locn:address "North Finchley, North Finchley" .
+    locn:address "North Finchley, North Finchley" ;
+    ssn:isLocationOf <http://data.linkedevents.org/wunderground/deviceId/I90579897> .
 
-<http://data.linkedevents.org/environment/London/wunderground/deviceId/I90579897/geometry> a geo:Point ;
+<http://data.linkedevents.org/wunderground/deviceId/I90579897/geometry> a dul:spaceRegion,
+        geo:Point ;
     geo:lat "51.613396"^^xsd:double ;
-    geo:lon "-0.17326"^^xsd:double ;
-    locn:geometry "POINT(51.613396 -0.17326)"^^geosparql:wktLiteral .
+    geo:long "-0.17326"^^xsd:double ;
+    locn:geometry "POINT (51.613396 -0.17326)"^^geosparql:wktLiteral .
 ```
-<P>Each real time weather station observation node contains:</p>
+<p>Each real time weather station observation node contains:</p>
 <ul>
 <li>Observation identifier</li>
 <li>Observation time</li>
 <li>Observation value</li>
 <li>Description</li>
-
 </ul>
 
 <p>London Wunderground weather station real-time turtle file example:</p>
@@ -53,9 +52,8 @@ The rdf graph for the London wunderground weather stations is generated with dat
 <http://data.linkedevents.org/environment/London/wunderground/observation/59ed2715-f5aa-53ac-bc01-1eb72c028e7d> a ssn:observation ;
     ssn:observationResultTime "2016-08-31T19:00:00"^^xsd:dateTime ;
     ssn:observationValue "partlycloudy"@en ;
-    dct:description "weather condition"@en .
+    ssn:property "weather condition"@en .
 ```
-
 <p>Example SPARQL query: T.B.C.</p>
 </br>
 
