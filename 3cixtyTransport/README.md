@@ -361,3 +361,40 @@ WHERE {
 ```
 </br>
 
+Ferry TfL data
+-----------
+<p>Data on Ferry stops published by TfL.</p>
+<p>The generated ttl has the following structure:</p>
+<ul>
+<li>A unique URI for each ferry stop along with its identifier and label</li>
+<li>A geometry URI with geometry properties represented both by point coordinates and geoSPARQL literal value</li>
+<li>Ferry route</li>
+</ul>
+<p>London TfL Ferry stop turtle file example:</p>
+```Turtle
+<http://data.linkedevents.org/transit/london/ferryStop/10ff9350-4462-5f1d-bfbc-1d7e4bcdc98c> a dul:Place,
+        transit:Station ;
+    rdfs:label "Greenland Pier" ;
+    locationOnt:businessType <http://data.linkedevents.org/kos/3cixty/ferrystation> ;
+    dc:publisher <https://tfl.gov.uk> ;
+    dct:description "FerryBerth" ;
+    transit:route <http://data.linkedevents.org/transit/london/ferryRoute/RB1> ;
+    geo:location <http://data.linkedevents.org/transit/london/ferryStop/10ff9350_4462_5f1d_bfbc_1d7e4bcdc98c/geometry> .
+    
+<http://data.linkedevents.org/transit/london/ferryStop/10ff9350_4462_5f1d_bfbc_1d7e4bcdc98c/geometry> a geo:Point ;
+    geo:lat "51.494732"^^xsd:double ;
+    geo:long "-0.031822"^^xsd:double ;
+    locn:geometry "(51.494732 -0.031822)"^^geosparql:wktLiteral .
+    
+<http://data.linkedevents.org/transit/london/ferryRoute/RB1> a transit:ferryRoute ;
+    schema:name "RB1" ;
+    transit:Station <http://data.linkedevents.org/transit/london/ferryStop/058481e7-20cb-5cc8-85ef-d871fd0260bc>,
+        <http://data.linkedevents.org/transit/london/ferryStop/10ff9350-4462-5f1d-bfbc-1d7e4bcdc98c>,
+        <http://data.linkedevents.org/transit/london/ferryStop/16a74c32-8ddb-589a-bc80-02b967cddae3>,
+        <http://data.linkedevents.org/transit/london/ferryStop/1c993218-f145-5f4d-a54a-aca0bd86c11a>,
+        <http://data.linkedevents.org/transit/london/ferryStop/1e52ab49-6079-5675-90cb-44713db05d2a>...
+```
+<p>Example SPARQL query: TBC</p>
+```SPARQL
+```
+
