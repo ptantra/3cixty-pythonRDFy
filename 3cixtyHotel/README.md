@@ -1,7 +1,9 @@
 
 AirBnB
 -------
-<p>The AirBnB ttl dataset for London is obtained from a secondary source; www.insideairbnb.com.</p>
+<p>The AirBnB ttl dataset for London is obtained from a secondary source: www.insideairbnb.com. A website dedicated to test Airbnb's claim to be part of the "sharing economy" and disrupting the hotel industry by providing the data scraped from airbnb's websites for analysis. AirBnB itself do not openly share its data via an official api.</p>
+
+Browse the data for your city below, and see for yourself.</p>
 <p>The semantic dataset contains:<p>
 <ul>
 <li>Unique URI for each accommodation offering</li>
