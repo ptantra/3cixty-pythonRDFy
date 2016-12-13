@@ -44,14 +44,14 @@ locationRes:00017da-ac0a-50ef-96df-90e84258115a a dul:Place,
 <p>Example SPARQL query:</p>
 ```SPARQL
 prefix gr: <http://purl.org/goodrelations/v1#> 
-prefix acco: <http://purl.org/acco/ns#> 
+prefix threecixtyKOS: <http://data.linkedevents.org/kos/3cixty/>
 
 SELECT ?label ?price ?long ?lat ?description
 WHERE {{?node rdfs:label ?label .
-?node a acco:Hotel . 
 ?node gr:description ?description . 
 ?node geo:location ?location .
-?node gr:hasCurrencyValue  ?price . }
+?node gr:hasCurrencyValue  ?price . 
+?node locationOnt:businessType threecixtyKOS:residence}
 {?location geo:long ?long ; geo:lat ?lat . }
 }limit 20
 ```
