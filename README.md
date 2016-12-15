@@ -34,19 +34,20 @@ The SPARQL endpoint for the London 3cixty knowledge base is http://3cixty.casa.u
 ##Installation
 To run these scripts, clone this Github repo and install all dependencies. Crucially, the folder and file structures must be maintained.
 <p>Various 'modules' have been created for this project.</p>
-1. Transport
-    - commonModule
+1. Common
+    - Common Module: Contain common functions that are used by the other modules 
+2. Transport
     - bikeModule
     - busModule
     - railModule
     - ferryModule
-2. Environment
+3. Environment
     - icriModule
     - wundergroundModule
-3. Hotel
+4. Hotel
     - airbnbModule
 
-To execute the files in the module, run the *_main.py file.
+To execute the files in the module, run the _main.py file in each Module folders.
 <p>bikeModule file structure example: </p>
 ````appleScript
 |-- bikeModule',
