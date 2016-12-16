@@ -77,7 +77,20 @@ Bus TfL data: Bus Lines
 <http://data.linkedevents.org/transit/london/busLine/0001e385-bbeb-5cf9-9664-a34a1624ae4a/geometry> a sf:LineString ;
     locn:geometry "LINESTRING (51.5769506448 0.0267878469017, 51.5783271618 0.025708888584, 51.5819507288 0.0283382746549, 51.5882544375 0.0283447625645, 51.590186877 0.0299611365795, 51.5916320484 0.0280332371672, 51.5941019888 0.0245626474983, 51.5944460584 0.0223400490948, 51.5913767086 0.0225068961583, 51.589252562 0.0220949467414, 51.5866049637 0.0212700400457, 51.5839942937 0.0203891330705, 51.5832330381 0.0160250161139, 51.5833830267 0.00937733816316, 51.5829022682 0.00436183844349, 51.5797671978 0.00416615083856, 51.5781006071 0.00907215711642, 51.5766011073 0.00368048451906, 51.5796735219 0.0017516629076, 51.5811495312 0.00115257434997, 51.5808918374 -0.0011392736254, 51.5826775974 -0.00514580323675, 51.5832384771 -0.00745961715069, 51.5806107619 -0.0185007991604, 51.5830972616 -0.0198360622321, 51.5837964817 -0.0202387000908, 51.5825533223 -0.0243776131692, 51.5831144625 -0.0294053002793, 51.5825501265 -0.0322155124054, 51.581890837 -0.0341925802244, 51.5797065758 -0.0417777064425)"^^geosparql:wktLiteral .
 ```
-<p>Example SPARQL query: T.B.C.</p>
+<p>Example SPARQL query:</p>
+```SPARQL
+SELECT ?label ?lon ?lat ?identifier ?service ?sequence
+WHERE {
+{ 
+?node rdfs:label ?label .
+?node a transit:Stop . 
+?node dc:identifier ?identifier . 
+?node geo:location ?location . }
+{?location geo:lon ?lon ; geo:lat ?lat . }
+
+{?x transit:stop ?node ; transit:service ?service ;transit:sequence ?sequence .}
+{?y transit:RouteService ?service }
+}limit 100
 
 Bus TfL data: Bus Correspondence
 ------------
@@ -88,6 +101,7 @@ Bus TfL data: Bus Correspondence
 <li>The service number i.e. route number and sequence number</li>
 <li>The TfL stop ID</li>
 </ul>
+```
 
 ```Turtle
 <http://data.linkedevents.org/transit/london/serviceStop/100_1/2585> a transit:ServiceStop ;
