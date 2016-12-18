@@ -52,7 +52,22 @@ The rdf graph for the London wunderground weather stations is generated with dat
     ssn:observationValue "partlycloudy"@en ;
     ssn:property "weather condition"@en .
 ```
-<p>Example SPARQL query: T.B.C.</p>
+<p>Example SPARQL query:</p>
+```Turtle
+prefix ssn: <http://www.w3.org/ns/ssn/>
+
+SELECT DISTINCT ?name ?publisher ?lat ?long  ?area
+WHERE
+{
+    ?ref a ssn:sensingDevice ; rdfs:label ?name ; ssn:hasLocation ?addr ; dc:publisher ?publisher  ; ssn:hasRegion ?geometry .
+    ?addr a schema:PostalAddress ; locn:address ?area.
+    ?geometry geo:long ?long ; geo:lat ?lat .
+ BIND(bif:st_distance(bif:st_point(?long, ?lat), bif:st_point(-0.1292638, 51.5254607)) AS ?distance)
+ FILTER(?publisher=<https://www.wunderground.com> && ?distance <= 100)
+ }
+ ORDER BY ASC (?distance)
+ LIMIT 40
+```
 </br>
 
 
