@@ -309,15 +309,16 @@ Tram TfL data
 <p>Example SPARQL query: </p>
 ```SPARQL
 prefix dct: <http://purl.org/dc/terms/> 
- 
-SELECT ?label ?long ?lat ?description
+
+SELECT ?label ?description ?lat ?long ?businessType
 WHERE {
-{ ?node rdfs:label ?label .
+{?node rdfs:label ?label .
 ?node a transit:Station . 
 ?node dct:description ?description . 
 ?node geo:location ?location .
-?node transit:route <http://data.linkedevents.org/transit/london/subwayRoute/tram>  . }
-{?location geo:long ?long ; geo:lat ?lat . }
+?node locationOnt:businessType ?businessType .
+FILTER ( regex (str(?businessType), "tram", "i") )
+{?location geo:long ?long ; geo:lat ?lat . }}
 }limit 20
 ```
 
