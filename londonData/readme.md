@@ -13,8 +13,8 @@ Bus TfL data
 <li>Address and location</li>
 <li>Bus stop geometry has both point coordinates and geoSPARQL literal value.</li>
 </ul>
-[London TfL Bus stop RDF ontology diagram](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/busStop_rdfDiagram.svg)</br>
-[Example of a London TfL Bus stop RDF ontology diagram: East Street bus stop](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/busStopExample_rdfDiagram.svg)
+[London TfL Bus stop RDF ontology diagram]((https://github.com/ptantra/3cixty-pythonRDFy/tree/master/londonData/lrdf_busStop.png)</br>
+[Example of a London TfL Bus stop RDF ontology diagram: East Street bus stop](https://github.com/ptantra/3cixty-pythonRDFy/tree/master/londonData/lrdf_busStopExample.png)
 <p>London bus stop turtle file example:</p>
 ```Turtle
 <http://data.linkedevents.org/transit/London/stop/47001> a dul:Place,
@@ -54,8 +54,8 @@ Underground, overground, tram and light rail TfL data
 <li>Semantic links to tube lines which stop at given station</li>
 <li>Geometry property represented both as coordinates and geoSPARQL literal value</li>
 </ul>
-[London underground station RDF ontology diagram](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/undergroundStation_rdfDiagram.svg)</br>
-[Example of London underground RDF ontology diagram: Acton Town station](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/undergroundStationExample_rdfDiagram.svg)<br>
+[London underground station RDF ontology diagram](https://github.com/ptantra/3cixty-pythonRDFy/tree/master/londonData/lrdf_underground.png)</br>
+[Example of London underground RDF ontology diagram: Acton Town station](https://github.com/ptantra/3cixty-pythonRDFy/tree/master/londonData/lrdf_undergroundExample.png)<br>
 <p>Underground station turtle file example:</p>
 ```Turtle
 <http://data.linkedevents.org/transit/London/subwayStop/ActonTownStation> a dul:Place,
@@ -80,22 +80,6 @@ Underground, overground, tram and light rail TfL data
 <p>Example SPARQL query: T.B.C.</p>
 </br>
 
-
-Time between undergound stations
--------
-<p>This ttl dataset contains travel time between connected TfL tube stations. The structure links unique URIs for tube stations defined as origins to respective URIs for tube stations defined as destinations along with travel time interval between them.</p>
-[London underground station RDF ontology diagram](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/undergroundStationTimeBetween_rdfDiagram.svg)</br>
-[Example of London underground RDF ontology diagram: Acton Town station](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/undergroundStationTimeBetweenRxample_rdfDiagram.svg)</br>
-<p>Time in between underground station turtle file example:</p>
-```Turtle
-<http://data.linkedevents.org/travel/London/timeBetween#1176> a qb:Observation ;
-    travel:destination <http://data.linkedevents.org/transit/London/subwayStop/ActonTownStation> ;
-    travel:origin <http://data.linkedevents.org/transit/London/subwayStop/EalingCommonStation> ;
-    travel:travelTime "3"^^xsd:int .
-```
-<p>Example SPARQL query: T.B.C.</p>
-</br>
-
 Train station data
 -----
 <p>The train line dataset, which was obtained from the National Rail, contains information about London train stations (and nationwide) which may not necessarily be operated by TFL.</p>
@@ -106,8 +90,8 @@ Train station data
 <li>Semantic descriptions of the train lines</li>
 <li>Geometry represented both as coordinates and geoSPARQL literal value</li>
 </ul>
-[London Train Station RDF ontology diagram](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/trainStation_rdfDiagram.svg)</br>
-[Example of London Train Station RDF ontology diagram](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/trainStationExample_rdfDiagram.svg)</br>
+[London Train Station RDF ontology diagram](https://github.com/ptantra/3cixty-pythonRDFy/tree/master/londonData/trainStation_rdfDiagram.svg)</br>
+[Example of London Train Station RDF ontology diagram](https://github.com/ptantra/3cixty-pythonRDFy/tree/master/londonData/trainStationExample_rdfDiagram.svg)</br>
 <p>Train station turtle file example:</p>
 ```Turtle
 <http://data.linkedevents.org/transit/London/station/abbey-wood> a dul:Place,
@@ -142,8 +126,8 @@ Bicycle TfL data
 <li>Address URI along with address properties</li>
 <li>A number of bikes available at each station</li>
 </ul>
-[London TfL Bicycle Hire RDF ontology diagram](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/bicycleHire_rdfDiagram.svg)</br>
-[Example of London TfL Bicycle Hire RDF ontology diagram](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/busStopExample_rdfDiagram.svg)</br>
+[London TfL Bicycle Hire RDF ontology diagram](https://github.com/ptantra/3cixty-pythonRDFy/tree/master/londonData/lrdf_bikeHireStation.png)</br>
+[Example of London TfL Bicycle Hire RDF ontology diagram](https://github.com/ptantra/3cixty-pythonRDFy/tree/master/londonData/lrdf_bikeHireStationExample.png)</br>
 <p>London TfL cycle hire station turtle file example:</p>
 ```Turtle
 <http://data.linkedevents.org/location/002534a0-bd31-563b-9443-ad39e23a1b15> a dul:Place ;
@@ -188,8 +172,8 @@ AirBnB
 <li>Locality and neighbourhood</li>
 </ul>
 
-[London AirBnB RDF ontology diagram](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/airBnB_rdfDiagram.svg)</br>
-[Example of London AirBnB RDF ontology diagram: Jonas in Hackney](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/airBnbExample_rdfDiagram.svg)
+[London AirBnB RDF ontology diagram](https://github.com/ptantra/3cixty-pythonRDFy/tree/master/londonData/airBnB_rdfDiagram.svg)</br>
+[Example of London AirBnB RDF ontology diagram: Jonas in Hackney](https://github.com/ptantra/3cixty-pythonRDFy/tree/master/londonData/airBnbExample_rdfDiagram.svg)
 <p>AirBnB turtle file example:</p>
 ```Turtle
 <http://data.linkedevents.org/location/00091040-d8fe-5765-a326-7e1e58c228a3>  a  locationOnt:Accommodation ,
@@ -237,10 +221,10 @@ Wunderground stations
 <li>Link to weather geometric properties</li>
 <li>Weather station geometry has both point coordinates and geoSPARQL literal value.</li>
 </ul>
-[Wunderground weather station RDF ontology diagram](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/wundergroundStations.svg)</br>
-[Example of a Wunderground weather station RDF ontology diagram: East Street bus stop](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/wundergroundStationsExample.svg)
-[Real time observation from a Wunderground weather station RDF ontology diagram](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/wundergroundStations.svg)</br>
-[Example of a real time observation from a Wunderground weather station RDF ontology diagram: East Street bus stop](https://github.com/3cixty/knowledgebase/blob/master/documentation/London/wundergroundStationsExample.svg)
+[Wunderground weather station RDF ontology diagram](https://github.com/ptantra/3cixty-pythonRDFy/tree/master/londonData/wundergroundStations.svg)</br>
+[Example of a Wunderground weather station RDF ontology diagram: East Street bus stop](https://github.com/ptantra/3cixty-pythonRDFy/tree/master/londonData/wundergroundStationsExample.svg)
+[Real time observation from a Wunderground weather station RDF ontology diagram](https://github.com/ptantra/3cixty-pythonRDFy/tree/master/londonData/wundergroundStations.svg)</br>
+[Example of a real time observation from a Wunderground weather station RDF ontology diagram: East Street bus stop](https://github.com/ptantra/3cixty-pythonRDFy/tree/master/londonData/wundergroundStationsExample.svg)
 <p>London Wunderground weather station turtle file example:</p>
 ```Turtle
 <http://data.linkedevents.org/environment/London/wunderground/deviceId/I90579897> a dul:Place,
